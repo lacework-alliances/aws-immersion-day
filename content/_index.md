@@ -16,8 +16,8 @@ In this hands-on workshop, you will have the opportunity to explore the Lacework
 ### Learning Objectives
 
 - Understand Cloud Security Posture Management (CSPM) and how Lacework monitors for cloud misconfigurations.
-- Cloud and User Activity Monitoring and Lacework's patented Polygraph technology and
-- Vulnerabilty Discovery and Workload Protection with Containers and K8s
+- Cloud and User Activity Monitoring...
+- Vulnerabilty Discovery and Workload Protection ....
 
 
 {{% notice warning %}}

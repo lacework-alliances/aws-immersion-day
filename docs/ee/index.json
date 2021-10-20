@@ -4,7 +4,7 @@
 	"title": "AWS Immersion Day with Lacework",
 	"tags": [],
 	"description": "",
-	"content": " AWS Immersion Day with Lacework Welcome The Lacework Cloud Security Platform delivers comprehensive and continuous end-to-end AWS security and configuration support for both workloads and accounts running in cloud environments. As more organizations move their critical workloads to the cloud, there is an increasing need for a single, unified solution like the Lacework Cloud Security Platform that can identify, analyze, and report on misconfigurations, vulnerabilities, and behavioral anomalies in user and account behavior.\nIn this hands-on workshop, you will have the opportunity to explore the Lacework Cloud Security Platform and understand how it secures your AWS cloud environments.\nLearning Objectives  Understand Cloud Security Posture Management (CSPM) and how Lacework monitors for cloud misconfigurations. Cloud and User Activity Monitoring and Lacework\u0026rsquo;s patented Polygraph technology and Vulnerabilty Discovery and Workload Protection with Containers and K8s  The examples and sample code provided in this workshop are intended to be consumed as instructional content. These will help you understand how various services can be architected to build a solution while demonstrating best practices along the way. These examples are not intended for use in production environments.\n "
+	"content": " AWS Immersion Day with Lacework Welcome The Lacework Cloud Security Platform delivers comprehensive and continuous end-to-end AWS security and configuration support for both workloads and accounts running in cloud environments. As more organizations move their critical workloads to the cloud, there is an increasing need for a single, unified solution like the Lacework Cloud Security Platform that can identify, analyze, and report on misconfigurations, vulnerabilities, and behavioral anomalies in user and account behavior.\nIn this hands-on workshop, you will have the opportunity to explore the Lacework Cloud Security Platform and understand how it secures your AWS cloud environments.\nLearning Objectives  Understand Cloud Security Posture Management (CSPM) and how Lacework monitors for cloud misconfigurations. Cloud and User Activity Monitoring\u0026hellip; Vulnerabilty Discovery and Workload Protection \u0026hellip;.  The examples and sample code provided in this workshop are intended to be consumed as instructional content. These will help you understand how various services can be architected to build a solution while demonstrating best practices along the way. These examples are not intended for use in production environments.\n "
 },
 {
 	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/ee/1_introduction.html",
@@ -32,7 +32,7 @@
 	"title": "Cloud API &amp; User Activity",
 	"tags": [],
 	"description": "",
-	"content": " Cloud Activity In this section, we will set up our CI/CD pipeline with JFrog Pipelines. Our pipeline, will take our application and build a docker image. Push it to a Docker repository. Scan it for security vulnerabilities. Then it will promote it. Finally, it will deploy it to our AWS EKS cluster.\nWe will:\n Set up the workshop code. Create an Amazon EKS cluster with EKSCTL and KUBECTL. Set up our JFrog Pipelines integrations to connect to GitHub, AWS and our Artifactory repositories. Add our CI/CD pipeline to JFrog Pipelines. Then build and deploy our app. Automatically deploy our app to our EKS cluster.  In this workshop, we use Docker, but the JFrog Platform is a universal solution supporting all major package formats including Alpine, Maven, Gradle, Docker, Conda, Conan, Debian, Go, Helm, Vagrant, YUM, P2, Ivy, NuGet, PHP, NPM, RubyGems, PyPI, Bower, CocoaPods, GitLFS, Opkg, SBT and more.\n "
+	"content": " Cloud API \u0026amp; User Activity In this section, we will\n"
 },
 {
 	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/ee/5_vuln_workload_protection_eks.html",
@@ -46,7 +46,7 @@
 	"title": "Conclusion",
 	"tags": [],
 	"description": "",
-	"content": "In this workshop, we used the JFrog Platform to build an application, manage the artifacts, scan the artifacts for security vulnerabilities and license compliance, and publish the artifacts of your application to a staging repository. Then we used Amazon ECS and EKS to deploy your application so that end-users can access it. The JFrog Platform and Amazon ECS and EKS demonstrate how you can build a DevOps cloud platform on AWS to delivery your software to your end-users. This modernizes your software delivery life cycle enabling your organization to deliver quality software continuously by leveraging advanced cloud services and elastic infrastructure.\n"
+	"content": "In this workshop, we used\n"
 },
 {
 	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/ee/2_event_engine_setup/21_aws_event_account.html",
