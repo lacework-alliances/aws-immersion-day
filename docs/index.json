@@ -25,7 +25,7 @@
 	"title": "Cloud Security Posture Management",
 	"tags": [],
 	"description": "",
-	"content": " Cloud Security Posture Management In this section, we will set up our CI/CD pipeline with JFrog Pipelines. Our pipeline, will take our application and build a docker image. Push it to a Docker repository. Scan it for security vulnerabilities. Then it will promote it. Finally, it will deploy it to our AWS ECS cluster using Docker Compose. You can learn more about how Docker Compose can be used to create and deploy to Amazon ECS here.\nWe will:\n Set up the workshop code. Set up our JFrog Pipelines integrations to connect to GitHub, AWS and our Artifactory repositories. Add our CI/CD pipeline to JFrog Pipelines. Then build and deploy our app. Automatically create a new ECS cluster with Docker Compose.  In this workshop, we use Docker, but the JFrog Platform is a universal solution supporting all major package formats including Alpine, Maven, Gradle, Docker, Conda, Conan, Debian, Go, Helm, Vagrant, YUM, P2, Ivy, NuGet, PHP, NPM, RubyGems, PyPI, Bower, CocoaPods, GitLFS, Opkg, SBT and more.\n "
+	"content": " Cloud Security Posture Management In this section, we will\n"
 },
 {
 	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/4_cloud_api_user_activity.html",
@@ -39,21 +39,21 @@
 	"title": "Vulnerability &amp; Workload Protection (DevSecOps) with EKS",
 	"tags": [],
 	"description": "",
-	"content": ""
+	"content": " Vulnerability \u0026amp; Workload Protection (DevSecOps) with EKS In this section, we will\n"
 },
 {
 	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs.html",
 	"title": "Vulnerability &amp; Workload Protection (DevSecOps) with ECS",
 	"tags": [],
 	"description": "",
-	"content": ""
+	"content": " Vulnerability \u0026amp; Workload Protection (DevSecOps) with ECS In this section, we will\n"
 },
 {
 	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/7_conclusion.html",
 	"title": "Conclusion",
 	"tags": [],
 	"description": "",
-	"content": "In this workshop, we used\n"
+	"content": " Conclusion In this workshop, we used\n"
 },
 {
 	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/2_self_guided_setup/21_self_paced_account.html",
