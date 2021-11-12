@@ -18,42 +18,42 @@
 	"title": "Self-Guided Setup",
 	"tags": [],
 	"description": "",
-	"content": " Self-Guided Setup Welcome to the Self Guided Setup section! This workshop requires an AWS account where there is IAM user/identity that has proper permissions to set up the necessary AWS components to work through the workshop. Worried about costs associated with this workshop? Don’t worry, there’s a page that will allow you to request for AWS credits to pay for any costs incurred through this workshop!\nHere is a preview of what we will be setting up:\n Set up your AWS account and IAM roles. Provision a Cloud9 IDE instance. Get a JFrog Platform instance from the AWS Marketplace. Prepare our JFrog Platform instance. Clone our workshop GitHub repository which contains our code.  "
+	"content": " Welcome to the Self Guided Setup section! This workshop requires an AWS account where there is IAM user/identity that has proper permissions to set up the necessary AWS components to work through the workshop. Worried about costs associated with this workshop? Don’t worry, there’s a page that will allow you to request for AWS credits to pay for any costs incurred through this workshop!\nWhat We Will Do  Set up your AWS account and IAM roles. Provision a Cloud9 IDE instance.  "
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/3_cspm.html",
-	"title": "Cloud Security Posture Management",
+	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/3_cspm_plus.html",
+	"title": "Advanced Cloud Security Posture Management (CSPM+)",
 	"tags": [],
 	"description": "",
-	"content": " Cloud Security Posture Management In this section, we will\n"
+	"content": "In this section, we will\n"
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/4_cloud_api_user_activity.html",
-	"title": "Cloud API &amp; User Activity",
+	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/4_siem_aws_sec_hub_lacework.html",
+	"title": "SIEM: AWS Security Hub and Lacework",
 	"tags": [],
 	"description": "",
-	"content": " Cloud API \u0026amp; User Activity In this section, we will\n"
+	"content": "In this section, we will\n"
 },
 {
 	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks.html",
-	"title": "Vulnerability &amp; Workload Protection (DevSecOps) with EKS",
+	"title": "Vulnerability &amp; Workload Protection (DevSecOps) with CodePipeline, CodeBuild, ECR &amp; EKS",
 	"tags": [],
 	"description": "",
-	"content": " Vulnerability \u0026amp; Workload Protection (DevSecOps) with EKS In this section, we will\n"
+	"content": " In this section, we will set up a CI/CD pipeline with AWS CodePipeline and CodeBuild. Our pipeline will take our code from CodeCommit and build a docker image. It will the image to Amazon Elastic Container Registry (ECR). Then we will deploy it to a staging environment that runs on an Amazon Elastic Kubernetes Service (EKS) cluster using a Lambda function. At each stage, Lacework protects your application and cloud environment.\nWhat We Will Do  Setup Lacework to protect our AWS cloud environment. Clone our example code to our CodeCommit repo. Create a repository for our application in Amazon ECR and scan it with Lacework. Create an EKS \u0026ldquo;staging\u0026rdquo; cluster and secure it with Lacework. Use CloudFormation to create our CodePipeline, CodeBuild stage, Lacework vulnerability scan and Lambda deployment stage.  Architecture Pipeline "
 },
 {
 	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs.html",
-	"title": "Vulnerability &amp; Workload Protection (DevSecOps) with ECS",
+	"title": "Vulnerability &amp; Workload Protection (DevSecOps) with CodePipeline, CodeBuild, ECR &amp; EKS",
 	"tags": [],
 	"description": "",
-	"content": " Vulnerability \u0026amp; Workload Protection (DevSecOps) with ECS In this section, we will\n"
+	"content": " In this section, we will set up a CI/CD pipeline with AWS CodePipeline and CodeBuild. Our pipeline will take our code from CodeCommit and build a docker image. It will the image to Amazon Elastic Container Registry (ECR). Then we will deploy it to a staging environment that runs on an Amazon Elastic Kubernetes Service (EKS) cluster using a Lambda function. At each stage, Lacework protects your application and cloud environment.\nWhat We Will Do  Setup Lacework to protect our AWS cloud environment. Clone our example code to our CodeCommit repo. Create a repository for our application in Amazon ECR and scan it with Lacework. Create an EKS \u0026ldquo;staging\u0026rdquo; cluster and secure it with Lacework. Use CloudFormation to create our CodePipeline, CodeBuild stage, Lacework vulnerability scan and Lambda deployment stage.  Architecture Pipeline "
 },
 {
 	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/7_conclusion.html",
 	"title": "Conclusion",
 	"tags": [],
 	"description": "",
-	"content": " Conclusion In this workshop, we used\n"
+	"content": "In this workshop, we used\n"
 },
 {
 	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/2_self_guided_setup/21_self_paced_account.html",

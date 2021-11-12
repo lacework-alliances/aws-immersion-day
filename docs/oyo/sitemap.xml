@@ -28,28 +28,28 @@
   </url><url>
     <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/2_self_guided_setup.html</loc>
   </url><url>
-    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/3_cspm.html</loc>
+    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/3_cspm_plus.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ee"
-                href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/ee/3_cspm.html"
+                href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/ee/3_cspm_plus.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="oyo"
-                href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/3_cspm.html"
+                href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/3_cspm_plus.html"
                 />
   </url><url>
-    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/4_cloud_api_user_activity.html</loc>
+    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/4_siem_aws_sec_hub_lacework.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ee"
-                href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/ee/4_cloud_api_user_activity.html"
+                href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/ee/4_siem_aws_sec_hub_lacework.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="oyo"
-                href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/4_cloud_api_user_activity.html"
+                href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/4_siem_aws_sec_hub_lacework.html"
                 />
   </url><url>
     <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks.html</loc>

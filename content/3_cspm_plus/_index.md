@@ -1,11 +1,9 @@
 ---
-title: "Cloud Security Posture Management"
-chapter: true
+title: "Advanced Cloud Security Posture Management (CSPM+)"
+chapter: false
 draft: false
 weight: 3
 pre: "<b>3 </b>"
 ---
-
-# Cloud Security Posture Management
 
 In this section, we will 

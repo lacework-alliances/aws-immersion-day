@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SIEM: AWS Security Hub and Lacework on AWS Hosted Event Setup</title>
+    <link>https://jefferyfry.github.io/aws-immersion-day-with-lacework/ee/4_siem_aws_sec_hub_lacework.html</link>
+    <description>Recent content in SIEM: AWS Security Hub and Lacework on AWS Hosted Event Setup</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/ee/4_siem_aws_sec_hub_lacework/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

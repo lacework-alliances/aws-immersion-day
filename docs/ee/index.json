@@ -18,42 +18,42 @@
 	"title": "AWS Hosted Event Setup",
 	"tags": [],
 	"description": "",
-	"content": " AWS Hosted Event Setup - Event Engine Setup Welcome to the Event Engine Setup section! This means that you are attending an AWS Hosted Workshop!! . Event Engine is a tool created at AWS that provisions AWS accounts for workshop events like this! These accounts will automatically terminate 24 hours after the workshop begins participants don\u0026rsquo;t have to worry about leaving anything on. Each workshop participant will receive their own Event Engine AWS account.\nHere is a preview of what we will be setting up:\n Get a temporary AWS account using the AWS Event Engine. Set up the AWS account and IAM roles. Provision a Cloud9 IDE instance. Clone our workshop GitHub repository which contains our code.  The next page will show you how to gain access to your Event Engine dashboard!\n"
+	"content": " Welcome to the Event Engine Setup section! This means that you are attending an AWS Hosted Workshop!! . Event Engine is a tool created at AWS that provisions AWS accounts for workshop events like this! These accounts will automatically terminate 24 hours after the workshop begins participants don\u0026rsquo;t have to worry about leaving anything on. Each workshop participant will receive their own Event Engine AWS account.\nWhat We Will Do  Get a temporary AWS account using the AWS Event Engine. Set up the AWS account and IAM roles. Provision a Cloud9 IDE instance. Clone our workshop GitHub repository which contains our code.  The next page will show you how to gain access to your Event Engine dashboard!\n"
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/ee/3_cspm.html",
-	"title": "Cloud Security Posture Management",
+	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/ee/3_cspm_plus.html",
+	"title": "Advanced Cloud Security Posture Management (CSPM+)",
 	"tags": [],
 	"description": "",
-	"content": " Cloud Security Posture Management In this section, we will\n"
+	"content": "In this section, we will\n"
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/ee/4_cloud_api_user_activity.html",
-	"title": "Cloud API &amp; User Activity",
+	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/ee/4_siem_aws_sec_hub_lacework.html",
+	"title": "SIEM: AWS Security Hub and Lacework",
 	"tags": [],
 	"description": "",
-	"content": " Cloud API \u0026amp; User Activity In this section, we will\n"
+	"content": "In this section, we will\n"
 },
 {
 	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/ee/5_vuln_workload_protection_eks.html",
-	"title": "Vulnerability &amp; Workload Protection (DevSecOps) with EKS",
+	"title": "Vulnerability &amp; Workload Protection (DevSecOps) with CodePipeline, CodeBuild, ECR &amp; EKS",
 	"tags": [],
 	"description": "",
-	"content": " Vulnerability \u0026amp; Workload Protection (DevSecOps) with EKS In this section, we will\n"
+	"content": " In this section, we will set up a CI/CD pipeline with AWS CodePipeline and CodeBuild. Our pipeline will take our code from CodeCommit and build a docker image. It will the image to Amazon Elastic Container Registry (ECR). Then we will deploy it to a staging environment that runs on an Amazon Elastic Kubernetes Service (EKS) cluster using a Lambda function. At each stage, Lacework protects your application and cloud environment.\nWhat We Will Do  Setup Lacework to protect our AWS cloud environment. Clone our example code to our CodeCommit repo. Create a repository for our application in Amazon ECR and scan it with Lacework. Create an EKS \u0026ldquo;staging\u0026rdquo; cluster and secure it with Lacework. Use CloudFormation to create our CodePipeline, CodeBuild stage, Lacework vulnerability scan and Lambda deployment stage.  Architecture Pipeline "
 },
 {
 	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/ee/6_vuln_workload_protection_ecs.html",
-	"title": "Vulnerability &amp; Workload Protection (DevSecOps) with ECS",
+	"title": "Vulnerability &amp; Workload Protection (DevSecOps) with CodePipeline, CodeBuild, ECR &amp; EKS",
 	"tags": [],
 	"description": "",
-	"content": " Vulnerability \u0026amp; Workload Protection (DevSecOps) with ECS In this section, we will\n"
+	"content": " In this section, we will set up a CI/CD pipeline with AWS CodePipeline and CodeBuild. Our pipeline will take our code from CodeCommit and build a docker image. It will the image to Amazon Elastic Container Registry (ECR). Then we will deploy it to a staging environment that runs on an Amazon Elastic Kubernetes Service (EKS) cluster using a Lambda function. At each stage, Lacework protects your application and cloud environment.\nWhat We Will Do  Setup Lacework to protect our AWS cloud environment. Clone our example code to our CodeCommit repo. Create a repository for our application in Amazon ECR and scan it with Lacework. Create an EKS \u0026ldquo;staging\u0026rdquo; cluster and secure it with Lacework. Use CloudFormation to create our CodePipeline, CodeBuild stage, Lacework vulnerability scan and Lambda deployment stage.  Architecture Pipeline "
 },
 {
 	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/ee/7_conclusion.html",
 	"title": "Conclusion",
 	"tags": [],
 	"description": "",
-	"content": " Conclusion In this workshop, we used\n"
+	"content": "In this workshop, we used\n"
 },
 {
 	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/ee/2_event_engine_setup/21_aws_event_account.html",
