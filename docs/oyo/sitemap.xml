@@ -52,18 +52,6 @@
                 href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/4_siem_aws_sec_hub_lacework.html"
                 />
   </url><url>
-    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ee"
-                href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/ee/5_vuln_workload_protection_eks.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="oyo"
-                href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks.html"
-                />
-  </url><url>
     <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs.html</loc>
     <xhtml:link
                 rel="alternate"
@@ -74,6 +62,18 @@
                 rel="alternate"
                 hreflang="oyo"
                 href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs.html"
+                />
+  </url><url>
+    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ee"
+                href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/ee/5_vuln_workload_protection_eks.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="oyo"
+                href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks.html"
                 />
   </url><url>
     <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/7_conclusion.html</loc>
