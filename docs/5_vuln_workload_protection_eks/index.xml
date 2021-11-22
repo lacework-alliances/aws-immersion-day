@@ -16,24 +16,6 @@
     </item>
     
     <item>
-      <title>Architecture</title>
-      <link>https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/56_lacework_workload_protection.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/56_lacework_workload_protection.html</guid>
-      <description>The architecture for this section is depicted below.</description>
-    </item>
-    
-    <item>
-      <title>Architecture</title>
-      <link>https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/57_lacework_devsecops.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/57_lacework_devsecops.html</guid>
-      <description>The architecture for this section is depicted below.</description>
-    </item>
-    
-    <item>
       <title>CodePipeline: A DevSecOps Pipeline</title>
       <link>https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/52_codepipeline.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -61,11 +43,29 @@
     </item>
     
     <item>
-      <title>CodeBuild: Deploy to Fargate ECS</title>
+      <title>CodeBuild: Deploy to EKS</title>
       <link>https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/55_codebuild_deploy.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/55_codebuild_deploy.html</guid>
+      <description>The architecture for this section is depicted below.</description>
+    </item>
+    
+    <item>
+      <title>EKS Workload Protection</title>
+      <link>https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/56_lacework_workload_protection.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/56_lacework_workload_protection.html</guid>
+      <description>The architecture for this section is depicted below.</description>
+    </item>
+    
+    <item>
+      <title>Review: Full DevSecOps with Lacework</title>
+      <link>https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/57_lacework_devsecops.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/57_lacework_devsecops.html</guid>
       <description>The architecture for this section is depicted below.</description>
     </item>
     

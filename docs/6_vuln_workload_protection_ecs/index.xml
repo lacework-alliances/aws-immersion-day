@@ -15,5 +15,59 @@
       <description>In this section, we will set up a CI/CD pipeline with AWS CodePipeline and CodeBuild. Our pipeline will take our code from CodeCommit and build a docker image. It will the image to Amazon Elastic Container Registry (ECR). Then we will deploy it to a staging environment that runs on an Amazon Elastic Kubernetes Service (EKS) cluster using a Lambda function. At each stage, Lacework protects your application and cloud environment.</description>
     </item>
     
+    <item>
+      <title>CodePipeline: A DevSecOps Pipeline</title>
+      <link>https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs/62_codepipeline.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs/62_codepipeline.html</guid>
+      <description>The architecture for this section is depicted below.</description>
+    </item>
+    
+    <item>
+      <title>CodeBuild: Build, Scan &amp; Push</title>
+      <link>https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs/63_codebuild_build_scan_push.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs/63_codebuild_build_scan_push.html</guid>
+      <description>The architecture for this section is depicted below.</description>
+    </item>
+    
+    <item>
+      <title>Lacework Container Security: Image and Registry Scanning</title>
+      <link>https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs/64_lacework_inline_repo_scan.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs/64_lacework_inline_repo_scan.html</guid>
+      <description>The architecture for this section is depicted below.</description>
+    </item>
+    
+    <item>
+      <title>CodeBuild: Deploy to Fargate ECS</title>
+      <link>https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs/65_codebuild_deploy.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs/65_codebuild_deploy.html</guid>
+      <description>The architecture for this section is depicted below.</description>
+    </item>
+    
+    <item>
+      <title>ECS Workload Protection</title>
+      <link>https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs/66_lacework_workload_protection.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs/66_lacework_workload_protection.html</guid>
+      <description>The architecture for this section is depicted below.</description>
+    </item>
+    
+    <item>
+      <title>Review: Full DevSecOps with Lacework</title>
+      <link>https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs/67_lacework_devsecops.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs/67_lacework_devsecops.html</guid>
+      <description>The architecture for this section is depicted below.</description>
+    </item>
+    
   </channel>
 </rss>

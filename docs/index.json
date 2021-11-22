@@ -25,7 +25,7 @@
 	"title": "Lacework Cloud Security for your AWS Environments",
 	"tags": [],
 	"description": "",
-	"content": "In this section, we will explore Lacework\u0026rsquo;s advanced cloud security posture management (CSPM+) through an AWS S3 Ransomware attack. In this scenario, we will see how Lacework can detect S3 misconfigurations and alert you to the S3 vulnerability. In the case when no action is taken, you will see how Lacework\u0026rsquo;s Polygraph technology detects the anomalous behavior and further enable you to quickly investigate the activity.\n"
+	"content": ""
 },
 {
 	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/4_cspm_plus.html",
@@ -49,18 +49,18 @@
 	"content": " In this section, we will set up a CI/CD pipeline with AWS CodePipeline and CodeBuild. Our pipeline will take our code from CodeCommit and build a docker image. It will the image to Amazon Elastic Container Registry (ECR). Then we will deploy it to a staging environment that runs on an Amazon Elastic Kubernetes Service (EKS) cluster using a Lambda function. At each stage, Lacework protects your application and cloud environment.\nWhat We Will Do  Review the lab architecture. Review the CloudFormation template that was used to set up the lab. Inspect the configuration of CodePipeline, CodeBuild, ECR, ECS and Lacework components. Execute the pipeline manually. Tour the Lacework console. Understand how Lacework protects your DevOps pipeline and multiple stages.  Pipeline "
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/8_conclusion.html",
-	"title": "Conclusion",
-	"tags": [],
-	"description": "",
-	"content": "In this workshop, we used\n"
-},
-{
 	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/7_siem_aws_sec_hub_lacework.html",
 	"title": "SIEM: AWS Security Hub and Lacework",
 	"tags": [],
 	"description": "",
 	"content": "In this section, we will how the Lacework Cloud Security Platform with AWS Security Hub can prove your organization an end-to-end security operations workflow. With Lacework and AWS Security Hub, you can quickly detect, triage and remediate security alerts.\n"
+},
+{
+	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/8_conclusion.html",
+	"title": "Conclusion",
+	"tags": [],
+	"description": "",
+	"content": "In this workshop, we used\n"
 },
 {
 	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/2_event_engine_setup/21_aws_event_account.html",
@@ -133,20 +133,6 @@
 	"content": "The architecture for this section is depicted below.\n"
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/56_lacework_workload_protection.html",
-	"title": "Architecture",
-	"tags": [],
-	"description": "",
-	"content": "The architecture for this section is depicted below.\n"
-},
-{
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/57_lacework_devsecops.html",
-	"title": "Architecture",
-	"tags": [],
-	"description": "",
-	"content": "The architecture for this section is depicted below.\n"
-},
-{
 	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/52_codepipeline.html",
 	"title": "CodePipeline: A DevSecOps Pipeline",
 	"tags": [],
@@ -169,7 +155,21 @@
 },
 {
 	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/55_codebuild_deploy.html",
-	"title": "CodeBuild: Deploy to Fargate ECS",
+	"title": "CodeBuild: Deploy to EKS",
+	"tags": [],
+	"description": "",
+	"content": "The architecture for this section is depicted below.\n"
+},
+{
+	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/56_lacework_workload_protection.html",
+	"title": "EKS Workload Protection",
+	"tags": [],
+	"description": "",
+	"content": "The architecture for this section is depicted below.\n"
+},
+{
+	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/57_lacework_devsecops.html",
+	"title": "Review: Full DevSecOps with Lacework",
 	"tags": [],
 	"description": "",
 	"content": "The architecture for this section is depicted below.\n"
@@ -180,6 +180,48 @@
 	"tags": [],
 	"description": "",
 	"content": " In this section, we will set up a CI/CD pipeline with AWS CodePipeline and CodeBuild. Our pipeline will take our code from CodeCommit and build a docker image. It will the image to Amazon Elastic Container Registry (ECR). Then we will deploy it to a staging environment that runs on an Amazon Elastic Kubernetes Service (EKS) cluster using a Lambda function. At each stage, Lacework protects your application and cloud environment.\nWhat We Will Do  Setup Lacework to protect our AWS cloud environment. Clone our example code to our CodeCommit repo. Create a repository for our application in Amazon ECR and scan it with Lacework. Create an ECS \u0026ldquo;staging\u0026rdquo; cluster and secure it with Lacework. Use CloudFormation to create our CodePipeline, CodeBuild build stage, Lacework vulnerability scan and CodeBuild deploy stage.  Architecture "
+},
+{
+	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs/62_codepipeline.html",
+	"title": "CodePipeline: A DevSecOps Pipeline",
+	"tags": [],
+	"description": "",
+	"content": "The architecture for this section is depicted below.\n"
+},
+{
+	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs/63_codebuild_build_scan_push.html",
+	"title": "CodeBuild: Build, Scan &amp; Push",
+	"tags": [],
+	"description": "",
+	"content": "The architecture for this section is depicted below.\n"
+},
+{
+	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs/64_lacework_inline_repo_scan.html",
+	"title": "Lacework Container Security: Image and Registry Scanning",
+	"tags": [],
+	"description": "",
+	"content": "The architecture for this section is depicted below.\n"
+},
+{
+	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs/65_codebuild_deploy.html",
+	"title": "CodeBuild: Deploy to Fargate ECS",
+	"tags": [],
+	"description": "",
+	"content": "The architecture for this section is depicted below.\n"
+},
+{
+	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs/66_lacework_workload_protection.html",
+	"title": "ECS Workload Protection",
+	"tags": [],
+	"description": "",
+	"content": "The architecture for this section is depicted below.\n"
+},
+{
+	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs/67_lacework_devsecops.html",
+	"title": "Review: Full DevSecOps with Lacework",
+	"tags": [],
+	"description": "",
+	"content": "The architecture for this section is depicted below.\n"
 },
 {
 	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/099_survey/_index.ee.html",

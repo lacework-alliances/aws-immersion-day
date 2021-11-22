@@ -1,8 +1,8 @@
 ---
-title: "CodeBuild: Deploy to EKS"
+title: "ECS Workload Protection"
 chapter: false
-weight: 55
-pre: "<b>5.5 </b>"
+weight: 66
+pre: "<b>6.6 </b>"
 ---
 
 The architecture for this section is depicted below.

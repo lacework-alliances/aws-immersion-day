@@ -1,8 +1,8 @@
 ---
-title: "CodeBuild: Deploy to EKS"
+title: "Lacework Container Security: Image and Registry Scanning"
 chapter: false
-weight: 55
-pre: "<b>5.5 </b>"
+weight: 64
+pre: "<b>6.4 </b>"
 ---
 
 The architecture for this section is depicted below.

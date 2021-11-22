@@ -1,8 +1,8 @@
 ---
-title: "CodeBuild: Deploy to EKS"
+title: "Review: Full DevSecOps with Lacework"
 chapter: false
-weight: 55
-pre: "<b>5.5 </b>"
+weight: 67
+pre: "<b>6.7 </b>"
 ---
 
 The architecture for this section is depicted below.

@@ -16,9 +16,9 @@
   </url><url>
     <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs.html</loc>
   </url><url>
-    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/8_conclusion.html</loc>
-  </url><url>
     <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/7_siem_aws_sec_hub_lacework.html</loc>
+  </url><url>
+    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/8_conclusion.html</loc>
   </url><url>
     <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/2_event_engine_setup/21_aws_event_account.html</loc>
   </url><url>
@@ -40,10 +40,6 @@
   </url><url>
     <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/51_arch.html</loc>
   </url><url>
-    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/56_lacework_workload_protection.html</loc>
-  </url><url>
-    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/57_lacework_devsecops.html</loc>
-  </url><url>
     <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/52_codepipeline.html</loc>
   </url><url>
     <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/53_codebuild_build_scan_push.html</loc>
@@ -52,7 +48,23 @@
   </url><url>
     <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/55_codebuild_deploy.html</loc>
   </url><url>
+    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/56_lacework_workload_protection.html</loc>
+  </url><url>
+    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/57_lacework_devsecops.html</loc>
+  </url><url>
     <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs/61_arch.html</loc>
+  </url><url>
+    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs/62_codepipeline.html</loc>
+  </url><url>
+    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs/63_codebuild_build_scan_push.html</loc>
+  </url><url>
+    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs/64_lacework_inline_repo_scan.html</loc>
+  </url><url>
+    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs/65_codebuild_deploy.html</loc>
+  </url><url>
+    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs/66_lacework_workload_protection.html</loc>
+  </url><url>
+    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs/67_lacework_devsecops.html</loc>
   </url><url>
     <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/099_survey/_index.ee.html</loc>
   </url><url>

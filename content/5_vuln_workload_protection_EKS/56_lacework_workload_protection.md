@@ -1,8 +1,8 @@
 ---
-title: "Architecture"
+title: "EKS Workload Protection"
 chapter: false
-weight: 51
-pre: "<b>5.1 </b>"
+weight: 56
+pre: "<b>5.6 </b>"
 ---
 
 The architecture for this section is depicted below.

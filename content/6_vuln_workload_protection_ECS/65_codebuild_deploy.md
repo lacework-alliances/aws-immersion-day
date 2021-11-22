@@ -1,8 +1,8 @@
 ---
-title: "CodeBuild: Deploy to EKS"
+title: "CodeBuild: Deploy to Fargate ECS"
 chapter: false
-weight: 55
-pre: "<b>5.5 </b>"
+weight: 65
+pre: "<b>6.5 </b>"
 ---
 
 The architecture for this section is depicted below.

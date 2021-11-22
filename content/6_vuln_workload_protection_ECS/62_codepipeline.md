@@ -1,8 +1,8 @@
 ---
-title: "CodeBuild: Deploy to EKS"
+title: "CodePipeline: A DevSecOps Pipeline"
 chapter: false
-weight: 55
-pre: "<b>5.5 </b>"
+weight: 62
+pre: "<b>6.2 </b>"
 ---
 
 The architecture for this section is depicted below.
