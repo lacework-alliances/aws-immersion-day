@@ -56,7 +56,7 @@ weight = 10
 [[menu.shortcuts]]
 name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
 identifier = "repo"
-url = "https://github.com/jefferyfry/aws-immersion-day-with-lacework/"
+url = "https://github.com/jefferyfry/lacework-aws-immersion-day-app-pipeline"
 weight = 20
 
 [[menu.shortcuts]]
@@ -65,7 +65,6 @@ identifier = "resources"
 url = "resources.html"
 weight = 30
 
-
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
@@ -73,14 +72,3 @@ home = [ "HTML", "RSS", "JSON"]
   defaultMarkdownHandler = "blackfriday"
   [markup.blackFriday]
     hrefTargetBlank = true
-
-[Languages]
-[Languages.oyo]
-title = "On Your Own Setup"
-weight = 1
-languageName = "On Your Own Setup"
-
-[Languages.ee]
-title = "AWS Hosted Event Setup"
-weight = 2
-languageName = "AWS Hosted Event Setup" 

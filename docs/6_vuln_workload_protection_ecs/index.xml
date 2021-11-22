@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vulnerability &amp; Workload Protection (DevSecOps) with CodePipeline, CodeBuild, ECR &amp; ECS on On Your Own Setup</title>
+    <title>Vulnerability &amp; Workload Protection (DevSecOps) with CodePipeline, CodeBuild, ECR &amp; ECS on AWS Immersion Day with Lacework</title>
     <link>https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs.html</link>
-    <description>Recent content in Vulnerability &amp; Workload Protection (DevSecOps) with CodePipeline, CodeBuild, ECR &amp; ECS on On Your Own Setup</description>
+    <description>Recent content in Vulnerability &amp; Workload Protection (DevSecOps) with CodePipeline, CodeBuild, ECR &amp; ECS on AWS Immersion Day with Lacework</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language><atom:link href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Architecture</title>
+      <link>https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs/61_arch.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs/61_arch.html</guid>
+      <description>In this section, we will set up a CI/CD pipeline with AWS CodePipeline and CodeBuild. Our pipeline will take our code from CodeCommit and build a docker image. It will the image to Amazon Elastic Container Registry (ECR). Then we will deploy it to a staging environment that runs on an Amazon Elastic Kubernetes Service (EKS) cluster using a Lambda function. At each stage, Lacework protects your application and cloud environment.</description>
+    </item>
+    
   </channel>
 </rss>
