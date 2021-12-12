@@ -1,5 +1,5 @@
 ---
-title: "AWS Event: Create an AWS account"
+title: "Access Your Temporary AWS Account"
 chapter: false
 weight: 21
 pre: "<b>2.1 </b>"

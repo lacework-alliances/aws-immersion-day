@@ -1,5 +1,5 @@
-#baseURL = "/"
-baseURL = "https://jefferyfry.github.io/aws-immersion-day-with-lacework/"
+baseURL = "/"
+#baseURL = "https://jefferyfry.github.io/aws-immersion-day-with-lacework/"
 languageCode = "en-US"
 defaultContentLanguage = "oyo"
 
@@ -56,7 +56,7 @@ weight = 10
 [[menu.shortcuts]]
 name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
 identifier = "repo"
-url = "https://github.com/jefferyfry/lacework-aws-immersion-day-app-pipeline"
+url = "https://github.com/jefferyfry/aws-immersion-day-with-lacework-code"
 weight = 20
 
 [[menu.shortcuts]]

@@ -2,70 +2,70 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vulnerability &amp; Workload Protection (DevSecOps) with CodePipeline, CodeBuild, ECR &amp; EKS on AWS Immersion Day with Lacework</title>
-    <link>https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks.html</link>
+    <link>/5_vuln_workload_protection_eks.html</link>
     <description>Recent content in Vulnerability &amp; Workload Protection (DevSecOps) with CodePipeline, CodeBuild, ECR &amp; EKS on AWS Immersion Day with Lacework</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language><atom:link href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-US</language><atom:link href="/5_vuln_workload_protection_eks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Architecture</title>
-      <link>https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/51_arch.html</link>
+      <link>/5_vuln_workload_protection_eks/51_arch.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/51_arch.html</guid>
+      <guid>/5_vuln_workload_protection_eks/51_arch.html</guid>
       <description>The architecture for this section is depicted below.</description>
     </item>
     
     <item>
       <title>CodePipeline: A DevSecOps Pipeline</title>
-      <link>https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/52_codepipeline.html</link>
+      <link>/5_vuln_workload_protection_eks/52_codepipeline.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/52_codepipeline.html</guid>
+      <guid>/5_vuln_workload_protection_eks/52_codepipeline.html</guid>
       <description>The architecture for this section is depicted below.</description>
     </item>
     
     <item>
       <title>CodeBuild: Build, Scan &amp; Push</title>
-      <link>https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/53_codebuild_build_scan_push.html</link>
+      <link>/5_vuln_workload_protection_eks/53_codebuild_build_scan_push.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/53_codebuild_build_scan_push.html</guid>
+      <guid>/5_vuln_workload_protection_eks/53_codebuild_build_scan_push.html</guid>
       <description>The architecture for this section is depicted below.</description>
     </item>
     
     <item>
       <title>Lacework Container Security: Image and Registry Scanning</title>
-      <link>https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/54_lacework_inline_repo_scan.html</link>
+      <link>/5_vuln_workload_protection_eks/54_lacework_inline_repo_scan.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/54_lacework_inline_repo_scan.html</guid>
+      <guid>/5_vuln_workload_protection_eks/54_lacework_inline_repo_scan.html</guid>
       <description>The architecture for this section is depicted below.</description>
     </item>
     
     <item>
       <title>CodeBuild: Deploy to EKS</title>
-      <link>https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/55_codebuild_deploy.html</link>
+      <link>/5_vuln_workload_protection_eks/55_codebuild_deploy.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/55_codebuild_deploy.html</guid>
+      <guid>/5_vuln_workload_protection_eks/55_codebuild_deploy.html</guid>
       <description>The architecture for this section is depicted below.</description>
     </item>
     
     <item>
       <title>EKS Workload Protection</title>
-      <link>https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/56_lacework_workload_protection.html</link>
+      <link>/5_vuln_workload_protection_eks/56_lacework_workload_protection.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/56_lacework_workload_protection.html</guid>
+      <guid>/5_vuln_workload_protection_eks/56_lacework_workload_protection.html</guid>
       <description>The architecture for this section is depicted below.</description>
     </item>
     
     <item>
       <title>Review: Full DevSecOps with Lacework</title>
-      <link>https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/57_lacework_devsecops.html</link>
+      <link>/5_vuln_workload_protection_eks/57_lacework_devsecops.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/57_lacework_devsecops.html</guid>
+      <guid>/5_vuln_workload_protection_eks/57_lacework_devsecops.html</guid>
       <description>The architecture for this section is depicted below.</description>
     </item>
     

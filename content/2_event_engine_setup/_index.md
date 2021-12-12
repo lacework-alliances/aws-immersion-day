@@ -10,8 +10,8 @@ Welcome to the Event Engine Setup section! This means that you are attending an 
 ## What We Will Do
 
 * Get a temporary AWS account using the AWS Event Engine.
-* Set up the AWS account and IAM roles.
-* Provision a Cloud9 IDE instance.
-* Clone our workshop GitHub repository which contains our code.
+* Access your AWS Console
+* Get your Lacework access email
+* Access the Lacework instance
 
 The next page will show you how to gain access to your Event Engine dashboard!
