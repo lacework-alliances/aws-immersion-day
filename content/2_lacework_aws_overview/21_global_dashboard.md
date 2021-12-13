@@ -2,8 +2,8 @@
 title: "Lacework Global Dashboard"
 chapter: false
 draft: false
-weight: 31
-pre: "<b>3.1 </b>"
+weight: 21
+pre: "<b>2.1 </b>"
 ---
 
 The _Global Dashboard_ displays a visual summary of the following items:

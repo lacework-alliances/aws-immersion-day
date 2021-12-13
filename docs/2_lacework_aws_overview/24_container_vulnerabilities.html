@@ -9,7 +9,7 @@
 
     <link rel="icon" href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/images/favicon.png" type="image/png">
 
-    <title>View Security Results in Lacework :: AWS Immersion Day with Lacework</title>
+    <title>Container and Host Vulnerabilities :: AWS Immersion Day with Lacework</title>
 
     
     <link href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/css/nucleus.css?1639412594" rel="stylesheet">
@@ -60,7 +60,7 @@
 <link rel="stylesheet" href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/css/mp-devops-series.css">
 <link rel="stylesheet" href="https://pages.awscloud.com/js/forms2/css/forms2.css">
   </head>
-  <body class="" data-url="https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/58_view_security_results.html">
+  <body class="" data-url="https://jefferyfry.github.io/aws-immersion-day-with-lacework/2_lacework_aws_overview/24_container_vulnerabilities.html">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -181,7 +181,7 @@
   
     
     <li data-nav-id="/2_lacework_aws_overview.html" title="Lacework Cloud Security for your AWS Environments" class="dd-item 
-        
+        parent
         
         
         ">
@@ -272,7 +272,7 @@
  
   
     
-      <li data-nav-id="/2_lacework_aws_overview/24_container_vulnerabilities.html" title="Container and Host Vulnerabilities" class="dd-item ">
+      <li data-nav-id="/2_lacework_aws_overview/24_container_vulnerabilities.html" title="Container and Host Vulnerabilities" class="dd-item active">
         <a href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/2_lacework_aws_overview/24_container_vulnerabilities.html">
         <b>2.4 </b>Container and Host Vulnerabilities
         <i class="fas fa-check read-icon"></i>
@@ -625,7 +625,7 @@
   
     
     <li data-nav-id="/5_vuln_workload_protection_eks.html" title="Vulnerability &amp; Workload Protection (DevSecOps) with CodePipeline, CodeBuild, ECR &amp; EKS" class="dd-item 
-        parent
+        
         
         
         ">
@@ -800,7 +800,7 @@
  
   
     
-      <li data-nav-id="/5_vuln_workload_protection_eks/58_view_security_results.html" title="View Security Results in Lacework" class="dd-item active">
+      <li data-nav-id="/5_vuln_workload_protection_eks/58_view_security_results.html" title="View Security Results in Lacework" class="dd-item ">
         <a href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/58_view_security_results.html">
         <b>5.8 </b>View Security Results in Lacework
         <i class="fas fa-check read-icon"></i>
@@ -1150,7 +1150,7 @@
             
           
           
-            <a href='https://jefferyfry.github.io/aws-immersion-day-with-lacework/'>AWS Immersion Day with Lacework</a> > <a href='https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks.html'>Vulnerability & Workload Protection (DevSecOps) with CodePipeline, CodeBuild, ECR & EKS</a> > View Security Results in Lacework
+            <a href='https://jefferyfry.github.io/aws-immersion-day-with-lacework/'>AWS Immersion Day with Lacework</a> > <a href='https://jefferyfry.github.io/aws-immersion-day-with-lacework/2_lacework_aws_overview.html'>Lacework Cloud Security for your AWS Environments</a> > Container and Host Vulnerabilities
           
         
           
@@ -1179,16 +1179,39 @@
           
             <h1>
               
-              View Security Results in Lacework
+              Container and Host Vulnerabilities
             </h1>
           
 
         
 
 
-<p>The architecture for this section is depicted below.</p>
+<p>Lacework provides the ability to assess, identify, and report vulnerabilities found on hosts, containers, registries and pods within your environment. This means you can identify and take action on software vulnerabilities in your environment and manage that risk proactively.</p>
 
-<p><img src="https://jefferyfry.github.io/aws-immersion-day-with-lacework/images/eks-arch.png" alt="Overview Architecture" /></p>
+<p>Lacework continuously assesses vulnerability risks, identifies OS packages, and correlates them with publicly known vulnerabilities with risk ratings by severity and CVSS scores.</p>
+
+<p>In this section, we will explore container vulnerabilities. Lacework several types of container/image scanning as well as providing runtime protection. Lacework provides similar capabilities for hosts such as EC2 instances.
+
+<div class="notices info" ><p>Lacework provides Public Registry Scanning, Private Registry Scanning, Continuous Integration (CI) Scanning and Local Scanning.</p>
+</div>
+</p>
+
+<ol>
+<li>Select <strong>Vulnerabilities &gt; Containers</strong> in the Lacework Console. By default, the page displays <strong>Fixable</strong> and <strong>Active</strong> vulnerabilities.
+<img src="https://jefferyfry.github.io/aws-immersion-day-with-lacework/images/lacework-container-vulnerabilities.png" alt="Lacework Container Vulnerabilities" /></li>
+<li>Observe the <strong>Open Vulnerabilities</strong> panel. depicts open vulnerabilities. Hover your mouse over the <strong>Open Vulnerabilities</strong> chart to see the critical, high, medium, and low vulnerabilities.</li>
+<li>View the <strong>Vulnerabilties List</strong> panel. It shows the list of images with vulnerabilities.
+<img src="https://jefferyfry.github.io/aws-immersion-day-with-lacework/images/lacework-vulnerabilities-list.png" alt="Lacework Vulnerabilities List" /></li>
+<li>Click on an image in the list to view the image assessment details.
+<img src="https://jefferyfry.github.io/aws-immersion-day-with-lacework/images/lacework-image-assessment-details.png" alt="Lacework Image Assessment Details" /></li>
+<li>View the summary and list of CVEs in the <strong>CVE</strong> tab.</li>
+<li>Click on the <strong>Details</strong> tab. This provides image details.</li>
+<li>This image is deployed and is an active container. Scroll down and click on the <strong>Active Containers</strong> link.</li>
+<li>This Container Dossier provides the details and activity. Scroll down to the <strong>List of Active Containers</strong> panel to see where the container is deployed.
+<img src="https://jefferyfry.github.io/aws-immersion-day-with-lacework/images/lacework-active-containers.png" alt="Lacework Active Containers" /></li>
+</ol>
+
+<p>Lacework&rsquo;s Container Security features enable you to shift your cloud security left into your software delivery process at multiple stages. You can prevent security vulnerabilities from being deployed.</p>
 
 
 <footer class="footline">
@@ -1338,21 +1361,6 @@
             
                 
                     
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
                     
                 
                 
@@ -1370,85 +1378,8 @@
             
                 
                     
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
                         
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
                         
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
                     
                 
                 
@@ -1508,6 +1439,22 @@
                     
                     
 
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
                     
                         
             
@@ -1653,6 +1600,22 @@
             
         
                     
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
                         
             
             
@@ -1706,6 +1669,69 @@
             
                 
                     
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
                     
                 
                 
@@ -1725,9 +1751,6 @@
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -1909,10 +1932,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/57_execute_pipeline.html" title="Execute the Pipeline"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/2_lacework_aws_overview/23_aws_compliance.html" title="AWS Compliance"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs.html" title="Vulnerability &amp; Workload Protection (DevSecOps) with CodePipeline, CodeBuild, ECR &amp; ECS" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/2_lacework_aws_overview/25_resources.html" title="Resources" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>

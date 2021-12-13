@@ -9,7 +9,7 @@
 
     <link rel="icon" href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/images/favicon.png" type="image/png">
 
-    <title>View Security Results in Lacework :: AWS Immersion Day with Lacework</title>
+    <title>Alert Channels and Rules :: AWS Immersion Day with Lacework</title>
 
     
     <link href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/css/nucleus.css?1639412594" rel="stylesheet">
@@ -60,7 +60,7 @@
 <link rel="stylesheet" href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/css/mp-devops-series.css">
 <link rel="stylesheet" href="https://pages.awscloud.com/js/forms2/css/forms2.css">
   </head>
-  <body class="" data-url="https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/58_view_security_results.html">
+  <body class="" data-url="https://jefferyfry.github.io/aws-immersion-day-with-lacework/2_lacework_aws_overview/27_alert_channels_rules.html">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -181,7 +181,7 @@
   
     
     <li data-nav-id="/2_lacework_aws_overview.html" title="Lacework Cloud Security for your AWS Environments" class="dd-item 
-        
+        parent
         
         
         ">
@@ -335,7 +335,7 @@
  
   
     
-      <li data-nav-id="/2_lacework_aws_overview/27_alert_channels_rules.html" title="Alert Channels and Rules" class="dd-item ">
+      <li data-nav-id="/2_lacework_aws_overview/27_alert_channels_rules.html" title="Alert Channels and Rules" class="dd-item active">
         <a href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/2_lacework_aws_overview/27_alert_channels_rules.html">
         <b>2.7 </b>Alert Channels and Rules
         <i class="fas fa-check read-icon"></i>
@@ -625,7 +625,7 @@
   
     
     <li data-nav-id="/5_vuln_workload_protection_eks.html" title="Vulnerability &amp; Workload Protection (DevSecOps) with CodePipeline, CodeBuild, ECR &amp; EKS" class="dd-item 
-        parent
+        
         
         
         ">
@@ -800,7 +800,7 @@
  
   
     
-      <li data-nav-id="/5_vuln_workload_protection_eks/58_view_security_results.html" title="View Security Results in Lacework" class="dd-item active">
+      <li data-nav-id="/5_vuln_workload_protection_eks/58_view_security_results.html" title="View Security Results in Lacework" class="dd-item ">
         <a href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/58_view_security_results.html">
         <b>5.8 </b>View Security Results in Lacework
         <i class="fas fa-check read-icon"></i>
@@ -1150,7 +1150,7 @@
             
           
           
-            <a href='https://jefferyfry.github.io/aws-immersion-day-with-lacework/'>AWS Immersion Day with Lacework</a> > <a href='https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks.html'>Vulnerability & Workload Protection (DevSecOps) with CodePipeline, CodeBuild, ECR & EKS</a> > View Security Results in Lacework
+            <a href='https://jefferyfry.github.io/aws-immersion-day-with-lacework/'>AWS Immersion Day with Lacework</a> > <a href='https://jefferyfry.github.io/aws-immersion-day-with-lacework/2_lacework_aws_overview.html'>Lacework Cloud Security for your AWS Environments</a> > Alert Channels and Rules
           
         
           
@@ -1179,16 +1179,56 @@
           
             <h1>
               
-              View Security Results in Lacework
+              Alert Channels and Rules
             </h1>
           
 
         
 
 
-<p>The architecture for this section is depicted below.</p>
+<p>Lacework combines alert channels and alert rules to provide a flexible method for routing alerts. For alert channels (outgoing integrations), you define information about where to send alerts, such as to Jira or Slack. For alert rules, you define information about which alert types to send, such as critical and high severity compliance alerts. This two-part method provides the flexibility to define multiple channels and multiple rules and then have each rule use the channels you specify.</p>
 
-<p><img src="https://jefferyfry.github.io/aws-immersion-day-with-lacework/images/eks-arch.png" alt="Overview Architecture" /></p>
+<p>Lacework provides alert channels for the following:</p>
+
+<ul>
+<li>Amazon CloudWatch</li>
+<li>Amazon S3 Data Export</li>
+<li>Cisco WebEx</li>
+<li>DataDog</li>
+<li>GCP Pub/Sub</li>
+<li>IBM QRadar</li>
+<li>Jira Cloud</li>
+<li>Jira Server</li>
+<li>Microsoft Teams</li>
+<li>New Relic</li>
+<li>PagerDuty</li>
+<li>ServiceNow</li>
+<li>Slack</li>
+<li>Splunk</li>
+<li>VictorOps</li>
+<li>Webhook</li>
+</ul>
+
+<ol>
+<li>Navigate to <strong>Settings &gt; Alert Routing &gt; Alert Channels</strong>.</li>
+<li>Click <strong>+ Create New</strong>.
+<img src="https://jefferyfry.github.io/aws-immersion-day-with-lacework/images/lacework-alert-channel.png" alt="Lacework Alert Channel" /></li>
+<li>Select a <strong>Channel Type</strong> and name the channel.</li>
+<li>Complete the fields to configure the channel.</li>
+<li>See each channel&rsquo;s separate help for detailed field information.</li>
+<li>Click <strong>Save</strong>. The new channel appears in the table. Now the alert channel can be used by an alert rule. An alert rule allows you to choose which resource groups and event categories you want to receive alerts for.</li>
+<li>Navigate to <strong>Settings &gt; Alert Rules</strong>.</li>
+<li>Click <strong>+ Create New</strong>.
+<img src="https://jefferyfry.github.io/aws-immersion-day-with-lacework/images/lacework-alert-rule.png" alt="Lacework Alert Rule" /></li>
+<li>Select an alert channel for the rule to use. The list displays only enabled configured channels. Add additional channels if appropriate.</li>
+<li>Name the rule and optionally provide a description.</li>
+<li>Select the severities that you want the rule to apply to.</li>
+<li>Select the resource groups that you want the rule to apply to.</li>
+<li>Select the event categories that you want the rule to apply to. If you do not select any categories, the rule applies to all event categories.</li>
+<li>Click <strong>Save</strong>. The new rule appears in the table.</li>
+</ol>
+
+<p>Alert channel and rules provide a way to send Lacework security events to other tools. Lacework can integrate into your organization&rsquo;s security operations workflow and tools.</p>
 
 
 <footer class="footline">
@@ -1386,101 +1426,6 @@
             
                 
                     
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
                     
                 
                 
@@ -1501,6 +1446,9 @@
             
                 
                     
+                        
+                        
+                    
                 
                 
 
@@ -1508,6 +1456,22 @@
                     
                     
 
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
                     
                         
             
@@ -1653,6 +1617,22 @@
             
         
                     
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
                         
             
             
@@ -1706,6 +1686,69 @@
             
                 
                     
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
                     
                 
                 
@@ -1725,9 +1768,6 @@
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -1909,10 +1949,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/57_execute_pipeline.html" title="Execute the Pipeline"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/2_lacework_aws_overview/26_policies.html" title="Policies"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs.html" title="Vulnerability &amp; Workload Protection (DevSecOps) with CodePipeline, CodeBuild, ECR &amp; ECS" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/3_aws_control_tower.html" title="Seamless Multi-Account Security: Lacework with AWS Control Tower" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>

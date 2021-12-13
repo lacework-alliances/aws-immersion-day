@@ -2,8 +2,8 @@
 title: "Launch the AWS CloudFormation Template"
 chapter: false
 draft: false
-weight: 84
-pre: "<b>8.4 </b>"
+weight: 34
+pre: "<b>3.4 </b>"
 ---
 
 The Lacework AWS Control Tower integration uses CloudFormation to install StackSets, IAM roles, Lambda functions and SQS queues that support the integration. Follow the next steps to install the integration through your AWS CloudFormation console.

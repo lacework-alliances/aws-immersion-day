@@ -2,8 +2,8 @@
 title: "Lacework Control Tower Integration Setup"
 chapter: false
 draft: false
-weight: 82
-pre: "<b>8.2 </b>"
+weight: 32
+pre: "<b>3.2 </b>"
 ---
 
 In this section, we will walk through the installation of the Lacework AWS Control Tower integration with CloudFormation. The installation requires using your Lacework console to create API credentials and your AWS CloudFormation console to deploy an integration stack.

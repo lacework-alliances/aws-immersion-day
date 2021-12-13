@@ -1,8 +1,8 @@
 ---
 title: "Access Your Temporary AWS Account"
 chapter: false
-weight: 21
-pre: "<b>2.1 </b>"
+weight: 11
+pre: "<b>1.1 </b>"
 ---
 
 {{% notice warning %}}

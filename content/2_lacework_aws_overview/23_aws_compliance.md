@@ -2,8 +2,8 @@
 title: "AWS Compliance"
 chapter: false
 draft: false
-weight: 33
-pre: "<b>3.3 </b>"
+weight: 23
+pre: "<b>2.3 </b>"
 ---
 
 Lacework’s AWS security platform automatically validates all configurations against the controls established as best practices for securing your cloud environment. Our interactive reports deliver insights into “passed or failed” controls with recommendations on how to fix out-of-compliance configuration components.

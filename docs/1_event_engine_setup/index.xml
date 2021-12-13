@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AWS Hosted Event Setup on AWS Immersion Day with Lacework</title>
+    <link>https://jefferyfry.github.io/aws-immersion-day-with-lacework/1_event_engine_setup.html</link>
+    <description>Recent content in AWS Hosted Event Setup on AWS Immersion Day with Lacework</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/1_event_engine_setup/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Access Your Temporary AWS Account</title>
+      <link>https://jefferyfry.github.io/aws-immersion-day-with-lacework/1_event_engine_setup/11_aws_event_account.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jefferyfry.github.io/aws-immersion-day-with-lacework/1_event_engine_setup/11_aws_event_account.html</guid>
+      <description>Only complete this section if you are running the workshop through an AWS hosted event.
+ For an AWS hosted event, you are provided with an AWS account through the AWS Event Engine service using a 12-digit hash by event staff. This is your unique access code.
+1 . Go to https://dashboard.eventengine.run/.
+ Enter the provided hash code in the text box.
+ Click on the Accept Terms &amp;amp; Login button.</description>
+    </item>
+    
+    <item>
+      <title>Access Lacework</title>
+      <link>https://jefferyfry.github.io/aws-immersion-day-with-lacework/1_event_engine_setup/12_lacework_account.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jefferyfry.github.io/aws-immersion-day-with-lacework/1_event_engine_setup/12_lacework_account.html</guid>
+      <description> Check for your Lacework invitation email.  Click on the JOIN NOW button to be taken to Lacework. Accept the terms.  Welcome to Lacework!   </description>
+    </item>
+    
+  </channel>
+</rss>

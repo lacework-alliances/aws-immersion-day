@@ -2,8 +2,8 @@
 title: "Lacework Global Search"
 chapter: false
 draft: false
-weight: 32
-pre: "<b>3.2 </b>"
+weight: 22
+pre: "<b>2.2 </b>"
 ---
 
 Lacework’s global search provides the ability to search across a number of assets in Lacework as shown in the figure below. To start a search, click Search and enter text in the search bar and Lacework immediately returns results when the search finds any assets that match the entered string, within the following time constraints:

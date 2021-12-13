@@ -9,7 +9,7 @@
 
     <link rel="icon" href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/images/favicon.png" type="image/png">
 
-    <title>View Security Results in Lacework :: AWS Immersion Day with Lacework</title>
+    <title>Policies :: AWS Immersion Day with Lacework</title>
 
     
     <link href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/css/nucleus.css?1639412594" rel="stylesheet">
@@ -60,7 +60,7 @@
 <link rel="stylesheet" href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/css/mp-devops-series.css">
 <link rel="stylesheet" href="https://pages.awscloud.com/js/forms2/css/forms2.css">
   </head>
-  <body class="" data-url="https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/58_view_security_results.html">
+  <body class="" data-url="https://jefferyfry.github.io/aws-immersion-day-with-lacework/2_lacework_aws_overview/26_policies.html">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -181,7 +181,7 @@
   
     
     <li data-nav-id="/2_lacework_aws_overview.html" title="Lacework Cloud Security for your AWS Environments" class="dd-item 
-        
+        parent
         
         
         ">
@@ -314,7 +314,7 @@
  
   
     
-      <li data-nav-id="/2_lacework_aws_overview/26_policies.html" title="Policies" class="dd-item ">
+      <li data-nav-id="/2_lacework_aws_overview/26_policies.html" title="Policies" class="dd-item active">
         <a href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/2_lacework_aws_overview/26_policies.html">
         <b>2.6 </b>Policies
         <i class="fas fa-check read-icon"></i>
@@ -625,7 +625,7 @@
   
     
     <li data-nav-id="/5_vuln_workload_protection_eks.html" title="Vulnerability &amp; Workload Protection (DevSecOps) with CodePipeline, CodeBuild, ECR &amp; EKS" class="dd-item 
-        parent
+        
         
         
         ">
@@ -800,7 +800,7 @@
  
   
     
-      <li data-nav-id="/5_vuln_workload_protection_eks/58_view_security_results.html" title="View Security Results in Lacework" class="dd-item active">
+      <li data-nav-id="/5_vuln_workload_protection_eks/58_view_security_results.html" title="View Security Results in Lacework" class="dd-item ">
         <a href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/58_view_security_results.html">
         <b>5.8 </b>View Security Results in Lacework
         <i class="fas fa-check read-icon"></i>
@@ -1150,7 +1150,7 @@
             
           
           
-            <a href='https://jefferyfry.github.io/aws-immersion-day-with-lacework/'>AWS Immersion Day with Lacework</a> > <a href='https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks.html'>Vulnerability & Workload Protection (DevSecOps) with CodePipeline, CodeBuild, ECR & EKS</a> > View Security Results in Lacework
+            <a href='https://jefferyfry.github.io/aws-immersion-day-with-lacework/'>AWS Immersion Day with Lacework</a> > <a href='https://jefferyfry.github.io/aws-immersion-day-with-lacework/2_lacework_aws_overview.html'>Lacework Cloud Security for your AWS Environments</a> > Policies
           
         
           
@@ -1179,16 +1179,41 @@
           
             <h1>
               
-              View Security Results in Lacework
+              Policies
             </h1>
           
 
         
 
 
-<p>The architecture for this section is depicted below.</p>
+<p>Lacework policies provide a framework for validating configuration and behavior in your cloud environment. Lacework provides a set of predefined default policies that are visible from the Lacework Console. You can use the default policies to suppress the generation of unwanted alerts in your environment. Default policy IDs start with the LW_ prefix. You may want to create custom policies that check for unwanted behavior in your environment such as Telnet being used in your environment. You can also customize the triggers and severities for custom policies. Custom policy IDs start with the CUSTOM_ prefix.</p>
 
-<p><img src="https://jefferyfry.github.io/aws-immersion-day-with-lacework/images/eks-arch.png" alt="Overview Architecture" /></p>
+<ol>
+<li>Go to <strong>Policies</strong> in the Lacework Console. The Policies page displays all policies. It provides a summary and list of all of your default and custom policies. You can use the following methods to refine the list of displayed policies:
+
+<ul>
+<li>Use filters to display a subset of specific policies. Click filters along the top of the page to display only the desired policies. Or click the filter icon and select the filters you want to display.</li>
+</ul></li>
+<li>Use the search function at the top of the page to find specific text in the policy name or ID.
+<img src="https://jefferyfry.github.io/aws-immersion-day-with-lacework/images/lacework-policies.png" alt="Lacework Policies" />
+
+<div class="notices info" ><p>When the page displays your desired policies after filtering, you can save the current view by clicking the <strong>Save view</strong> icon in the top right corner. This allows you to access the saved view later through the <strong>Open view</strong> icon.</p>
+</div>
+</li>
+<li>Scroll through the list of policies. You can disable or enable each policy directly from the policies list. Mousing over a policy displays icons for any available actions such as clone or delete. You can also click a policy to clone it (create a custom policy) or edit a custom policy&rsquo;s queries and parameters.</li>
+<li>Click a policy to display its details. The <strong>Summary</strong> tab lists details of the policy.
+<img src="https://jefferyfry.github.io/aws-immersion-day-with-lacework/images/lacework-policy-summary.png" alt="Lacework Policy Summary" /></li>
+<li>Click on the <strong>Query</strong> detail to view the policy query that is used for validation.
+<img src="https://jefferyfry.github.io/aws-immersion-day-with-lacework/images/lacework-policy-query.png" alt="Lacework Policy Query" /></li>
+<li>To create a custom policy, clone an existing policy first. Update the name, summary details and query.
+<img src="https://jefferyfry.github.io/aws-immersion-day-with-lacework/images/lacework-custom-policy.png" alt="Lacework Custom Policy" />
+
+<div class="notices info" ><p>For custom policy queries, Lacework allows simple comparison expressions that are created in the console. Learn more about the types of expressions that you can use <a href="https://docs.lacework.com/create-policies#create-a-custom-policy" target="_blank">here</a>.</p>
+</div>
+</li>
+</ol>
+
+<p>Lacework default policies enable out-of-the-box security validation of your AWS environments. But not every organization is the same and custom policies are a great way to add validation specific to your organization&rsquo;s requirements.</p>
 
 
 <footer class="footline">
@@ -1370,53 +1395,6 @@
             
                 
                     
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
                     
                 
                 
@@ -1434,53 +1412,8 @@
             
                 
                     
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
                         
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
                         
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
                     
                 
                 
@@ -1508,6 +1441,22 @@
                     
                     
 
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
                     
                         
             
@@ -1653,6 +1602,22 @@
             
         
                     
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
                         
             
             
@@ -1706,6 +1671,69 @@
             
                 
                     
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
                     
                 
                 
@@ -1725,9 +1753,6 @@
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -1909,10 +1934,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/57_execute_pipeline.html" title="Execute the Pipeline"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/2_lacework_aws_overview/25_resources.html" title="Resources"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs.html" title="Vulnerability &amp; Workload Protection (DevSecOps) with CodePipeline, CodeBuild, ECR &amp; ECS" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/2_lacework_aws_overview/27_alert_channels_rules.html" title="Alert Channels and Rules" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>

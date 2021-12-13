@@ -2,8 +2,8 @@
 title: "Validate the Setup"
 chapter: false
 draft: false
-weight: 85
-pre: "<b>8.5 </b>"
+weight: 35
+pre: "<b>3.5 </b>"
 ---
 
 You can validate the integration by checking the cloud accounts in your Lacework console. If you chose to monitor existing accounts, any ACTIVE AWS accounts will be added along with the master account for the centralized CloudTrail logging. Follow the next steps to verify the accounts.

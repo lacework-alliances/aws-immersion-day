@@ -1,8 +1,8 @@
 ﻿---
 title: "Access Lacework"
 chapter: false
-weight: 22
-pre: "<b>2.2 </b>"
+weight: 12
+pre: "<b>1.2 </b>"
 ---
 
 1. Check for your Lacework invitation email.

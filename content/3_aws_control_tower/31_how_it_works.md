@@ -2,8 +2,8 @@
 title: "How It Works"
 chapter: false
 draft: false
-weight: 81
-pre: "<b>8.1 </b>"
+weight: 31
+pre: "<b>3.1 </b>"
 ---
 
 The Lacework AWS Control Tower integration audits and monitors AWS accounts in your AWS Control Tower Landing Zone. Your Landing Zone is your multi-account environment for which you can apply your governance, auditing and monitoring. On initial setup, the Lacework AWS Control Tower integration creates a new cross-account role in the Log Archive account and a new SQS queue is set up in the Audit account. The SQS queue allows Lacework to receive notifications of new audit logs in S3 from the centralized CloudTrail that collects activity from all accounts. Lacework processes these logs for behavior analysis for all AWS accounts.

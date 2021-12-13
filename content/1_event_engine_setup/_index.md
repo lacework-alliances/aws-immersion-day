@@ -1,8 +1,8 @@
 ---
 title: "AWS Hosted Event Setup"
 chapter: false
-weight: 2
-pre: "<b>2 </b>"
+weight: 1
+pre: "<b>1 </b>"
 ---
 
 Welcome to the Event Engine Setup section! This means that you are attending an AWS Hosted Workshop!! . Event Engine is a tool created at AWS that provisions AWS accounts for workshop events like this! These accounts will automatically terminate 24 hours after the workshop begins participants don't have to worry about leaving anything on. Each workshop participant will receive their own Event Engine AWS account. 

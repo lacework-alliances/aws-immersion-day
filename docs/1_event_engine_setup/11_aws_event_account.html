@@ -9,7 +9,7 @@
 
     <link rel="icon" href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/images/favicon.png" type="image/png">
 
-    <title>View Security Results in Lacework :: AWS Immersion Day with Lacework</title>
+    <title>Access Your Temporary AWS Account :: AWS Immersion Day with Lacework</title>
 
     
     <link href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/css/nucleus.css?1639412594" rel="stylesheet">
@@ -60,7 +60,7 @@
 <link rel="stylesheet" href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/css/mp-devops-series.css">
 <link rel="stylesheet" href="https://pages.awscloud.com/js/forms2/css/forms2.css">
   </head>
-  <body class="" data-url="https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/58_view_security_results.html">
+  <body class="" data-url="https://jefferyfry.github.io/aws-immersion-day-with-lacework/1_event_engine_setup/11_aws_event_account.html">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -103,7 +103,7 @@
   
     
     <li data-nav-id="/1_event_engine_setup.html" title="AWS Hosted Event Setup" class="dd-item 
-        
+        parent
         
         
         ">
@@ -131,7 +131,7 @@
  
   
     
-      <li data-nav-id="/1_event_engine_setup/11_aws_event_account.html" title="Access Your Temporary AWS Account" class="dd-item ">
+      <li data-nav-id="/1_event_engine_setup/11_aws_event_account.html" title="Access Your Temporary AWS Account" class="dd-item active">
         <a href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/1_event_engine_setup/11_aws_event_account.html">
         <b>1.1 </b>Access Your Temporary AWS Account
         <i class="fas fa-check read-icon"></i>
@@ -625,7 +625,7 @@
   
     
     <li data-nav-id="/5_vuln_workload_protection_eks.html" title="Vulnerability &amp; Workload Protection (DevSecOps) with CodePipeline, CodeBuild, ECR &amp; EKS" class="dd-item 
-        parent
+        
         
         
         ">
@@ -800,7 +800,7 @@
  
   
     
-      <li data-nav-id="/5_vuln_workload_protection_eks/58_view_security_results.html" title="View Security Results in Lacework" class="dd-item active">
+      <li data-nav-id="/5_vuln_workload_protection_eks/58_view_security_results.html" title="View Security Results in Lacework" class="dd-item ">
         <a href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/58_view_security_results.html">
         <b>5.8 </b>View Security Results in Lacework
         <i class="fas fa-check read-icon"></i>
@@ -1150,7 +1150,7 @@
             
           
           
-            <a href='https://jefferyfry.github.io/aws-immersion-day-with-lacework/'>AWS Immersion Day with Lacework</a> > <a href='https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks.html'>Vulnerability & Workload Protection (DevSecOps) with CodePipeline, CodeBuild, ECR & EKS</a> > View Security Results in Lacework
+            <a href='https://jefferyfry.github.io/aws-immersion-day-with-lacework/'>AWS Immersion Day with Lacework</a> > <a href='https://jefferyfry.github.io/aws-immersion-day-with-lacework/1_event_engine_setup.html'>AWS Hosted Event Setup</a> > Access Your Temporary AWS Account
           
         
           
@@ -1179,16 +1179,48 @@
           
             <h1>
               
-              View Security Results in Lacework
+              Access Your Temporary AWS Account
             </h1>
           
 
         
 
 
-<p>The architecture for this section is depicted below.</p>
 
-<p><img src="https://jefferyfry.github.io/aws-immersion-day-with-lacework/images/eks-arch.png" alt="Overview Architecture" /></p>
+<div class="notices warning" ><p>Only complete this section if you are running the workshop through an AWS hosted event.</p>
+</div>
+
+
+<p>For an AWS hosted event, you are provided with an AWS account through the AWS Event Engine service using a 12-digit hash by event staff. This is your unique access code.</p>
+
+<p>1 . Go to <a href="https://dashboard.eventengine.run/" target="_blank">https://dashboard.eventengine.run/</a>.</p>
+
+<p><img src="https://jefferyfry.github.io/aws-immersion-day-with-lacework/images/event-engine-initial-screen.png" alt="Event Engine" /></p>
+
+<ol>
+<li><p>Enter the provided hash code in the text box.</p></li>
+
+<li><p>Click on the <strong>Accept Terms &amp; Login</strong> button.</p></li>
+
+<li><p>Select <strong>AWS Console</strong>.</p></li>
+
+<li><p>Then select <strong>Open AWS Console</strong>.</p></li>
+</ol>
+
+<p><img src="https://jefferyfry.github.io/aws-immersion-day-with-lacework/images/event-engine-dashboard.png" alt="Event Engine Dashboard" /></p>
+
+<ol>
+<li>This workshop supports the region <strong>us-west-2 US West (Oregon)</strong>. Please select <strong>US West (Oregon)</strong> in the top right corner.</li>
+</ol>
+
+<p><img src="https://jefferyfry.github.io/aws-immersion-day-with-lacework/images/event-engine-region.png" alt="Event Engine Region" /></p>
+
+<p>You can leave the AWS console open.</p>
+
+
+<div class="notices warning" ><p>This AWS account will expire at the end of the workshop and any resources will automatically be de-provisioned. You will not be able to access this account after today.</p>
+</div>
+
 
 
 <footer class="footline">
@@ -1242,53 +1274,6 @@
             
                 
                     
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
                     
                 
                 
@@ -1306,6 +1291,9 @@
             
                 
                     
+                        
+                        
+                    
                 
                 
 
@@ -1316,6 +1304,22 @@
                     
             
         
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
                     
                         
             
@@ -1348,70 +1352,6 @@
                     
             
         
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
                     
                         
             
@@ -1573,6 +1513,102 @@
             
         
                     
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
             
         
                     
@@ -1706,7 +1742,6 @@
             
                 
                     
-                    
                 
                 
 
@@ -1725,9 +1760,6 @@
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -1909,10 +1941,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/57_execute_pipeline.html" title="Execute the Pipeline"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/1_event_engine_setup.html" title="AWS Hosted Event Setup"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs.html" title="Vulnerability &amp; Workload Protection (DevSecOps) with CodePipeline, CodeBuild, ECR &amp; ECS" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/1_event_engine_setup/12_lacework_account.html" title="Access Lacework" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>

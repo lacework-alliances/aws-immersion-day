@@ -2,8 +2,8 @@
 title: "Lacework Cloud Security for your AWS Environments"
 chapter: false
 draft: false
-weight: 3
-pre: "<b>3 </b>"
+weight: 2
+pre: "<b>2 </b>"
 ---
 
 Every activity within a cloud environment increases the potential for threats, and AWS users must have a solution that not only

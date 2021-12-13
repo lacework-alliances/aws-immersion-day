@@ -2,8 +2,8 @@
 title: "Alert Channels and Rules"
 chapter: false
 draft: false
-weight: 37
-pre: "<b>3.7 </b>"
+weight: 27
+pre: "<b>2.7 </b>"
 ---
 
 Lacework combines alert channels and alert rules to provide a flexible method for routing alerts. For alert channels (outgoing integrations), you define information about where to send alerts, such as to Jira or Slack. For alert rules, you define information about which alert types to send, such as critical and high severity compliance alerts. This two-part method provides the flexibility to define multiple channels and multiple rules and then have each rule use the channels you specify.

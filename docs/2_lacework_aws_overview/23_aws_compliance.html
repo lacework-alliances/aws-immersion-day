@@ -9,7 +9,7 @@
 
     <link rel="icon" href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/images/favicon.png" type="image/png">
 
-    <title>View Security Results in Lacework :: AWS Immersion Day with Lacework</title>
+    <title>AWS Compliance :: AWS Immersion Day with Lacework</title>
 
     
     <link href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/css/nucleus.css?1639412594" rel="stylesheet">
@@ -60,7 +60,7 @@
 <link rel="stylesheet" href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/css/mp-devops-series.css">
 <link rel="stylesheet" href="https://pages.awscloud.com/js/forms2/css/forms2.css">
   </head>
-  <body class="" data-url="https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/58_view_security_results.html">
+  <body class="" data-url="https://jefferyfry.github.io/aws-immersion-day-with-lacework/2_lacework_aws_overview/23_aws_compliance.html">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -181,7 +181,7 @@
   
     
     <li data-nav-id="/2_lacework_aws_overview.html" title="Lacework Cloud Security for your AWS Environments" class="dd-item 
-        
+        parent
         
         
         ">
@@ -251,7 +251,7 @@
  
   
     
-      <li data-nav-id="/2_lacework_aws_overview/23_aws_compliance.html" title="AWS Compliance" class="dd-item ">
+      <li data-nav-id="/2_lacework_aws_overview/23_aws_compliance.html" title="AWS Compliance" class="dd-item active">
         <a href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/2_lacework_aws_overview/23_aws_compliance.html">
         <b>2.3 </b>AWS Compliance
         <i class="fas fa-check read-icon"></i>
@@ -625,7 +625,7 @@
   
     
     <li data-nav-id="/5_vuln_workload_protection_eks.html" title="Vulnerability &amp; Workload Protection (DevSecOps) with CodePipeline, CodeBuild, ECR &amp; EKS" class="dd-item 
-        parent
+        
         
         
         ">
@@ -800,7 +800,7 @@
  
   
     
-      <li data-nav-id="/5_vuln_workload_protection_eks/58_view_security_results.html" title="View Security Results in Lacework" class="dd-item active">
+      <li data-nav-id="/5_vuln_workload_protection_eks/58_view_security_results.html" title="View Security Results in Lacework" class="dd-item ">
         <a href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/58_view_security_results.html">
         <b>5.8 </b>View Security Results in Lacework
         <i class="fas fa-check read-icon"></i>
@@ -1150,7 +1150,7 @@
             
           
           
-            <a href='https://jefferyfry.github.io/aws-immersion-day-with-lacework/'>AWS Immersion Day with Lacework</a> > <a href='https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks.html'>Vulnerability & Workload Protection (DevSecOps) with CodePipeline, CodeBuild, ECR & EKS</a> > View Security Results in Lacework
+            <a href='https://jefferyfry.github.io/aws-immersion-day-with-lacework/'>AWS Immersion Day with Lacework</a> > <a href='https://jefferyfry.github.io/aws-immersion-day-with-lacework/2_lacework_aws_overview.html'>Lacework Cloud Security for your AWS Environments</a> > AWS Compliance
           
         
           
@@ -1179,16 +1179,70 @@
           
             <h1>
               
-              View Security Results in Lacework
+              AWS Compliance
             </h1>
           
 
         
 
 
-<p>The architecture for this section is depicted below.</p>
+<p>Lacework’s AWS security platform automatically validates all configurations against the controls established as best practices for securing your cloud environment. Our interactive reports deliver insights into “passed or failed” controls with recommendations on how to fix out-of-compliance configuration components.</p>
 
-<p><img src="https://jefferyfry.github.io/aws-immersion-day-with-lacework/images/eks-arch.png" alt="Overview Architecture" /></p>
+<ol>
+<li>Navigate to the Compliance Dashboard page in the Lacework Console, select <strong>Compliance &gt; AWS &gt; Dashboard</strong>. This dashboard provides a view of your AWS accounts that are integrated with Lacework and their related compliance information and details.
+<img src="https://jefferyfry.github.io/aws-immersion-day-with-lacework/images/lacework-aws-compliance-dashboard.png" alt="Lacework AWS Compliance Dashbaord" /></li>
+<li>Use the account drop-down to limit the results displayed in the dashboard to a single specific account or for all accounts. The account drop-down is located in the top middle of the panel and defaults to <strong>All Accounts</strong>. The first panel is an at-a-glance Compliance Summary that displays the following:
+
+<ul>
+<li>number of accounts analyzed</li>
+<li>number of resources monitored</li>
+<li>percentage of resources in violation</li>
+<li>count of resources in violation</li>
+<li>number of critical CIS benchmark recommendations in violation</li>
+<li>number of critical S3 recommendations in violation</li>
+</ul></li>
+<li>View a breakdown by section, click the percentage or count of resources in violation in the middle-subpanel. A breakdown of resources in violation are displayed and grouped by the following sections:
+
+<ul>
+<li>IAM</li>
+<li>LOGGING</li>
+<li>MONITORING</li>
+<li>NETWORKING</li>
+<li>S3</li>
+<li>GENERAL SECURITY</li>
+<li>ELASTIC SEARCH</li>
+</ul></li>
+<li>View the Account Summary panel. It displays an account summary table that provides details about the AWS accounts integrated into Lacework that are in violation. Under Status, the current status of the integration between Lacework and the listed AWS account is displayed.
+
+<ul>
+<li>Enabled—The integration between Lacework and the listed AWS account is active.</li>
+<li>Deleted—At one point, the integration between Lacework and the listed AWS account was active but now that integration has been deleted.</li>
+<li>Disabled—The integration between Lacework and the listed AWS account has been disabled.</li>
+<li>Integration Failed—Lacework encountered a problem while attempting to use the integration between Lacework and the AWS account, for example, maybe the correct privileges have not been granted.</li>
+</ul></li>
+<li>View the CIS Benchmark Overview and S3 Overview Panels. These panels display an aggregation of data for the selected account(s) correlating to the policy/rules in the associated compliance benchmarks. Details such as severity, recommendation, service, and number/percentage of resources in violation are displayed.
+<img src="https://jefferyfry.github.io/aws-immersion-day-with-lacework/images/lacework-cis-benchmark-s3.png" alt="Lacework CIS S3" /></li>
+<li>The top five recommendations are displayed by default. To see all the recommendations sorted by severity, click <strong>View number More Recommendation</strong>.</li>
+<li>To view additional details about a recommendation, hover over a recommendation row until <strong>View Details DETAILS</strong> displays and click <strong>View Details</strong>.</li>
+<li>Go to <strong>Compliance &gt; AWS &gt; Reports</strong> in the Lacework Console to display the AWS Compliance Reports page. Lacework provides the following compliance reports for your cloud environments.
+
+<ul>
+<li>AWS CIS Benchmark and S3 Report</li>
+<li>AWS HIPAA Report</li>
+<li>AWS ISO 27001:2013 Report</li>
+<li>AWS NIST 800-171 Report</li>
+<li>AWS NIST 800-53 Report</li>
+<li>AWS PCI DSS Report</li>
+<li>AWS SOC 2 Report</li>
+<li>AWS SOC 2 Report Rev2
+<img src="https://jefferyfry.github.io/aws-immersion-day-with-lacework/images/lacework-aws-compliance-report.png" alt="Lacework CIS S3" /></li>
+</ul></li>
+<li>Use the <strong>Report Type</strong> pull-down to view these reports. Each report provides a summary of non-compliance with severity. Additionally, each report provides a list of recommendations and their status.
+<img src="https://jefferyfry.github.io/aws-immersion-day-with-lacework/images/lacework-compliance-recommendations.png" alt="Lacework CIS S3" /></li>
+<li>Go to <strong>Compliance &gt; AWS &gt; Summary</strong> to see an overall summary of compliance across all report types, events, services and resources.</li>
+</ol>
+
+<p>Lacework compliance reports enable you to quickly validate your cloud configurations for vulnerabilities. Default reports allow you to immediately check configuration.</p>
 
 
 <footer class="footline">
@@ -1322,21 +1376,6 @@
             
                 
                     
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
                     
                 
                 
@@ -1354,165 +1393,8 @@
             
                 
                     
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
                         
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
                         
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
                     
                 
                 
@@ -1669,6 +1551,22 @@
             
         
                     
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
                         
             
             
@@ -1706,6 +1604,21 @@
             
                 
                     
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
                     
                 
                 
@@ -1726,8 +1639,149 @@
             
                 
                     
+                
+                
+
+                    
+                    
+                    
+
+                    
                         
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
                         
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
                     
                 
                 
@@ -1909,10 +1963,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/57_execute_pipeline.html" title="Execute the Pipeline"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/2_lacework_aws_overview/22_global_search.html" title="Lacework Global Search"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs.html" title="Vulnerability &amp; Workload Protection (DevSecOps) with CodePipeline, CodeBuild, ECR &amp; ECS" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="https://jefferyfry.github.io/aws-immersion-day-with-lacework/2_lacework_aws_overview/24_container_vulnerabilities.html" title="Container and Host Vulnerabilities" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>

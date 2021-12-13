@@ -2,8 +2,8 @@
 title: "Generate a Lacework API Access Key"
 chapter: false
 draft: false
-weight: 83
-pre: "<b>8.3 </b>"
+weight: 33
+pre: "<b>3.3 </b>"
 ---
 
 A Lacework API access key is used by the Lacework AWS Control Tower integration to make API calls and configure Lacework accounts. Follow the next steps to create the key.

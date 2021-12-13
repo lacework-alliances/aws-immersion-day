@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/1_event_engine_setup.html</loc>
+  </url><url>
     <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/</loc>
   </url><url>
-    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/1_introduction.html</loc>
+    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/2_lacework_aws_overview.html</loc>
   </url><url>
-    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/2_event_engine_setup.html</loc>
-  </url><url>
-    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/3_lacework_aws_overview.html</loc>
+    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/3_aws_control_tower.html</loc>
   </url><url>
     <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/4_cspm_plus.html</loc>
   </url><url>
@@ -18,25 +18,33 @@
   </url><url>
     <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/7_siem_aws_sec_hub_lacework.html</loc>
   </url><url>
-    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/8_aws_control_tower.html</loc>
+    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/1_event_engine_setup/11_aws_event_account.html</loc>
   </url><url>
-    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/2_event_engine_setup/21_aws_event_account.html</loc>
+    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/1_event_engine_setup/12_lacework_account.html</loc>
   </url><url>
-    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/2_event_engine_setup/22_lacework_account.html</loc>
+    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/2_lacework_aws_overview/21_global_dashboard.html</loc>
   </url><url>
-    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/3_lacework_aws_overview/31_global_dashboard.html</loc>
+    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/2_lacework_aws_overview/22_global_search.html</loc>
   </url><url>
-    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/3_lacework_aws_overview/32_global_search.html</loc>
+    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/2_lacework_aws_overview/23_aws_compliance.html</loc>
   </url><url>
-    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/3_lacework_aws_overview/33_aws_compliance.html</loc>
+    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/2_lacework_aws_overview/24_container_vulnerabilities.html</loc>
   </url><url>
-    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/3_lacework_aws_overview/34_container_vulnerabilities.html</loc>
+    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/2_lacework_aws_overview/25_resources.html</loc>
   </url><url>
-    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/3_lacework_aws_overview/35_resources.html</loc>
+    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/2_lacework_aws_overview/26_policies.html</loc>
   </url><url>
-    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/3_lacework_aws_overview/36_policies.html</loc>
+    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/2_lacework_aws_overview/27_alert_channels_rules.html</loc>
   </url><url>
-    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/3_lacework_aws_overview/37_alert_channels_rules.html</loc>
+    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/3_aws_control_tower/31_how_it_works.html</loc>
+  </url><url>
+    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/3_aws_control_tower/32_lct_integration_setup.html</loc>
+  </url><url>
+    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/3_aws_control_tower/33_api_access_key.html</loc>
+  </url><url>
+    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/3_aws_control_tower/34_launch_cloudformation.html</loc>
+  </url><url>
+    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/3_aws_control_tower/35_validate_integration.html</loc>
   </url><url>
     <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/4_cspm_plus/41_anatomy_attack.html</loc>
   </url><url>
@@ -77,16 +85,6 @@
     <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs/67_execute_pipeline.html</loc>
   </url><url>
     <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs/68_view_security_results.html</loc>
-  </url><url>
-    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/8_aws_control_tower/81_how_it_works.html</loc>
-  </url><url>
-    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/8_aws_control_tower/82_lct_integration_setup.html</loc>
-  </url><url>
-    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/8_aws_control_tower/83_api_access_key.html</loc>
-  </url><url>
-    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/8_aws_control_tower/84_launch_cloudformation.html</loc>
-  </url><url>
-    <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/8_aws_control_tower/85_validate_integration.html</loc>
   </url><url>
     <loc>https://jefferyfry.github.io/aws-immersion-day-with-lacework/099_survey/_index.ee.html</loc>
   </url><url>
