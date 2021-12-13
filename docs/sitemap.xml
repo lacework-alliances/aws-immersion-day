@@ -50,33 +50,33 @@
   </url><url>
     <loc>/5_vuln_workload_protection_eks/52_cloudformation.html</loc>
   </url><url>
-    <loc>/5_vuln_workload_protection_eks/52_codepipeline.html</loc>
+    <loc>/5_vuln_workload_protection_eks/53_codepipeline.html</loc>
   </url><url>
-    <loc>/5_vuln_workload_protection_eks/53_codebuild_build_scan_push.html</loc>
+    <loc>/5_vuln_workload_protection_eks/54_codebuild_build_scan_push.html</loc>
   </url><url>
-    <loc>/5_vuln_workload_protection_eks/54_lacework_inline_repo_scan.html</loc>
+    <loc>/5_vuln_workload_protection_eks/55_lacework_inline_repo_scan.html</loc>
   </url><url>
-    <loc>/5_vuln_workload_protection_eks/55_codebuild_deploy.html</loc>
+    <loc>/5_vuln_workload_protection_eks/56_codebuild_deploy.html</loc>
   </url><url>
-    <loc>/5_vuln_workload_protection_eks/56_lacework_workload_protection.html</loc>
+    <loc>/5_vuln_workload_protection_eks/57_execute_pipeline.html</loc>
   </url><url>
-    <loc>/5_vuln_workload_protection_eks/57_lacework_devsecops.html</loc>
+    <loc>/5_vuln_workload_protection_eks/58_view_security_results.html</loc>
   </url><url>
     <loc>/6_vuln_workload_protection_ecs/61_arch.html</loc>
   </url><url>
     <loc>/6_vuln_workload_protection_ecs/62_cloudformation.html</loc>
   </url><url>
-    <loc>/6_vuln_workload_protection_ecs/62_codepipeline.html</loc>
+    <loc>/6_vuln_workload_protection_ecs/63_codepipeline.html</loc>
   </url><url>
-    <loc>/6_vuln_workload_protection_ecs/63_codebuild_build_scan_push.html</loc>
+    <loc>/6_vuln_workload_protection_ecs/64_codebuild_build_scan_push.html</loc>
   </url><url>
-    <loc>/6_vuln_workload_protection_ecs/64_lacework_inline_repo_scan.html</loc>
+    <loc>/6_vuln_workload_protection_ecs/65_lacework_inline_repo_scan.html</loc>
   </url><url>
-    <loc>/6_vuln_workload_protection_ecs/65_codebuild_deploy.html</loc>
+    <loc>/6_vuln_workload_protection_ecs/66_codebuild_deploy.html</loc>
   </url><url>
-    <loc>/6_vuln_workload_protection_ecs/66_lacework_workload_protection.html</loc>
+    <loc>/6_vuln_workload_protection_ecs/67_execute_pipeline.html</loc>
   </url><url>
-    <loc>/6_vuln_workload_protection_ecs/67_lacework_devsecops.html</loc>
+    <loc>/6_vuln_workload_protection_ecs/68_view_security_results.html</loc>
   </url><url>
     <loc>/8_aws_control_tower/81_how_it_works.html</loc>
   </url><url>
