@@ -18,3 +18,5 @@ Lacework’s global search provides the ability to search across a number of ass
 The global search allows you to discover the events, properties and activities for your cloud resources. You can search resources in your cloud environments like applications, users, IPs, K8s clusters and more.
 {{% /notice %}}
 2. In the *Search** field type in _demo app_.
+
+Global search provides an easy way to look up your cloud resources. Quickly look up resources that are part if your security investigation. 

@@ -16,6 +16,15 @@
     </item>
     
     <item>
+      <title>Architecture</title>
+      <link>/5_vuln_workload_protection_eks/52_cloudformation.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/5_vuln_workload_protection_eks/52_cloudformation.html</guid>
+      <description>The architecture for this section is depicted below.</description>
+    </item>
+    
+    <item>
       <title>CodePipeline: A DevSecOps Pipeline</title>
       <link>/5_vuln_workload_protection_eks/52_codepipeline.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

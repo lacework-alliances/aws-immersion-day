@@ -47,3 +47,5 @@ Lacework’s AWS security platform automatically validates all configurations ag
 9. Use the **Report Type** pull-down to view these reports. Each report provides a summary of non-compliance with severity. Additionally, each report provides a list of recommendations and their status.
 ![Lacework CIS S3](/images/lacework-compliance-recommendations.png)
 10. Go to **Compliance > AWS > Summary** to see an overall summary of compliance across all report types, events, services and resources.
+
+Lacework compliance reports enable you to quickly validate your cloud configurations for vulnerabilities. Default reports allow you to immediately check configuration.

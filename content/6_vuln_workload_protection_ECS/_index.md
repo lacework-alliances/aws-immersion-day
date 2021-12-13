@@ -9,11 +9,10 @@ In this section, we will set up a CI/CD pipeline with AWS CodePipeline and CodeB
 
 ## What We Will Do
 
-* Review the lab architecture.
+* Review the CI/CD architecture.
 * Review the CloudFormation template that was used to set up the lab.
 * Inspect the configuration of CodePipeline, CodeBuild, CodeDeploy, ECR, ECS and Lacework components.
 * Execute the pipeline manually.
-* Tour the Lacework console.
 * Understand how Lacework protects your DevOps pipeline and multiple stages.
 
 ## Pipeline

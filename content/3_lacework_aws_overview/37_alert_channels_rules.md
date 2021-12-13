@@ -43,3 +43,5 @@ Lacework provides alert channels for the following:
 12. Select the resource groups that you want the rule to apply to.
 13. Select the event categories that you want the rule to apply to. If you do not select any categories, the rule applies to all event categories.
 14. Click **Save**. The new rule appears in the table.
+
+Alert channel and rules provide a way to send Lacework security events to other tools. Lacework can integrate into your organization's security operations workflow and tools.

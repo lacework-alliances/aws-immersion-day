@@ -25,3 +25,5 @@ When the page displays your desired policies after filtering, you can save the c
 {{% notice info %}}
 For custom policy queries, Lacework allows simple comparison expressions that are created in the console. Learn more about the types of expressions that you can use [here](https://docs.lacework.com/create-policies#create-a-custom-policy).
 {{% /notice %}}
+
+Lacework default policies enable out-of-the-box security validation of your AWS environments. But not every organization is the same and custom policies are a great way to add validation specific to your organization's requirements.

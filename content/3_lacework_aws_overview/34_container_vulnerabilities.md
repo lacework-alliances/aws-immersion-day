@@ -27,3 +27,5 @@ Lacework provides Public Registry Scanning, Private Registry Scanning, Continuou
 7. This image is deployed and is an active container. Scroll down and click on the **Active Containers** link.
 8. This Container Dossier provides the details and activity. Scroll down to the **List of Active Containers** panel to see where the container is deployed.
    ![Lacework Active Containers](/images/lacework-active-containers.png)
+
+Lacework's Container Security features enable you to shift your cloud security left into your software delivery process at multiple stages. You can prevent security vulnerabilities from being deployed.

@@ -21,3 +21,5 @@ The Lacework Console provides visibility into AWS resources that are integrated 
 ![Lacework Resource Inventory](/images/lacework-resource-inventory.png)
 7. Click on a resource to view the resource configuration details. When a diff is present, it is always compared to the current configuration. If more than two configuration histories exist, click **View more** to display the **Configuration History** page.
 ![Lacework Resource Config Detail](/images/lacework-resource-config-detail.png)
+
+Lacework inventories all of your cloud resources and tracks their configuration changes. This can help you determine if recent configuration changes are the source of issues.
