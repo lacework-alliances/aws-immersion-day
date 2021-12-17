@@ -1,328 +1,328 @@
 [
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/1_event_engine_setup.html",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day-with-lacework/1_event_engine_setup.html",
 	"title": "AWS Hosted Event Setup",
 	"tags": [],
 	"description": "",
 	"content": " Welcome to the Event Engine Setup section! This means that you are attending an AWS Hosted Workshop!! . Event Engine is a tool created at AWS that provisions AWS accounts for workshop events like this! These accounts will automatically terminate 24 hours after the workshop begins participants don\u0026rsquo;t have to worry about leaving anything on. Each workshop participant will receive their own Event Engine AWS account.\nWhat We Will Do  Get a temporary AWS account using the AWS Event Engine. Access your AWS Console Get your Lacework access email Access the Lacework instance  The next page will show you how to gain access to your Event Engine dashboard!\n"
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day-with-lacework/",
 	"title": "AWS Immersion Day with Lacework",
 	"tags": [],
 	"description": "",
 	"content": " AWS Immersion Day with Lacework Welcome The Lacework Cloud Security Platform delivers comprehensive and continuous end-to-end AWS security and configuration support for both workloads and accounts running in cloud environments. As more organizations move their critical workloads to the cloud, there is an increasing need for a single, unified solution like the Lacework Cloud Security Platform that can identify, analyze, and report on misconfigurations, vulnerabilities, and behavioral anomalies in user and account behavior.\nThis session includes several modules that explore different aspects of your software delivery and cloud operations:\n Deploying seamless multi-account management for cloud security on AWS Securing your software delivery process with shift-left DevSecOps best practices with AWS developer tools Implementing a security operation workflow for AWS cloud environments  While exploring these topics we will show you how Lacework integrates and protects you and your AWS services:\n AWS CodePipeline AWS CodeBuild Amazon Elastic Container Registry (ECR) Amazon Elastic Container Service (ECS) Amazon Elastic Kubernetes Service (EKS) AWS Security Hub Amazon Control Tower AWS CloudFormation  The examples and sample code provided in this session are intended to be consumed as instructional content. These will help you understand how various services can be architected to build a solution while demonstrating best practices along the way. These examples are not intended for use in production environments.\n Thanks for joining this session and let\u0026rsquo;s get started!\n"
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/2_lacework_aws_overview.html",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day-with-lacework/2_lacework_aws_overview.html",
 	"title": "Lacework Cloud Security for your AWS Environments",
 	"tags": [],
 	"description": "",
 	"content": "Every activity within a cloud environment increases the potential for threats, and AWS users must have a solution that not only identifies changes, but understands the security context of them. To address the agile nature of the cloud, Lacework provides comprehensive, continuous end-to-end security and configuration support for workloads and accounts running in AWS cloud environments. In this section, we will explore the Lacework platform to understand how it helps you secure your AWS cloud environments.\n"
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/3_aws_control_tower.html",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day-with-lacework/3_aws_control_tower.html",
 	"title": "Seamless Multi-Account Security: Lacework with AWS Control Tower",
 	"tags": [],
 	"description": "",
 	"content": "With Lacework and AWS Control Tower, enrolling a new AWS account now means security best practices and monitoring are automatically applied consistently across your organization. Account administrators can automatically add Lacework\u0026rsquo;s security auditing and monitoring to AWS accounts seamlessly. All the required Lacework and AWS account configurations that allow access to AWS configuration and CloudTrail logs are managed for you by Lacework’s AWS Control Tower integration.\n"
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/4_cspm_plus.html",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day-with-lacework/4_cspm_plus.html",
 	"title": "Advanced Cloud Security Posture Management (CSPM+)",
 	"tags": [],
 	"description": "",
 	"content": "In this section, we will explore Lacework\u0026rsquo;s advanced cloud security posture management (CSPM+) through an AWS S3 Ransomware attack. In this scenario, we will see how Lacework can detect S3 misconfigurations and alert you to the S3 vulnerability. In the case when no action is taken, you will see how Lacework\u0026rsquo;s Polygraph technology detects the anomalous behavior and further enable you to quickly investigate the activity.\n"
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks.html",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks.html",
 	"title": "Vulnerability &amp; Workload Protection (DevSecOps) with CodePipeline, CodeBuild, ECR &amp; EKS",
 	"tags": [],
 	"description": "",
 	"content": " In this section, we will set up a CI/CD pipeline with AWS CodePipeline and CodeBuild. Our CodePipeline pipeline will take our code from S3 and build a docker image with CodeBuild. CodeBuild will also scan the image for vulnerabilities and then push it to Amazon Elastic Container Registry (ECR). Then we will deploy it to a staging environment that runs on an Amazon Elastic Kubernetes Service (EKS) cluster using CodeBuild. At each stage, Lacework protects your application and cloud environment.\nWhat We Will Do  Review the CI/CD architecture. Review the CloudFormation template that was used to set up the lab. Inspect the configuration of CodePipeline, CodeBuild, ECR, EKS and Lacework components. Execute the pipeline manually. Understand how Lacework protects your DevOps pipeline and multiple stages.  Pipeline "
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs.html",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs.html",
 	"title": "Vulnerability &amp; Workload Protection (DevSecOps) with CodePipeline, CodeBuild, ECR &amp; ECS",
 	"tags": [],
 	"description": "",
 	"content": " In this section, we will set up a CI/CD pipeline with AWS CodePipeline and CodeBuild. Our pipeline will take our code from CodeCommit and build a docker image. It will the image to Amazon Elastic Container Registry (ECR). Then we will deploy it to a staging environment that runs on an Amazon Elastic Container Service (ECS) cluster using CodeBuild. At each stage, Lacework protects your application and cloud environment.\nWhat We Will Do  Review the CI/CD architecture. Review the CloudFormation template that was used to set up the lab. Inspect the configuration of CodePipeline, CodeBuild, CodeDeploy, ECR, ECS and Lacework components. Execute the pipeline manually. Understand how Lacework protects your DevOps pipeline and multiple stages.  Pipeline "
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/7_siem_aws_sec_hub_lacework.html",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day-with-lacework/7_siem_aws_sec_hub_lacework.html",
 	"title": "SIEM: AWS Security Hub and Lacework",
 	"tags": [],
 	"description": "",
 	"content": "In this section, we will how the Lacework Cloud Security Platform with AWS Security Hub can prove your organization an end-to-end security operations workflow. With Lacework and AWS Security Hub, you can quickly detect, triage and remediate security alerts.\n"
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/1_event_engine_setup/11_aws_event_account.html",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day-with-lacework/1_event_engine_setup/11_aws_event_account.html",
 	"title": "Access Your Temporary AWS Account",
 	"tags": [],
 	"description": "",
 	"content": " Only complete this section if you are running the workshop through an AWS hosted event.\n For an AWS hosted event, you are provided with an AWS account through the AWS Event Engine service using a 12-digit hash by event staff. This is your unique access code.\n1 . Go to https://dashboard.eventengine.run/.\n Enter the provided hash code in the text box.\n Click on the Accept Terms \u0026amp; Login button.\n Select AWS Console.\n Then select Open AWS Console.\n   This workshop supports the region us-west-2 US West (Oregon). Please select US West (Oregon) in the top right corner.  You can leave the AWS console open.\nThis AWS account will expire at the end of the workshop and any resources will automatically be de-provisioned. You will not be able to access this account after today.\n "
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/1_event_engine_setup/12_lacework_account.html",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day-with-lacework/1_event_engine_setup/12_lacework_account.html",
 	"title": "Access Lacework",
 	"tags": [],
 	"description": "",
 	"content": " Check for your Lacework invitation email.  Click on the JOIN NOW button to be taken to Lacework. Accept the terms.  Welcome to Lacework!   "
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/2_lacework_aws_overview/21_global_dashboard.html",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day-with-lacework/2_lacework_aws_overview/21_global_dashboard.html",
 	"title": "Lacework Global Dashboard",
 	"tags": [],
 	"description": "",
 	"content": "The Global Dashboard displays a visual summary of the following items:\n All CloudTrail, network, user, and process events ingested by Lacework Entity behaviors identified by Lacework Events and critical events generated by Lacework   You can filter on a timeframe using the Last … drop-down located in the upper right corner. You can filter from the last 24 hours to 90 days (or 180 days if you have subscribed for additional storage). Click Trends to switch the view to display Events over Time, a graph displaying events of varying severity (from critical to informational) over the same selected timeframe.  Filter events by severity, under Events Over Time, select one or more checkboxes. The slider bars underneath the graph allow you to zoom in to a smaller time period during the selected timeframe, for example, you can adjust both left and right sliders during a 3-day window to view a 4-hour window.\n  Observe the Compliance Trends Over Time graph are two bar graphs that display CloudTrail and host events. The CloudTrail graph is populated with events only if a Lacework AWS integration is configured and the host graph is populated only if agents are deployed in your environment. By default, the graph displays up to five event types. The listed order of the event types is weighted by the severity of the events followed by the total number of events, for example, one critical event is listed before two high severity events. If more than 5 event types are available for the selected time period, you can view the remaining event types by clicking the View \u0026hellip; link below the graph.\n  Observe the Cloud Compliance Events and Host Events panels to see the breakdown of events.   The Global Dashboard provides a quick view of your cloud security posture. It gives you a summary of your security data, trends and events.\n"
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/2_lacework_aws_overview/22_global_search.html",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day-with-lacework/2_lacework_aws_overview/22_global_search.html",
 	"title": "Lacework Global Search",
 	"tags": [],
 	"description": "",
 	"content": "Lacework’s global search provides the ability to search across a number of assets in Lacework as shown in the figure below. To start a search, click Search and enter text in the search bar and Lacework immediately returns results when the search finds any assets that match the entered string, within the following time constraints:\n Events created in the last 90 days Networks accessed in the last 7 days All other assets created or accessed in the last 30 days   Click on the Search in the top left. The global search allows you to discover the events, properties and activities for your cloud resources. You can search resources in your cloud environments like applications, users, IPs, K8s clusters and more.\n  In the *Search** field type in demo app.  Global search provides an easy way to look up your cloud resources. Quickly look up resources that are part if your security investigation.\n"
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/2_lacework_aws_overview/23_aws_compliance.html",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day-with-lacework/2_lacework_aws_overview/23_aws_compliance.html",
 	"title": "AWS Compliance",
 	"tags": [],
 	"description": "",
 	"content": "Lacework’s AWS security platform automatically validates all configurations against the controls established as best practices for securing your cloud environment. Our interactive reports deliver insights into “passed or failed” controls with recommendations on how to fix out-of-compliance configuration components.\n Navigate to the Compliance Dashboard page in the Lacework Console, select Compliance \u0026gt; AWS \u0026gt; Dashboard. This dashboard provides a view of your AWS accounts that are integrated with Lacework and their related compliance information and details.  Use the account drop-down to limit the results displayed in the dashboard to a single specific account or for all accounts. The account drop-down is located in the top middle of the panel and defaults to All Accounts. The first panel is an at-a-glance Compliance Summary that displays the following:  number of accounts analyzed number of resources monitored percentage of resources in violation count of resources in violation number of critical CIS benchmark recommendations in violation number of critical S3 recommendations in violation  View a breakdown by section, click the percentage or count of resources in violation in the middle-subpanel. A breakdown of resources in violation are displayed and grouped by the following sections:  IAM LOGGING MONITORING NETWORKING S3 GENERAL SECURITY ELASTIC SEARCH  View the Account Summary panel. It displays an account summary table that provides details about the AWS accounts integrated into Lacework that are in violation. Under Status, the current status of the integration between Lacework and the listed AWS account is displayed.  Enabled—The integration between Lacework and the listed AWS account is active. Deleted—At one point, the integration between Lacework and the listed AWS account was active but now that integration has been deleted. Disabled—The integration between Lacework and the listed AWS account has been disabled. Integration Failed—Lacework encountered a problem while attempting to use the integration between Lacework and the AWS account, for example, maybe the correct privileges have not been granted.  View the CIS Benchmark Overview and S3 Overview Panels. These panels display an aggregation of data for the selected account(s) correlating to the policy/rules in the associated compliance benchmarks. Details such as severity, recommendation, service, and number/percentage of resources in violation are displayed.  The top five recommendations are displayed by default. To see all the recommendations sorted by severity, click View number More Recommendation. To view additional details about a recommendation, hover over a recommendation row until View Details DETAILS displays and click View Details. Go to Compliance \u0026gt; AWS \u0026gt; Reports in the Lacework Console to display the AWS Compliance Reports page. Lacework provides the following compliance reports for your cloud environments.  AWS CIS Benchmark and S3 Report AWS HIPAA Report AWS ISO 27001:2013 Report AWS NIST 800-171 Report AWS NIST 800-53 Report AWS PCI DSS Report AWS SOC 2 Report AWS SOC 2 Report Rev2   Use the Report Type pull-down to view these reports. Each report provides a summary of non-compliance with severity. Additionally, each report provides a list of recommendations and their status.  Go to Compliance \u0026gt; AWS \u0026gt; Summary to see an overall summary of compliance across all report types, events, services and resources.  Lacework compliance reports enable you to quickly validate your cloud configurations for vulnerabilities. Default reports allow you to immediately check configuration.\n"
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/2_lacework_aws_overview/24_container_vulnerabilities.html",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day-with-lacework/2_lacework_aws_overview/24_container_vulnerabilities.html",
 	"title": "Container and Host Vulnerabilities",
 	"tags": [],
 	"description": "",
 	"content": "Lacework provides the ability to assess, identify, and report vulnerabilities found on hosts, containers, registries and pods within your environment. This means you can identify and take action on software vulnerabilities in your environment and manage that risk proactively.\nLacework continuously assesses vulnerability risks, identifies OS packages, and correlates them with publicly known vulnerabilities with risk ratings by severity and CVSS scores.\nIn this section, we will explore container vulnerabilities. Lacework several types of container/image scanning as well as providing runtime protection. Lacework provides similar capabilities for hosts such as EC2 instances. Lacework provides Public Registry Scanning, Private Registry Scanning, Continuous Integration (CI) Scanning and Local Scanning.\n  Select Vulnerabilities \u0026gt; Containers in the Lacework Console. By default, the page displays Fixable and Active vulnerabilities.  Observe the Open Vulnerabilities panel. depicts open vulnerabilities. Hover your mouse over the Open Vulnerabilities chart to see the critical, high, medium, and low vulnerabilities. View the Vulnerabilties List panel. It shows the list of images with vulnerabilities.  Click on an image in the list to view the image assessment details.  View the summary and list of CVEs in the CVE tab. Click on the Details tab. This provides image details. This image is deployed and is an active container. Scroll down and click on the Active Containers link. This Container Dossier provides the details and activity. Scroll down to the List of Active Containers panel to see where the container is deployed.   Lacework\u0026rsquo;s Container Security features enable you to shift your cloud security left into your software delivery process at multiple stages. You can prevent security vulnerabilities from being deployed.\n"
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/2_lacework_aws_overview/25_resources.html",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day-with-lacework/2_lacework_aws_overview/25_resources.html",
 	"title": "Resources",
 	"tags": [],
 	"description": "",
 	"content": "The Lacework Console provides visibility into AWS resources that are integrated with Lacework. A resource can be any entity within the cloud deployment, such as an S3 bucket, security group, or EC2 instance. The Resource Inventory page allows you to view and monitor in-use AWS resources’ risk, compliance, and configuration changes and provides visibility for team members with limited or no access to the AWS Management Console. Because Lacework takes regular snapshots of your resources, you can track their changes (diffs) through the Lacework Console.\n Go to Resources \u0026gt; Cloud \u0026gt; AWS CloudTrail in the Lacework Console. Lacework analyzes the use and API activity from AWS CloudTrail logs.  View the Timeline panel on the right to observe anomalous events detected from the CloudTrail activity.  Scroll down to the Polygraph panel. Lacework\u0026rsquo;s Patented Polygraph feature graphs your user and API activity and enables you to see the sequence of behaviors. Additionally, anomalous behavior is flagged and highlighted as RED.  Use the Search field to filter the Polygraph on services, resources API calls, accounts, users and responses. Use the DIFF button on the right to compare the current Polygraph snapshot to the previous (1 hour). This helps you understand the changes that have occurred.  Go to Resources \u0026gt; Cloud \u0026gt; Inventory. The Resource Inventory page allows you to view and monitor in-use AWS resources’ risk, compliance, and configuration changes.  Click on a resource to view the resource configuration details. When a diff is present, it is always compared to the current configuration. If more than two configuration histories exist, click View more to display the Configuration History page.   Lacework inventories all of your cloud resources and tracks their configuration changes. This can help you determine if recent configuration changes are the source of issues.\n"
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/2_lacework_aws_overview/26_policies.html",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day-with-lacework/2_lacework_aws_overview/26_policies.html",
 	"title": "Policies",
 	"tags": [],
 	"description": "",
 	"content": "Lacework policies provide a framework for validating configuration and behavior in your cloud environment. Lacework provides a set of predefined default policies that are visible from the Lacework Console. You can use the default policies to suppress the generation of unwanted alerts in your environment. Default policy IDs start with the LW_ prefix. You may want to create custom policies that check for unwanted behavior in your environment such as Telnet being used in your environment. You can also customize the triggers and severities for custom policies. Custom policy IDs start with the CUSTOM_ prefix.\n Go to Policies in the Lacework Console. The Policies page displays all policies. It provides a summary and list of all of your default and custom policies. You can use the following methods to refine the list of displayed policies:  Use filters to display a subset of specific policies. Click filters along the top of the page to display only the desired policies. Or click the filter icon and select the filters you want to display.  Use the search function at the top of the page to find specific text in the policy name or ID. When the page displays your desired policies after filtering, you can save the current view by clicking the Save view icon in the top right corner. This allows you to access the saved view later through the Open view icon.\n  Scroll through the list of policies. You can disable or enable each policy directly from the policies list. Mousing over a policy displays icons for any available actions such as clone or delete. You can also click a policy to clone it (create a custom policy) or edit a custom policy\u0026rsquo;s queries and parameters. Click a policy to display its details. The Summary tab lists details of the policy.  Click on the Query detail to view the policy query that is used for validation.  To create a custom policy, clone an existing policy first. Update the name, summary details and query. For custom policy queries, Lacework allows simple comparison expressions that are created in the console. Learn more about the types of expressions that you can use here.\n   Lacework default policies enable out-of-the-box security validation of your AWS environments. But not every organization is the same and custom policies are a great way to add validation specific to your organization\u0026rsquo;s requirements.\n"
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/2_lacework_aws_overview/27_alert_channels_rules.html",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day-with-lacework/2_lacework_aws_overview/27_alert_channels_rules.html",
 	"title": "Alert Channels and Rules",
 	"tags": [],
 	"description": "",
 	"content": "Lacework combines alert channels and alert rules to provide a flexible method for routing alerts. For alert channels (outgoing integrations), you define information about where to send alerts, such as to Jira or Slack. For alert rules, you define information about which alert types to send, such as critical and high severity compliance alerts. This two-part method provides the flexibility to define multiple channels and multiple rules and then have each rule use the channels you specify.\nLacework provides alert channels for the following:\n Amazon CloudWatch Amazon S3 Data Export Cisco WebEx DataDog GCP Pub/Sub IBM QRadar Jira Cloud Jira Server Microsoft Teams New Relic PagerDuty ServiceNow Slack Splunk VictorOps Webhook   Navigate to Settings \u0026gt; Alert Routing \u0026gt; Alert Channels. Click + Create New.  Select a Channel Type and name the channel. Complete the fields to configure the channel. See each channel\u0026rsquo;s separate help for detailed field information. Click Save. The new channel appears in the table. Now the alert channel can be used by an alert rule. An alert rule allows you to choose which resource groups and event categories you want to receive alerts for. Navigate to Settings \u0026gt; Alert Rules. Click + Create New.  Select an alert channel for the rule to use. The list displays only enabled configured channels. Add additional channels if appropriate. Name the rule and optionally provide a description. Select the severities that you want the rule to apply to. Select the resource groups that you want the rule to apply to. Select the event categories that you want the rule to apply to. If you do not select any categories, the rule applies to all event categories. Click Save. The new rule appears in the table.  Alert channel and rules provide a way to send Lacework security events to other tools. Lacework can integrate into your organization\u0026rsquo;s security operations workflow and tools.\n"
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/3_aws_control_tower/31_how_it_works.html",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day-with-lacework/3_aws_control_tower/31_how_it_works.html",
 	"title": "How It Works",
 	"tags": [],
 	"description": "",
 	"content": " The Lacework AWS Control Tower integration audits and monitors AWS accounts in your AWS Control Tower Landing Zone. Your Landing Zone is your multi-account environment for which you can apply your governance, auditing and monitoring. On initial setup, the Lacework AWS Control Tower integration creates a new cross-account role in the Log Archive account and a new SQS queue is set up in the Audit account. The SQS queue allows Lacework to receive notifications of new audit logs in S3 from the centralized CloudTrail that collects activity from all accounts. Lacework processes these logs for behavior analysis for all AWS accounts.\nFor new AWS accounts in your organization, AWS Control Tower Account Factory enables easy onboarding of new and existing AWS accounts which triggers the Lacework integration through a new account lifecycle event. A Lambda function launches a stack instance that creates a new cross-account role and allows Lacework to monitor the account via AWS APIs. The combination of CloudTrail log analysis and AWS API access allows Lacework to check your cloud activity and AWS configuration to detect security misconfigurations and anomalous behavior.\nSetup Flow  The Administrator applies Lacework\u0026rsquo;s main Control Tower Integration template in Cloudformation for the initial setup. This template provisions all resources which includes a stack set, roles \u0026amp; permissions, Lambda functions, SQS queues and EventBridge rule. Via LaceworkSetupFunction Lambda, a new cross-account role is set up in the Log Archive account and a new SQS queue is set up in the Audit account. The SQS queue allows Lacework to receive notifications of new audit logs in S3 from the centralized CloudTrail that collects activity from all accounts. Lacework processes these logs for behavior analysis for all AWS accounts. The LaceworkSetupFunction acquires the initial Lacework access token. The LaceworkSetupFunction provisions any existing ACTIVE AWS accounts by sending an SNS message to the StackSet Lambda Function if specified with the Monitor Existing Accounts option. The LaceworkAccountFunction Lambda creates a new Stack instance(s) for the account(s). The Stack instance creates a new cross-account role and allows Lacework to monitor the account via AWS APIs. The Stack instance notifies Lacework of the new account through an SNS custom resource notification, LaceworkSNSCustomResource. The account is created in Lacework. A scheduled event rule periodically triggers the LaceworkAuthFunction Lambda to acquire a temporary access token from Lacework.  New Account Flow  A new AWS account triggers a Control Tower lifecycle event which is picked up by the EventBridge rule. The EventBridge rule triggers the LaceworkAccountFunction Lambda to create a new Stack instance for the account. The LaceworkAccountFunction Lambda creates a new Stack instance(s) for the account(s). The Stack instance creates a new cross-account role and allows Lacework to monitor the account via AWS APIs. The Stack instance notifies Lacework of the new account through an SNS custom resource notification, LaceworkSNSCustomResource. This sends an SNS notification to Lacework and the account is created in Lacework’s platform.  "
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/3_aws_control_tower/32_lct_integration_setup.html",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day-with-lacework/3_aws_control_tower/32_lct_integration_setup.html",
 	"title": "Lacework Control Tower Integration Setup",
 	"tags": [],
 	"description": "",
 	"content": " In this section, we will walk through the installation of the Lacework AWS Control Tower integration with CloudFormation. The installation requires using your Lacework console to create API credentials and your AWS CloudFormation console to deploy an integration stack.\nPrerequisites You need the following prerequisites to implement the Lacework AWS Control Tower integration.\n AWS Control Tower with a Landing Zone. For information about setting up an AWS Control Tower landing zone, see Getting Started with AWS Control Tower in the AWS Control Tower User Guide. Administrator privileges in the AWS Control Tower master account. A Lacework Cloud Security Platform SaaS account.  "
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/3_aws_control_tower/33_api_access_key.html",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day-with-lacework/3_aws_control_tower/33_api_access_key.html",
 	"title": "Generate a Lacework API Access Key",
 	"tags": [],
 	"description": "",
 	"content": "A Lacework API access key is used by the Lacework AWS Control Tower integration to make API calls and configure Lacework accounts. Follow the next steps to create the key.\n In your Lacework Console, go to Settings \u0026gt; API Keys.  Click on the Create New button in the upper right to create a new API key. Provide a name and description and click Save. Click the download button to download the API keys file. Copy the keyId and secret from this file.  "
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/3_aws_control_tower/34_launch_cloudformation.html",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day-with-lacework/3_aws_control_tower/34_launch_cloudformation.html",
 	"title": "Launch the AWS CloudFormation Template",
 	"tags": [],
 	"description": "",
 	"content": "The Lacework AWS Control Tower integration uses CloudFormation to install StackSets, IAM roles, Lambda functions and SQS queues that support the integration. Follow the next steps to install the integration through your AWS CloudFormation console.\n Login in to AWS master account with Administrator permissions. Select the AWS region where your AWS Control Tower is deployed. Click on the following Launch Stack button to go to your CloudFormation console and launch the AWS Control Integration template.  For most deployments, you only need the Basic Configuration parameters. Use the Advanced Configuration for customization.  Specify the following Basic Configuration parameters:  Enter a Stack name for the stack. Enter Your Lacework URL. Enter your Lacework Sub-Account Name if you are using Lacework Organizations. Enter your Lacework Access Key ID and Secret Key that you copied from your previous API Keys file. For Capability Type, the recommendation is to use CloudTrail+Config for the best capabilities. Choose whether you want to Monitor Existing Accounts. This will set up monitoring of ACTIVE existing AWS accounts. Enter the name of your Existing AWS Control Tower CloudTrail Name. If your CloudTrail S3 logs are encrypted, specify the KMS Key Identifier ARN. Update the Control Tower Log Account Name and Audit Account Name if necessary.  Click Next through to your stack Review. Accept the AWS CloudFormation terms and click Create stack. Monitor the progress of the CloudFormation deployment. It takes several minutes for the stack to create the resources that enable the Lacework AWS Control Tower Integration. When successfully completed, the stack shows CREATE_COMPLETE.  "
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/3_aws_control_tower/35_validate_integration.html",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day-with-lacework/3_aws_control_tower/35_validate_integration.html",
 	"title": "Validate the Setup",
 	"tags": [],
 	"description": "",
 	"content": "You can validate the integration by checking the cloud accounts in your Lacework console. If you chose to monitor existing accounts, any ACTIVE AWS accounts will be added along with the master account for the centralized CloudTrail logging. Follow the next steps to verify the accounts.\n Login to your Lacework Cloud Security Platform console. Go to Settings \u0026gt; Cloud Accounts. You should see a list of AWS accounts that are now being monitored by Lacework. The Cloud Account column values correspond to the AWS Account IDs.   "
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/4_cspm_plus/41_anatomy_attack.html",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day-with-lacework/4_cspm_plus/41_anatomy_attack.html",
 	"title": "Anatomy of the Attack",
 	"tags": [],
 	"description": "",
 	"content": "In this scenario, we simulate the typical ransomware actions where an attacker gains access to sensitive data.\n An attacker gains access to a bastion host that is exposed to the internet. From the bastion host, the attacker scans for s3 buckets (using the preinstalled AWS CLI). The attacker discovers an S3 bucket with sensitive documents. The attacker uses encryption keys to encrypt the documents.  "
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/4_cspm_plus/42_compliance.html",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day-with-lacework/4_cspm_plus/42_compliance.html",
 	"title": "Cloud Security Compliance",
 	"tags": [],
 	"description": "",
 	"content": "Lacework’s AWS security platform automatically validates all configurations against the controls established as best practices for securing your cloud environment. The first step in preventing an attack is secure your cloud configuration. Lacework monitors your AWS environments and notifies you of security misconfigurations.\n Go to Compliance \u0026gt; AWS \u0026gt; Reports in the Lacework Console to display the AWS Compliance Reports page. The AWS CIS Benchmark and S3 Report provides S3 configuration validation.  Scroll down the list to view the S3 recommendations and status. View the Non-Compliant and Compliant recommendations as well as severity.  Click on LW_S3_2 Ensure the S3 bucket ACL does not grant \u0026lsquo;Everyone\u0026rsquo; WRITE permission [create, overwrite, and delete S3 objects]. This is a critical severity recommendation and lists S3 buckets that are vulnerable. Click on LW_S3_16 Ensure the S3 bucket has versioning enabled. Versioning is a recommendation to protect yourself from ransomware attacks. This lists S3 buckets that should have versioning enabled.  Lacework provides security recommendations for your cloud environments. These can help you prevent attacks before they happen. Let\u0026rsquo;s see how these generate events to notify you of issues that you should address.\n"
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/4_cspm_plus/43_events.html",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day-with-lacework/4_cspm_plus/43_events.html",
 	"title": "Lacework Security Events",
 	"tags": [],
 	"description": "",
 	"content": "You don\u0026rsquo;t need to continually monitor your compliance reports for issues in your cloud configuration. Lacework notifies you through security events that gather all of the security context that you need to perform a quick investigation.\n Go to Events in your Lacework Console. The *Events** page displays a timeline of security events and allows you to filter on various attributes including severity.  Notice that the LW_S3_16 Ensure the S3 bucket has versioning enabled security event is present. We saw that this was out of compliance and a security event was generated.  Click on this event to see the event summary. This shows you when the event occurred and for which AWS account.  Click on the Details icon on the event. This will take you to the Event Dossier and provide more detail. It provides the Why, What and When for your security investigation.  Expand the MORE DETAIL link. This shows you the S3 buckets in violation and the new violations.  Scroll further down to see the related events. These are events that are also associated with the resource(s).   Lacework events alert you to security issues and provide you the important details for your investigation. Security context details like Why, What and When enable you to quickly resolve the issue.\n"
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/4_cspm_plus/44_polygraph.html",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day-with-lacework/4_cspm_plus/44_polygraph.html",
 	"title": "The Lacework Polygraph",
 	"tags": [],
 	"description": "",
 	"content": "In the previous sections, we looked at prevention - identifying issues that make you vulnerable to an attack. Now we will look at Lacework\u0026rsquo;s anomaly detection events with Polygraph. The Lacework polygraph analyzes an array of cloud factors to detect breaches. There are currently six Lacework polygraph analysis groups:\n Application/process communications Application launches Machine communications Machine servers Privilege changes Insider behaviors   Go to Events in your Lacework Console. In the Timeline, filter on the Last 7 days and Anomalies. This filters on anomaly events. Anomaly events are detected through Lacework\u0026rsquo;s Polygraph machine learning technology. Polygraph tracks the user and API activities and detects anomalous and potentially malicious behavior.\n  Find the event xxxx. Click on this event to see the event summary. This shows you when the event occurred and for which AWS account.  Click on the Details icon on the event. This will take you to the Event Dossier and provide more detail.  Expand the MORE DETAIL link. Scroll down to the Polygraph panel. The Polygraph shows the users, locations, services, API calls, processes and machines that were involved in the anomalous behavior. We see an unusual S3 bucket listing, writes and encryption activity. These are telltale signs of a ransomware attack.  "
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/51_arch.html",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/51_arch.html",
 	"title": "Architecture",
 	"tags": [],
 	"description": "",
 	"content": "The architecture for this section is depicted below.\n"
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/52_cloudformation.html",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/52_cloudformation.html",
 	"title": "Lacework, CodePipeline, CodeBuild, ECR &amp; EKS in CloudFormation",
 	"tags": [],
 	"description": "",
 	"content": "Lacework, CodePipeline, CodeBuild, ECR \u0026amp; EKS for our CI/CD pipeline is provisioned using CloudFormation. We will review these CloudFormation templates.\n Go to https://github.com/jefferyfry/aws-immersion-day-with-lacework-code in your browser.  Go to the templates directory and view the setup-pipelines.template.yml. This CloudFormation template provisions CodePipeline, CodeBuild \u0026amp; ECR resources. CodeBuild requires buildspec files. Go to the app directory and view the codebuild-scan-push.yaml and codebuild-deploy-eks.yaml files. codebuild-scan-push.yaml has the commands to perform a docker build, Lacework image vulnerability scan and docker push to ECR. codebuild-deploy-eks.yaml deploys the container to the EKS cluster. Go to the templates directory and view the setup-bastion-eks.template.yml. This CloudFormation template our EKS cluster with the Lacework agent for runtime protection.  These templates have already been executed in your AWS environment. We can now view these resources in your AWS console.\n"
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/53_codepipeline.html",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/53_codepipeline.html",
 	"title": "CodePipeline: A DevSecOps Pipeline",
 	"tags": [],
 	"description": "",
 	"content": "AWS CodePipeline orchestrates our CI/CD process. It pulls our code from a S3 bucket and then uses AWS CodeBuild to build, scan and push our application container image.\n Go to AWS CodePipeline in your AWS console.  Click on the codepipeline-eks pipeline. This pipeline has three phases. The first phase, the Source phase, pulls the application source code from Amazon S3. The second phase is the Build phase and builds, scans and pushes our image. The third phase is the Deploy phase and deploys to EKS.   Let\u0026rsquo;s examine the Build and Deploy phases in detail.\n"
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/54_codebuild_build_scan_push.html",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/54_codebuild_build_scan_push.html",
 	"title": "CodeBuild: Build, Scan &amp; Push",
 	"tags": [],
 	"description": "",
 	"content": "The Build phase includes the commands to build, scan and push our image. CodeBuild uses a build project which can be defined through a YAML file.\n Review the codebuild-scan-push.yaml again. This file defines this Build phase. In your CodePipeline console, expand Build and click on Build projects.  Click on the codebuild-build Build project.  You can view the Build history, Build details and Metrics.   "
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/55_lacework_inline_repo_scan.html",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/55_lacework_inline_repo_scan.html",
 	"title": "Lacework Container Security: Image and Registry Scanning",
 	"tags": [],
 	"description": "",
 	"content": "The Build phase includes a Lacework vulnerability scan using the Lacework Inline Scanner. This tool scans Docker images for image and software package vulnerabilities. Additionally, Lacework has been set up to scan the Docker repositories. This allows you to detect vulnerable software and prevent it from being deployed.\n View the lines of code in the CodeBuild buildspec that include the Lacework Inline Scanner.\n- export LW_ACCOUNT_NAME=$LW_ACCOUNT_NAME - export LW_ACCESS_TOKEN=$LW_ACCESS_TOKEN - export LW_SCANNER_DISABLE_UPDATES=true - rm -rf ./evaluations/$IMAGE_NAME/$CODEBUILD_BUILD_NUMBER/evaluation_*.json || true - curl -L https://github.com/lacework/lacework-vulnerability-scanner/releases/latest/download/lw-scanner-linux-amd64 -o lw-scanner - chmod +x lw-scanner - ./lw-scanner image evaluate $DOCKER_REG/$IMAGE_NAME $CODEBUILD_BUILD_NUMBER --build-id $CODEBUILD_BUILD_NUMBER --data-directory . The Docker push command pushes the Docker image to a ECR repository that is automatically scanned by Lacework.\n- aws ecr get-login-password --region $AWS_REGION | docker login --username AWS --password-stdin $DOCKER_REG - docker image push -a \u0026#34;$DOCKER_REG/$IMAGE_NAME\u0026#34; Go to Settings \u0026gt; Integrations \u0026gt; Container Registries in your Lacework Console. This page shows the ECR registry and inline scanner setups.   "
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/56_codebuild_deploy.html",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/56_codebuild_deploy.html",
 	"title": "CodeBuild: Deploy to EKS",
 	"tags": [],
 	"description": "",
 	"content": "The Deploy phase pulls our image from the ECR repository and deploys to our EKS cluster. This is done using CodeBuild.\n Review the codebuild-deploy-eks.yaml again. This file defines this Deploy phase. In your CodePipeline console, expand Build and click on Build projects.  Click on the codebuild-deploy-eks Build project.  You can view the Build history, Build details and Metrics.   "
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/57_execute_pipeline.html",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/57_execute_pipeline.html",
 	"title": "Execute the Pipeline",
 	"tags": [],
 	"description": "",
 	"content": "We have reviewed the phases of our pipeline. Let\u0026rsquo;s execute it! We will execute our pipeline manually, but it can execute automatically when the code has been updated.\n Go to AWS CodePipeline in your AWS console.  Click on the codepipeline-eks pipeline.  Click on the Release change button. This will cause the pipeline to execute.  The CodePipeline console will automatically show the progress of the build. For each phase, you can click on the Details link to see the CodeBuild logs. Do this for the Build phase.  Scroll down through the log to see the build output. Notice the Lacework scan output and the vulnerabilities found. Go back and view the logs for the Deploy phase. Notice the Kubernetes manifest that deploys the application.  Copy the URL at the bottom of the log and paste in your browser to view the application.   "
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/58_view_security_results.html",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/58_view_security_results.html",
 	"title": "View Security Results in Lacework",
 	"tags": [],
 	"description": "",
 	"content": "The architecture for this section is depicted below.\n"
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs/61_arch.html",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs/61_arch.html",
 	"title": "Architecture",
 	"tags": [],
 	"description": "",
 	"content": "The architecture for this section is depicted below.\n"
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs/62_cloudformation.html",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs/62_cloudformation.html",
 	"title": "Lacework, CodePipeline, CodeBuild, ECR &amp; ECS in CloudFormation",
 	"tags": [],
 	"description": "",
 	"content": "Lacework, CodePipeline, CodeBuild, ECR \u0026amp; EKS for our CI/CD pipeline is provisioned using CloudFormation. We will review these CloudFormation templates.\n Go to https://github.com/jefferyfry/aws-immersion-day-with-lacework-code in your browser.  Go to the templates directory and view the setup-pipelines.template.yml. This CloudFormation template provisions CodePipeline, CodeBuild \u0026amp; ECR resources. CodeBuild requires buildspec files. Go to the app directory and view the codebuild-scan-push.yaml and codebuild-deploy-ecs.yaml files. codebuild-scan-push.yaml has the commands to perform a docker build, Lacework image vulnerability scan and docker push to ECR. codebuild-deploy-eks.yaml deploys the container to the ECS cluster. Go to the templates directory and view the setup-ecs.template.yml. This CloudFormation template our ECS cluster with the Lacework agent for runtime protection.  These templates have already been executed in your AWS environment. We can now view these resources in your AWS console.\n"
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs/63_codepipeline.html",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs/63_codepipeline.html",
 	"title": "CodePipeline: A DevSecOps Pipeline",
 	"tags": [],
 	"description": "",
 	"content": "AWS CodePipeline orchestrates our CI/CD process. It pulls our code from a S3 bucket and then uses AWS CodeBuild to build, scan and push our application container image.\n Go to AWS CodePipeline in your AWS console.  Click on the codepipeline-ecs pipeline. This pipeline has three phases. The first phase, the Source phase, pulls the application source code from Amazon S3. The second phase is the Build phase and builds, scans and pushes our image. The third phase is the Deploy phase and deploys to ECS.   Let\u0026rsquo;s examine the Build and Deploy phases in detail.\n"
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs/64_codebuild_build_scan_push.html",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs/64_codebuild_build_scan_push.html",
 	"title": "CodeBuild: Build, Scan &amp; Push",
 	"tags": [],
 	"description": "",
 	"content": "The Build phase includes the commands to build, scan and push our image. CodeBuild uses a build project which can be defined through a YAML file.\n Review the codebuild-scan-push.yaml again. This file defines this Build phase. In your CodePipeline console, expand Build and click on Build projects.  Click on the codebuild-build Build project.  You can view the Build history, Build details and Metrics.   "
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs/65_lacework_inline_repo_scan.html",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs/65_lacework_inline_repo_scan.html",
 	"title": "Lacework Container Security: Image and Registry Scanning",
 	"tags": [],
 	"description": "",
 	"content": "The Build phase includes a Lacework vulnerability scan using the Lacework Inline Scanner. This tool scans Docker images for image and software package vulnerabilities. Additionally, Lacework has been set up to scan the Docker repositories. This allows you to detect vulnerable software and prevent it from being deployed.\n View the lines of code in the CodeBuild buildspec that include the Lacework Inline Scanner.\n- export LW_ACCOUNT_NAME=$LW_ACCOUNT_NAME - export LW_ACCESS_TOKEN=$LW_ACCESS_TOKEN - export LW_SCANNER_DISABLE_UPDATES=true - rm -rf ./evaluations/$IMAGE_NAME/$CODEBUILD_BUILD_NUMBER/evaluation_*.json || true - curl -L https://github.com/lacework/lacework-vulnerability-scanner/releases/latest/download/lw-scanner-linux-amd64 -o lw-scanner - chmod +x lw-scanner - ./lw-scanner image evaluate $DOCKER_REG/$IMAGE_NAME $CODEBUILD_BUILD_NUMBER --build-id $CODEBUILD_BUILD_NUMBER --data-directory . The Docker push command pushes the Docker image to a ECR repository that is automatically scanned by Lacework.\n- aws ecr get-login-password --region $AWS_REGION | docker login --username AWS --password-stdin $DOCKER_REG - docker image push -a \u0026#34;$DOCKER_REG/$IMAGE_NAME\u0026#34; Go to Settings \u0026gt; Integrations \u0026gt; Container Registries in your Lacework Console. This page shows the ECR registry and inline scanner setups.   "
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs/66_codebuild_deploy.html",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs/66_codebuild_deploy.html",
 	"title": "CodeBuild: Deploy to ECS",
 	"tags": [],
 	"description": "",
 	"content": "The Deploy phase pulls our image from the ECR repository and deploys to our ECS cluster. This is done using CodeBuild.\n Review the codebuild-deploy-ecs.yaml again. This file defines this Deploy phase. In your CodePipeline console, expand Build and click on Build projects.  Click on the codebuild-deploy-ecs Build project.  You can view the Build history, Build details and Metrics.   "
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs/67_execute_pipeline.html",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs/67_execute_pipeline.html",
 	"title": "Execute the Pipeline",
 	"tags": [],
 	"description": "",
 	"content": "We have reviewed the phases of our pipeline. Let\u0026rsquo;s execute it! We will execute our pipeline manually, but it can execute automatically when the code has been updated.\n Go to AWS CodePipeline in your AWS console.  Click on the codepipeline-ecs pipeline.  Click on the Release change button. This will cause the pipeline to execute.  The CodePipeline console will automatically show the progress of the build. For each phase, you can click on the Details link to see the CodeBuild logs. Do this for the Build phase.  Scroll down through the log to see the build output. Notice the Lacework scan output and the vulnerabilities found. Go back and view the logs for the Deploy phase. For ECS deployment, we provide an imagedefinitions.json with the updated image and tag. This updates the ECS task definition. You can learn more about imagedefinitions.json here.  To view the application, go to your ECS console.  Click on the ECS cluster. Click on the demo-app-ecs-service. Click on the running task.  On the task page, find the Public IP. Paste this IP address into your browser to view the application.   "
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs/68_view_security_results.html",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs/68_view_security_results.html",
 	"title": "View Security Results in Lacework",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/099_survey/_index.ee.html",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day-with-lacework/099_survey/_index.ee.html",
 	"title": "Survey",
 	"tags": [],
 	"description": "",
 	"content": " Survey To help us improve this product, please take some time to fill out the  Survey  "
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/categories.html",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day-with-lacework/categories.html",
 	"title": "Categories",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/cleanup.html",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day-with-lacework/cleanup.html",
 	"title": "Cleanup",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/resources.html",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day-with-lacework/resources.html",
 	"title": "Resources",
 	"tags": [],
 	"description": "",
 	"content": " Lacework Platform Documentation - The full Lacework Platform documentation.  "
 },
 {
-	"uri": "https://jefferyfry.github.io/aws-immersion-day-with-lacework/tags.html",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day-with-lacework/tags.html",
 	"title": "Tags",
 	"tags": [],
 	"description": "",
