@@ -371,5 +371,14 @@ Prerequisites You need the following prerequisites to implement the Lacework AWS
       <description> Lacework Platform Documentation - The full Lacework Platform documentation.  </description>
     </item>
     
+    <item>
+      <title>Schedule</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/schedule.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/schedule.html</guid>
+      <description>Intro Lacework/Session Overview (Slides) - 10 mins Environment Setup (Hands-on) - 10 mins Platform Overview (Hands-on/Demo) - 20 mins Advanced Cloud Security Posture Management (CSPM+) 15 mins AWS Control Tower (Demo) - 15 mins DevSecOps (3 pipelines) - 20 mins Security Hub Preview (Demo) - 15 mins  Total time: 1 hr 45 mins</description>
+    </item>
+    
   </channel>
 </rss>

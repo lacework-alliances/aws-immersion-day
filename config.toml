@@ -65,6 +65,12 @@ identifier = "resources"
 url = "resources.html"
 weight = 30
 
+[[menu.shortcuts]]
+name = "<i class='fab fa-readme'></i> Schedule"
+identifier = "schedule"
+url = "schedule.html"
+weight = 30
+
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
