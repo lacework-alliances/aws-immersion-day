@@ -21,10 +21,10 @@ In the previous sections, we looked at prevention - identifying issues that make
 {{% notice info %}}
 Anomaly events are detected through Lacework's Polygraph machine learning technology. Polygraph tracks the user and API activities and detects anomalous and potentially malicious behavior.
 {{% /notice %}}
-3. Find the event xxxx.
+3. Find the event Login from Source using Calltype.
 4. Click on this event to see the event summary. This shows you when the event occurred and for which AWS account.
-   ![Lacework event summary](/images/lacework-event-summary.png)
+   ![Lacework event summary](/images/anom-lacework-event-summary.png)
 5. Click on the **Details** icon on the event. This will take you to the Event Dossier and provide more detail. 
-   ![Lacework event dossier](/images/lacework-event-dossier.png)
+   ![Lacework event dossier](/images/anom-lacework-event-dossier.png)
 6. Expand the **MORE DETAIL** link. 
 7. Scroll down to the Polygraph panel. The Polygraph shows the users, locations, services, API calls, processes and machines that were involved in the anomalous behavior. We see an unusual S3 bucket listing, writes and encryption activity. These are telltale signs of a ransomware attack.
