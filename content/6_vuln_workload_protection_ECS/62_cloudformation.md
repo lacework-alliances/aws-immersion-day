@@ -8,7 +8,7 @@ pre: "<b>6.2 </b>"
 Lacework, CodePipeline, CodeBuild, ECR & EKS for our CI/CD pipeline is provisioned using CloudFormation. We will review these CloudFormation templates.
 
 
-1. Go to https://github.com/jefferyfry/aws-immersion-day-with-lacework-code in your browser.
+1. Go to https://github.com/lacework-alliances/aws-immersion-day-with-lacework-code in your browser.
    ![Lacework Code Github](/images/lacework-code-github.png)
 2. Go to the _templates_ directory and view the _setup-pipelines.template.yml_. This CloudFormation template provisions CodePipeline, CodeBuild & ECR resources.
 3. CodeBuild requires _buildspec_ files. Go to the _app_ directory and view the codebuild-scan-push.yaml and codebuild-deploy-ecs.yaml files. codebuild-scan-push.yaml has the commands to perform a docker build, Lacework image vulnerability scan and docker push to ECR. codebuild-deploy-eks.yaml deploys the container to the ECS cluster.

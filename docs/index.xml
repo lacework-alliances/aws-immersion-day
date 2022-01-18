@@ -202,7 +202,7 @@ Prerequisites You need the following prerequisites to implement the Lacework AWS
       
       <guid>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/52_cloudformation.html</guid>
       <description>Lacework, CodePipeline, CodeBuild, ECR &amp;amp; EKS for our CI/CD pipeline is provisioned using CloudFormation. We will review these CloudFormation templates.
- Go to https://github.com/jefferyfry/aws-immersion-day-with-lacework-code in your browser.  Go to the templates directory and view the setup-pipelines.template.yml. This CloudFormation template provisions CodePipeline, CodeBuild &amp;amp; ECR resources. CodeBuild requires buildspec files. Go to the app directory and view the codebuild-scan-push.yaml and codebuild-deploy-eks.yaml files. codebuild-scan-push.yaml has the commands to perform a docker build, Lacework image vulnerability scan and docker push to ECR.</description>
+ Go to https://github.com/lacework-alliances/aws-immersion-day-with-lacework-code in your browser.  Go to the templates directory and view the setup-pipelines.template.yml. This CloudFormation template provisions CodePipeline, CodeBuild &amp;amp; ECR resources. CodeBuild requires buildspec files. Go to the app directory and view the codebuild-scan-push.yaml and codebuild-deploy-eks.yaml files. codebuild-scan-push.yaml has the commands to perform a docker build, Lacework image vulnerability scan and docker push to ECR.</description>
     </item>
     
     <item>
@@ -262,7 +262,7 @@ Prerequisites You need the following prerequisites to implement the Lacework AWS
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/5_vuln_workload_protection_eks/58_view_security_results.html</guid>
-      <description>The architecture for this section is depicted below.</description>
+      <description>Go to Vulnerabilities &amp;gt; Containers in the Lacework Console. View the images for demo-app and log4j-app. Notice the severity of the CVEs for each image. Click on the row to access the CVE list and details.  On the details tab, click on Active Containers. This indicates that this image with vulnerabilities is in active containers.  Scroll down to List of Active Containers to see the location of the vulnerable active containers.</description>
     </item>
     
     <item>
@@ -281,7 +281,7 @@ Prerequisites You need the following prerequisites to implement the Lacework AWS
       
       <guid>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs/62_cloudformation.html</guid>
       <description>Lacework, CodePipeline, CodeBuild, ECR &amp;amp; EKS for our CI/CD pipeline is provisioned using CloudFormation. We will review these CloudFormation templates.
- Go to https://github.com/jefferyfry/aws-immersion-day-with-lacework-code in your browser.  Go to the templates directory and view the setup-pipelines.template.yml. This CloudFormation template provisions CodePipeline, CodeBuild &amp;amp; ECR resources. CodeBuild requires buildspec files. Go to the app directory and view the codebuild-scan-push.yaml and codebuild-deploy-ecs.yaml files. codebuild-scan-push.yaml has the commands to perform a docker build, Lacework image vulnerability scan and docker push to ECR.</description>
+ Go to https://github.com/lacework-alliances/aws-immersion-day-with-lacework-code in your browser.  Go to the templates directory and view the setup-pipelines.template.yml. This CloudFormation template provisions CodePipeline, CodeBuild &amp;amp; ECR resources. CodeBuild requires buildspec files. Go to the app directory and view the codebuild-scan-push.yaml and codebuild-deploy-ecs.yaml files. codebuild-scan-push.yaml has the commands to perform a docker build, Lacework image vulnerability scan and docker push to ECR.</description>
     </item>
     
     <item>
@@ -341,7 +341,7 @@ Prerequisites You need the following prerequisites to implement the Lacework AWS
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_ecs/68_view_security_results.html</guid>
-      <description></description>
+      <description>Go to Vulnerabilities &amp;gt; Containers in the Lacework Console. View the images for demo-app and log4j-app. Notice the severity of the CVEs for each image. Click on the row to access the CVE list and details.  On the details tab, click on Active Containers. This indicates that this image with vulnerabilities is in active containers.  Scroll down to List of Active Containers to see the location of the vulnerable active containers.</description>
     </item>
     
     <item>
