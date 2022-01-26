@@ -25,7 +25,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/1_event_engine_setup/12_lacework_account.html</guid>
-      <description> Check for your Lacework invitation email.  Click on the JOIN NOW button to be taken to Lacework. Accept the terms.  Welcome to Lacework!   </description>
+      <description>There were two ways to access the Lacework console: (1) via the invitation email or (2) via login.
+Invitation Email  If you have not used your invitation email, look for it in your inbox. Click on the Join Now link in the email.  Accept the terms.  Welcome to Lacework!   Login  If you have already used the invitation email, and you are ready to login, go to the Lacework console URL.</description>
     </item>
     
   </channel>

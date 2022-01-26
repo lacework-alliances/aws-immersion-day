@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vulnerability &amp; Workload Protection (DevSecOps) with CodePipeline, CodeBuild, ECR &amp; EKS on AWS Immersion Day with Lacework</title>
+    <link>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_eks.html</link>
+    <description>Recent content in Vulnerability &amp; Workload Protection (DevSecOps) with CodePipeline, CodeBuild, ECR &amp; EKS on AWS Immersion Day with Lacework</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_eks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Architecture</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_eks/61_arch.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_eks/61_arch.html</guid>
+      <description>The architecture for this section is depicted below.</description>
+    </item>
+    
+    <item>
+      <title>Lacework, CodePipeline, CodeBuild, ECR &amp; EKS in CloudFormation</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_eks/62_cloudformation.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_eks/62_cloudformation.html</guid>
+      <description>Lacework, CodePipeline, CodeBuild, ECR &amp;amp; EKS for our CI/CD pipeline is provisioned using CloudFormation. We will review these CloudFormation templates.
+ Go to https://github.com/lacework-alliances/aws-immersion-day-with-lacework-code in your browser.  Go to the templates directory and view the setup-pipelines.template.yml. This CloudFormation template provisions CodePipeline, CodeBuild &amp;amp; ECR resources. CodeBuild requires buildspec files. Go to the app directory and view the codebuild-scan-push.yaml and codebuild-deploy-eks.yaml files. codebuild-scan-push.yaml has the commands to perform a docker build, Lacework image vulnerability scan and docker push to ECR.</description>
+    </item>
+    
+    <item>
+      <title>CodePipeline: A DevSecOps Pipeline</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_eks/63_codepipeline.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_eks/63_codepipeline.html</guid>
+      <description>AWS CodePipeline orchestrates our CI/CD process. It pulls our code from a S3 bucket and then uses AWS CodeBuild to build, scan and push our application container image.
+ Go to AWS CodePipeline in your AWS console.  Click on the codepipeline-eks pipeline. This pipeline has three phases. The first phase, the Source phase, pulls the application source code from Amazon S3. The second phase is the Build phase and builds, scans and pushes our image.</description>
+    </item>
+    
+    <item>
+      <title>CodeBuild: Build, Scan &amp; Push</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_eks/64_codebuild_build_scan_push.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_eks/64_codebuild_build_scan_push.html</guid>
+      <description>The Build phase includes the commands to build, scan and push our image. CodeBuild uses a build project which can be defined through a YAML file.
+ Review the codebuild-scan-push.yaml again. This file defines this Build phase. In your CodePipeline console, expand Build and click on Build projects.  Click on the codebuild-build Build project.  You can view the Build history, Build details and Metrics.   </description>
+    </item>
+    
+    <item>
+      <title>Lacework Container Security: Image and Registry Scanning</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_eks/65_lacework_inline_repo_scan.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_eks/65_lacework_inline_repo_scan.html</guid>
+      <description>The Build phase includes a Lacework vulnerability scan using the Lacework Inline Scanner. This tool scans Docker images for image and software package vulnerabilities. Additionally, Lacework has been set up to scan the Docker repositories. This allows you to detect vulnerable software and prevent it from being deployed.
+ View the lines of code in the CodeBuild buildspec that include the Lacework Inline Scanner.
+- export LW_ACCOUNT_NAME=$LW_ACCOUNT_NAME - export LW_ACCESS_TOKEN=$LW_ACCESS_TOKEN - export LW_SCANNER_DISABLE_UPDATES=true - rm -rf .</description>
+    </item>
+    
+    <item>
+      <title>CodeBuild: Deploy to EKS</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_eks/66_codebuild_deploy.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_eks/66_codebuild_deploy.html</guid>
+      <description>The Deploy phase pulls our image from the ECR repository and deploys to our EKS cluster. This is done using CodeBuild.
+ Review the codebuild-deploy-eks.yaml again. This file defines this Deploy phase. In your CodePipeline console, expand Build and click on Build projects.  Click on the codebuild-deploy-eks Build project.  You can view the Build history, Build details and Metrics.   </description>
+    </item>
+    
+    <item>
+      <title>Execute the Pipeline</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_eks/67_execute_pipeline.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_eks/67_execute_pipeline.html</guid>
+      <description>We have reviewed the phases of our pipeline. Let&amp;rsquo;s execute it! We will execute our pipeline manually, but it can execute automatically when the code has been updated.
+ Go to AWS CodePipeline in your AWS console.  Click on the codepipeline-eks pipeline.  Click on the Release change button. This will cause the pipeline to execute.  The CodePipeline console will automatically show the progress of the build. For each phase, you can click on the Details link to see the CodeBuild logs.</description>
+    </item>
+    
+    <item>
+      <title>View Security Results in Lacework</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_eks/68_view_security_results.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_eks/68_view_security_results.html</guid>
+      <description>Go to Vulnerabilities &amp;gt; Containers in the Lacework Console. View the images for demo-app and log4j-app. Notice the severity of the CVEs for each image. Click on the row to access the CVE list and details.  On the details tab, click on Active Containers. This indicates that this image with vulnerabilities is in active containers.  Scroll down to List of Active Containers to see the location of the vulnerable active containers.</description>
+    </item>
+    
+  </channel>
+</rss>

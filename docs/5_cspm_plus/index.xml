@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Advanced Cloud Security Posture Management (CSPM&#43;) on AWS Immersion Day with Lacework</title>
+    <link>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/5_cspm_plus.html</link>
+    <description>Recent content in Advanced Cloud Security Posture Management (CSPM&#43;) on AWS Immersion Day with Lacework</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/5_cspm_plus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Anatomy of the Attack</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/5_cspm_plus/51_anatomy_attack.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/5_cspm_plus/51_anatomy_attack.html</guid>
+      <description>In this scenario, we simulate the typical ransomware actions where an attacker gains access to sensitive data.
+ An attacker gains access to a bastion host that is exposed to the internet. From the bastion host, the attacker scans for s3 buckets (using the preinstalled AWS CLI). The attacker discovers an S3 bucket with sensitive documents. The attacker uses encryption keys to encrypt the documents.  </description>
+    </item>
+    
+    <item>
+      <title>Cloud Security Compliance</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/5_cspm_plus/52_compliance.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/5_cspm_plus/52_compliance.html</guid>
+      <description>Lacework’s AWS security platform automatically validates all configurations against the controls established as best practices for securing your cloud environment. The first step in preventing an attack is secure your cloud configuration. Lacework monitors your AWS environments and notifies you of security misconfigurations.
+ Go to Compliance &amp;gt; AWS &amp;gt; Reports in the Lacework Console to display the AWS Compliance Reports page. The AWS CIS Benchmark and S3 Report provides S3 configuration validation.</description>
+    </item>
+    
+    <item>
+      <title>Lacework Security Events</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/5_cspm_plus/53_events.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/5_cspm_plus/53_events.html</guid>
+      <description>You don&amp;rsquo;t need to continually monitor your compliance reports for issues in your cloud configuration. Lacework notifies you through security events that gather all of the security context that you need to perform a quick investigation.
+ Go to Events in your Lacework Console. The Events page displays a timeline of security events and allows you to filter on various attributes including severity.  Notice that the LW_S3_16 Ensure the S3 bucket has versioning enabled security event is present.</description>
+    </item>
+    
+    <item>
+      <title>The Lacework Polygraph</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/5_cspm_plus/54_polygraph.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/5_cspm_plus/54_polygraph.html</guid>
+      <description>In the previous sections, we looked at prevention - identifying issues that make you vulnerable to an attack. Now we will look at Lacework&amp;rsquo;s anomaly detection events with Polygraph. The Lacework polygraph analyzes an array of cloud factors to detect breaches. There are currently six Lacework polygraph analysis groups:
+ Application/process communications Application launches Machine communications Machine servers Privilege changes Insider behaviors   Go to Events in your Lacework Console.</description>
+    </item>
+    
+  </channel>
+</rss>

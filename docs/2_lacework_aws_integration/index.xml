@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>How Lacework Integrates with AWS on AWS Immersion Day with Lacework</title>
+    <link>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/2_lacework_aws_integration.html</link>
+    <description>Recent content in How Lacework Integrates with AWS on AWS Immersion Day with Lacework</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/2_lacework_aws_integration/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CloudTrail and AWS Configuration Integration via Console and CloudFormation</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/2_lacework_aws_integration/21_cloudformation_setup.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/2_lacework_aws_integration/21_cloudformation_setup.html</guid>
+      <description>The Lacework platform platform at a minimum requires integration with the AWS configuration for an account in order to check security posture of resources. CloudTrail is recommended in order to monitor user, API and resource activity for suspicious behavior. AI/ML are applied to this activity in order to detect anomalous behavior.  Navigate to Settings &amp;gt; Integrations &amp;gt; Cloud Accounts in your console. Click + Create New. From the Cloud Account drop-down, select AWS.</description>
+    </item>
+    
+    <item>
+      <title>Agent Integration</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/2_lacework_aws_integration/22_agent_integration.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/2_lacework_aws_integration/22_agent_integration.html</guid>
+      <description>For hosts, container services and Kubernetes, optional agents can be installed to enable security monitoring at the edge of the cloud. Lacework agents are lightweight and send network and process telemetry for security analysis. Lacework agents are supported on most x86, ARM and container runtimes. The Lacework Agent also supports AWS Graviton processors and is AWS Graviton Ready.
+Deploying an agent requires an agent access token and using the installation method that is appropriate for your environment.</description>
+    </item>
+    
+    <item>
+      <title>Container Registry Integration</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/2_lacework_aws_integration/23_registry_integration.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/2_lacework_aws_integration/23_registry_integration.html</guid>
+      <description>If your development teams are doing microservices development and delivering container images, Lacework can be enabled to scan your images for software vulnerabilities. Lacework can scan OS and software packages and alert you to vulnerabilities. Lacework supports the most popular container registries including Amazon Elastic Container Registry (ECR). Lacework also has a proxy scanner which allows Lacework to perform container vulnerability assessments for your on-premises Docker container image registries without exposing them to external connectivity.</description>
+    </item>
+    
+    <item>
+      <title>CI/CD Integration</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/2_lacework_aws_integration/24_cicd_integration.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/2_lacework_aws_integration/24_cicd_integration.html</guid>
+      <description>With Lacework, you can also discover software vulnerabilities during your software build process. This is done through use of the Lacework inline scanner. The Lacework inline scanner can be integrated with many CI/CD tools including AWS CodePipeline and CodeBuild. You can see AWS CodePipeline and CodeBuild examples in the DevSecOps modules. Similar to the container registry scanning, the inline scanner can detect software vulnerabilities in OS and software packages.The inline scanner is configured in the Container Registries settings menu:</description>
+    </item>
+    
+  </channel>
+</rss>
