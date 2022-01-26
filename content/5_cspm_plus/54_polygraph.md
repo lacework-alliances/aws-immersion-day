@@ -21,7 +21,7 @@ In the previous sections, we looked at prevention - identifying issues that make
 {{% notice info %}}
 Anomaly events are detected through Lacework's Polygraph machine learning technology. Polygraph tracks the user and API activities and detects anomalous and potentially malicious behavior.
 {{% /notice %}}
-3. Find the event **New AWS User** with name _hacker_.
+3. Find the event **New AWS User** with name _hacker_. This is event ID 5051. You can also use the **Search** field.
 4. Click on this event to see the event summary. This shows you when the event occurred and for which AWS account.
    ![Lacework event summary](/images/anom-lacework-event-summary.png)
 5. Click on the **Details** icon on the event. This will take you to the Event Dossier and provide more detail. 
