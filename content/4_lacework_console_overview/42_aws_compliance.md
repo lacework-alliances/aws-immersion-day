@@ -32,8 +32,8 @@ Lacework’s AWS security platform automatically validates all configurations ag
    * Integration Failed—Lacework encountered a problem while attempting to use the integration between Lacework and the AWS account, for example, maybe the correct privileges have not been granted.
 5. View the CIS Benchmark Overview and S3 Overview Panels. These panels display an aggregation of data for the selected account(s) correlating to the policy/rules in the associated compliance benchmarks. Details such as severity, recommendation, service, and number/percentage of resources in violation are displayed.
 ![Lacework CIS S3](/images/lacework-cis-benchmark-s3.png)
-6. The top five recommendations are displayed by default. To see all the recommendations sorted by severity, click **View number More Recommendation**.
-7. To view additional details about a recommendation, hover over a recommendation row until **View Details DETAILS** displays and click **View Details**.
+6. The top five recommendations are displayed by default. To see all the recommendations sorted by severity, click **View N More Recommendation**.
+7. To view additional details about a recommendation, hover over a recommendation row until **View Details** displays and click **View Details**.
 8. Go to **Compliance > AWS > Reports** in the Lacework Console to display the AWS Compliance Reports page. Lacework provides the following compliance reports for your cloud environments.
    * AWS CIS Benchmark and S3 Report
    * AWS HIPAA Report
