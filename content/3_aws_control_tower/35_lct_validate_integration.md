@@ -2,7 +2,7 @@
 title: "Validate the Setup"
 chapter: false
 draft: false
-weight: 3.5
+weight: 35
 pre: "<b>3.5 </b>"
 ---
 

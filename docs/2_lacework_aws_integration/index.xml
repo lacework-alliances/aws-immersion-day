@@ -12,7 +12,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/2_lacework_aws_integration/21_cloudformation_setup.html</guid>
-      <description>The Lacework platform platform at a minimum requires integration with the AWS configuration for an account in order to check security posture of resources. CloudTrail is recommended in order to monitor user, API and resource activity for suspicious behavior. AI/ML are applied to this activity in order to detect anomalous behavior.  Navigate to Settings &amp;gt; Integrations &amp;gt; Cloud Accounts in your console. Click + Create New. From the Cloud Account drop-down, select AWS.</description>
+      <description>The Lacework platform platform at a minimum requires integration with the AWS configuration for an account in order to check security posture of resources. CloudTrail is recommended in order to monitor user, API and resource activity for suspicious behavior. AI/ML are applied to this activity in order to detect anomalous behavior.
+ Navigate to Settings &amp;gt; Integrations &amp;gt; Cloud Accounts in your console. Click + Add New. Select AWS. Select CloudTrail+Config or Config and click Next.</description>
     </item>
     
     <item>
@@ -21,8 +22,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/2_lacework_aws_integration/22_agent_integration.html</guid>
-      <description>For hosts, container services and Kubernetes, optional agents can be installed to enable security monitoring at the edge of the cloud. Lacework agents are lightweight and send network and process telemetry for security analysis. Lacework agents are supported on most x86, ARM and container runtimes. The Lacework Agent also supports AWS Graviton processors and is AWS Graviton Ready.
-Deploying an agent requires an agent access token and using the installation method that is appropriate for your environment.</description>
+      <description>For hosts, container services and Kubernetes, optional agents can be installed to enable security monitoring at the edge of the cloud. Lacework agents are lightweight and send network and process telemetry for security analysis. Lacework agents are supported on most x86, ARM and container runtimes. The Lacework Agent also supports AWS Graviton processors and is AWS Graviton Ready. Deploying an agent requires an agent access token and using the installation method that is appropriate for your environment.</description>
     </item>
     
     <item>
@@ -31,7 +31,8 @@ Deploying an agent requires an agent access token and using the installation met
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/2_lacework_aws_integration/23_registry_integration.html</guid>
-      <description>If your development teams are doing microservices development and delivering container images, Lacework can be enabled to scan your images for software vulnerabilities. Lacework can scan OS and software packages and alert you to vulnerabilities. Lacework supports the most popular container registries including Amazon Elastic Container Registry (ECR). Lacework also has a proxy scanner which allows Lacework to perform container vulnerability assessments for your on-premises Docker container image registries without exposing them to external connectivity.</description>
+      <description>If your development teams are doing microservices development and delivering container images, Lacework can be enabled to scan your images for software vulnerabilities. Lacework can scan OS and software packages and alert you to vulnerabilities. Lacework supports the most popular container registries including Amazon Elastic Container Registry (ECR).
+Lacework also has a proxy scanner which allows Lacework to perform container vulnerability assessments for your on-premises Docker container image registries without exposing them to external connectivity.</description>
     </item>
     
     <item>

@@ -7,16 +7,6 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language><atom:link href="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Validate the Setup</title>
-      <link>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/3_aws_control_tower/35_lct_validate_integration.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/3_aws_control_tower/35_lct_validate_integration.html</guid>
-      <description>You can validate the integration by checking the cloud accounts in your Lacework console. If you chose to monitor existing accounts, any ACTIVE AWS accounts will be added along with the master account for the centralized CloudTrail logging. Follow the next steps to verify the accounts.
- Login to your Lacework Cloud Security Platform console. Go to Settings &amp;gt; Cloud Accounts. You should see a list of AWS accounts that are now being monitored by Lacework.</description>
-    </item>
-    
-    <item>
       <title>Access Your Temporary AWS Account</title>
       <link>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/1_event_engine_setup/11_aws_event_account.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -45,7 +35,8 @@ Invitation Email  If you have not used your invitation email, look for it in you
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/2_lacework_aws_integration/21_cloudformation_setup.html</guid>
-      <description>The Lacework platform platform at a minimum requires integration with the AWS configuration for an account in order to check security posture of resources. CloudTrail is recommended in order to monitor user, API and resource activity for suspicious behavior. AI/ML are applied to this activity in order to detect anomalous behavior.  Navigate to Settings &amp;gt; Integrations &amp;gt; Cloud Accounts in your console. Click + Create New. From the Cloud Account drop-down, select AWS.</description>
+      <description>The Lacework platform platform at a minimum requires integration with the AWS configuration for an account in order to check security posture of resources. CloudTrail is recommended in order to monitor user, API and resource activity for suspicious behavior. AI/ML are applied to this activity in order to detect anomalous behavior.
+ Navigate to Settings &amp;gt; Integrations &amp;gt; Cloud Accounts in your console. Click + Add New. Select AWS. Select CloudTrail+Config or Config and click Next.</description>
     </item>
     
     <item>
@@ -54,8 +45,7 @@ Invitation Email  If you have not used your invitation email, look for it in you
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/2_lacework_aws_integration/22_agent_integration.html</guid>
-      <description>For hosts, container services and Kubernetes, optional agents can be installed to enable security monitoring at the edge of the cloud. Lacework agents are lightweight and send network and process telemetry for security analysis. Lacework agents are supported on most x86, ARM and container runtimes. The Lacework Agent also supports AWS Graviton processors and is AWS Graviton Ready.
-Deploying an agent requires an agent access token and using the installation method that is appropriate for your environment.</description>
+      <description>For hosts, container services and Kubernetes, optional agents can be installed to enable security monitoring at the edge of the cloud. Lacework agents are lightweight and send network and process telemetry for security analysis. Lacework agents are supported on most x86, ARM and container runtimes. The Lacework Agent also supports AWS Graviton processors and is AWS Graviton Ready. Deploying an agent requires an agent access token and using the installation method that is appropriate for your environment.</description>
     </item>
     
     <item>
@@ -64,7 +54,8 @@ Deploying an agent requires an agent access token and using the installation met
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/2_lacework_aws_integration/23_registry_integration.html</guid>
-      <description>If your development teams are doing microservices development and delivering container images, Lacework can be enabled to scan your images for software vulnerabilities. Lacework can scan OS and software packages and alert you to vulnerabilities. Lacework supports the most popular container registries including Amazon Elastic Container Registry (ECR). Lacework also has a proxy scanner which allows Lacework to perform container vulnerability assessments for your on-premises Docker container image registries without exposing them to external connectivity.</description>
+      <description>If your development teams are doing microservices development and delivering container images, Lacework can be enabled to scan your images for software vulnerabilities. Lacework can scan OS and software packages and alert you to vulnerabilities. Lacework supports the most popular container registries including Amazon Elastic Container Registry (ECR).
+Lacework also has a proxy scanner which allows Lacework to perform container vulnerability assessments for your on-premises Docker container image registries without exposing them to external connectivity.</description>
     </item>
     
     <item>
@@ -103,7 +94,7 @@ Prerequisites You need the following prerequisites to implement the Lacework AWS
       
       <guid>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/3_aws_control_tower/33_lct_api_access_key.html</guid>
       <description>A Lacework API access key is used by the Lacework AWS Control Tower integration to make API calls and configure Lacework accounts. Follow the next steps to create the key.
- In your Lacework Console, go to Settings &amp;gt; API Keys.  Click on the Create New button in the upper right to create a new API key. Provide a name and description and click Save. Click the download button to download the API keys file.</description>
+ In your Lacework Console, go to Settings &amp;gt; API Keys.  Click on the + Add New button in the upper right to create a new API key. Provide a name and description and click Save. Click the download button to download the API keys file.</description>
     </item>
     
     <item>
@@ -114,6 +105,16 @@ Prerequisites You need the following prerequisites to implement the Lacework AWS
       <guid>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/3_aws_control_tower/34_lct_launch_cloudformation.html</guid>
       <description>The Lacework AWS Control Tower integration uses CloudFormation to install StackSets, IAM roles, Lambda functions and SQS queues that support the integration. Follow the next steps to install the integration through your AWS CloudFormation console.
  Login in to AWS master account with Administrator permissions. Select the AWS region where your AWS Control Tower is deployed. Click on the following Launch Stack button to go to your CloudFormation console and launch the AWS Control Integration template.</description>
+    </item>
+    
+    <item>
+      <title>Validate the Setup</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/3_aws_control_tower/35_lct_validate_integration.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/3_aws_control_tower/35_lct_validate_integration.html</guid>
+      <description>You can validate the integration by checking the cloud accounts in your Lacework console. If you chose to monitor existing accounts, any ACTIVE AWS accounts will be added along with the master account for the centralized CloudTrail logging. Follow the next steps to verify the accounts.
+ Login to your Lacework Cloud Security Platform console. Go to Settings &amp;gt; Cloud Accounts. You should see a list of AWS accounts that are now being monitored by Lacework.</description>
     </item>
     
     <item>

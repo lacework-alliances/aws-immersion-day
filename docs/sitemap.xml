@@ -10,8 +10,6 @@
   </url><url>
     <loc>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/3_aws_control_tower.html</loc>
   </url><url>
-    <loc>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/3_aws_control_tower/35_lct_validate_integration.html</loc>
-  </url><url>
     <loc>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/4_lacework_console_overview.html</loc>
   </url><url>
     <loc>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/5_cspm_plus.html</loc>
@@ -41,6 +39,8 @@
     <loc>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/3_aws_control_tower/33_lct_api_access_key.html</loc>
   </url><url>
     <loc>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/3_aws_control_tower/34_lct_launch_cloudformation.html</loc>
+  </url><url>
+    <loc>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/3_aws_control_tower/35_lct_validate_integration.html</loc>
   </url><url>
     <loc>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/4_lacework_console_overview/41_global_dashboard.html</loc>
   </url><url>

@@ -7,16 +7,6 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language><atom:link href="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/3_aws_control_tower/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Validate the Setup</title>
-      <link>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/3_aws_control_tower/35_lct_validate_integration.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/3_aws_control_tower/35_lct_validate_integration.html</guid>
-      <description>You can validate the integration by checking the cloud accounts in your Lacework console. If you chose to monitor existing accounts, any ACTIVE AWS accounts will be added along with the master account for the centralized CloudTrail logging. Follow the next steps to verify the accounts.
- Login to your Lacework Cloud Security Platform console. Go to Settings &amp;gt; Cloud Accounts. You should see a list of AWS accounts that are now being monitored by Lacework.</description>
-    </item>
-    
-    <item>
       <title>How It Works</title>
       <link>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/3_aws_control_tower/31_lct_how_it_works.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -43,7 +33,7 @@ Prerequisites You need the following prerequisites to implement the Lacework AWS
       
       <guid>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/3_aws_control_tower/33_lct_api_access_key.html</guid>
       <description>A Lacework API access key is used by the Lacework AWS Control Tower integration to make API calls and configure Lacework accounts. Follow the next steps to create the key.
- In your Lacework Console, go to Settings &amp;gt; API Keys.  Click on the Create New button in the upper right to create a new API key. Provide a name and description and click Save. Click the download button to download the API keys file.</description>
+ In your Lacework Console, go to Settings &amp;gt; API Keys.  Click on the + Add New button in the upper right to create a new API key. Provide a name and description and click Save. Click the download button to download the API keys file.</description>
     </item>
     
     <item>
@@ -54,6 +44,16 @@ Prerequisites You need the following prerequisites to implement the Lacework AWS
       <guid>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/3_aws_control_tower/34_lct_launch_cloudformation.html</guid>
       <description>The Lacework AWS Control Tower integration uses CloudFormation to install StackSets, IAM roles, Lambda functions and SQS queues that support the integration. Follow the next steps to install the integration through your AWS CloudFormation console.
  Login in to AWS master account with Administrator permissions. Select the AWS region where your AWS Control Tower is deployed. Click on the following Launch Stack button to go to your CloudFormation console and launch the AWS Control Integration template.</description>
+    </item>
+    
+    <item>
+      <title>Validate the Setup</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/3_aws_control_tower/35_lct_validate_integration.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/3_aws_control_tower/35_lct_validate_integration.html</guid>
+      <description>You can validate the integration by checking the cloud accounts in your Lacework console. If you chose to monitor existing accounts, any ACTIVE AWS accounts will be added along with the master account for the centralized CloudTrail logging. Follow the next steps to verify the accounts.
+ Login to your Lacework Cloud Security Platform console. Go to Settings &amp;gt; Cloud Accounts. You should see a list of AWS accounts that are now being monitored by Lacework.</description>
     </item>
     
   </channel>
