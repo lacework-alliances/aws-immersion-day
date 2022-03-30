@@ -27,15 +27,15 @@ Lacework provides alert channels for the following:
 * VictorOps
 * Webhook
 
-1. Navigate to **Settings > Alert Routing > Alert Channels**.
-2. Click **+ Create New**.
+1. Navigate to **Settings > Notifications > Alert Channels**.
+2. Click **+ Add New**.
 ![Lacework Alert Channel](/images/lacework-alert-channel.png)
-3. Select a **Channel Type** and name the channel.
+3. Select a channel and click **Next**.
 4. Complete the fields to configure the channel.
 5. See each channel's separate help for detailed field information.
 6. Click **Save**. The new channel appears in the table. Now the alert channel can be used by an alert rule. An alert rule allows you to choose which resource groups and event categories you want to receive alerts for.
-7. Navigate to **Settings > Alert Rules**.
-8. Click **+ Create New**.
+7. Navigate to **Settings > Notifications > Alert Rules**.
+8. Click **+ Add New**.
 ![Lacework Alert Rule](/images/lacework-alert-rule.png)
 9. Select an alert channel for the rule to use. The list displays only enabled configured channels. Add additional channels if appropriate.
 10. Name the rule and optionally provide a description.
