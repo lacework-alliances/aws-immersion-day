@@ -49,3 +49,7 @@ Lacework’s AWS security platform automatically validates all configurations ag
 10. Go to **Compliance > AWS > Summary** to see an overall summary of compliance across all report types, events, services and resources.
 
 Lacework compliance reports enable you to quickly validate your cloud configurations for vulnerabilities. Default reports allow you to immediately check configuration.
+
+***
+# Challenge
+{{%expand "In the AWS Compliance Reports S3 pane, expand the recommendation 'S3 bucket is securely encrypted at rest'. Identify the S3 buckets and remediation steps. " %}} Several S3 buckets. Resolve with Use 'Server-Side Encryption with Amazon S3-Managed Keys (SSE-S3)', 'Server-Side Encryption with AWS KMS-Managed Keys (SSE-KMS)', or 'Server-Side Encryption with Customer-Provided Keys (SSE-C)'. {{% /expand%}}

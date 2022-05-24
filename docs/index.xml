@@ -40,7 +40,7 @@ Invitation Email  If you have not used your invitation email, look for it in you
     </item>
     
     <item>
-      <title>Agent Integration</title>
+      <title>EC2, EKS, ECS, Fargate Agent Integration</title>
       <link>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/2_lacework_aws_integration/22_agent_integration.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -49,21 +49,30 @@ Invitation Email  If you have not used your invitation email, look for it in you
     </item>
     
     <item>
-      <title>Container Registry Integration</title>
-      <link>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/2_lacework_aws_integration/23_registry_integration.html</link>
+      <title>EKS (Kubernetes) Control Plane Integration</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/2_lacework_aws_integration/23_kubernetes_integration.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/2_lacework_aws_integration/23_registry_integration.html</guid>
+      <guid>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/2_lacework_aws_integration/23_kubernetes_integration.html</guid>
+      <description>All Kubernetes activities, whether manual activities with the kubectl tool, or automated, results in one or more API calls to the Kubernetes API server. Lacework can ingest these events to monitor activities, including kubectl exec, port-forwarding, deployment of new resources such as workloads, Kubernetes roles and role bindings, deletion of resources, authentication issues, forbidden API calls, and more. The Lacework Polygraph Data Platform surface the most important events such as the execution of rogue containers, the deployment of misconfigured workloads, the addition of dangerous roles, or manual login to containers.</description>
+    </item>
+    
+    <item>
+      <title>ECR Container Registry Integration</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/2_lacework_aws_integration/24_registry_integration.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/2_lacework_aws_integration/24_registry_integration.html</guid>
       <description>If your development teams are doing microservices development and delivering container images, Lacework can be enabled to scan your images for software vulnerabilities. Lacework can scan OS and software packages and alert you to vulnerabilities. Lacework supports the most popular container registries including Amazon Elastic Container Registry (ECR).
 Lacework also has a proxy scanner which allows Lacework to perform container vulnerability assessments for your on-premises Docker container image registries without exposing them to external connectivity.</description>
     </item>
     
     <item>
-      <title>CI/CD Integration</title>
-      <link>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/2_lacework_aws_integration/24_cicd_integration.html</link>
+      <title>CodePipeline, CodeBuild CI/CD Integration</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/2_lacework_aws_integration/25_cicd_integration.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/2_lacework_aws_integration/24_cicd_integration.html</guid>
+      <guid>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/2_lacework_aws_integration/25_cicd_integration.html</guid>
       <description>With Lacework, you can also discover software vulnerabilities during your software build process. This is done through use of the Lacework inline scanner. The Lacework inline scanner can be integrated with many CI/CD tools including AWS CodePipeline and CodeBuild. You can see AWS CodePipeline and CodeBuild examples in the DevSecOps modules. Similar to the container registry scanning, the inline scanner can detect software vulnerabilities in OS and software packages.The inline scanner is configured in the Container Registries settings menu:</description>
     </item>
     
@@ -145,7 +154,7 @@ Prerequisites You need the following prerequisites to implement the Lacework AWS
       <guid>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/4_lacework_console_overview/43_container_vulnerabilities.html</guid>
       <description>Lacework provides the ability to assess, identify, and report vulnerabilities found on hosts, containers, registries and pods within your environment. This means you can identify and take action on software vulnerabilities in your environment and manage that risk proactively.
 Lacework continuously assesses vulnerability risks, identifies OS packages, and correlates them with publicly known vulnerabilities with risk ratings by severity and CVSS scores.
-In this section, we will explore container vulnerabilities. Lacework several types of container/image scanning as well as providing runtime protection.</description>
+In this section, we will explore container vulnerabilities.</description>
     </item>
     
     <item>

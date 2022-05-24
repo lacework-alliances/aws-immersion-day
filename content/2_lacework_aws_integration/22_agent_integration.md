@@ -1,5 +1,5 @@
 ---
-title: "Agent Integration"
+title: "EC2, EKS, ECS, Fargate Agent Integration"
 chapter: false
 draft: false
 weight: 22

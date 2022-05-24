@@ -27,3 +27,7 @@ For custom policy queries, Lacework allows simple comparison expressions that ar
 {{% /notice %}}
 
 Lacework default policies enable out-of-the-box security validation of your AWS environments. But not every organization is the same and custom policies are a great way to add validation specific to your organization's requirements.
+
+***
+# Challenge
+{{%expand "How many pre-built Lacework policies are there? " %}} Check the Policy Types chart on the Policies page (750+). {{% /expand%}}

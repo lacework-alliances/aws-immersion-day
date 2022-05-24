@@ -29,3 +29,7 @@ Lacework provides Public Registry Scanning, Private Registry Scanning, Continuou
    ![Lacework Active Containers](/images/lacework-active-containers.png)
 
 Lacework's Container Security features enable you to shift your cloud security left into your software delivery process at multiple stages. You can prevent security vulnerabilities from being deployed.
+
+***
+# Challenge
+{{%expand "Find the vulnerable image running in an active container. What's the image name and where is it running?" %}} The image is demo-app and it is running in an ECS cluster. {{% /expand%}}

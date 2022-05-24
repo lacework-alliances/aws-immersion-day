@@ -16,3 +16,7 @@ Lacework’s AWS security platform automatically validates all configurations ag
 4. Click on **LW_S3_16 Ensure the S3 bucket has versioning enabled**. Versioning is a recommendation to protect yourself from ransomware attacks. This lists S3 buckets that should have versioning enabled. 
 
 Lacework provides security recommendations for your cloud environments. These can help you prevent attacks before they happen. Let's see how these generate events to notify you of issues that you should address.
+
+***
+# Challenge
+{{%expand "If you don't know how to remediate, how could you learn how? " %}} Use the Additional Info link on the recommendation to find the steps to remediate. {{% /expand%}}

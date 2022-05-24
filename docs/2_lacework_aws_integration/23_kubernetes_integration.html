@@ -9,7 +9,7 @@
 
     <link rel="icon" href="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/images/favicon.png" type="image/png">
 
-    <title>CodeBuild: Build, Scan &amp; Push :: AWS Immersion Day with Lacework</title>
+    <title>EKS (Kubernetes) Control Plane Integration :: AWS Immersion Day with Lacework</title>
 
     
     <link href="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/css/nucleus.css?1653431253" rel="stylesheet">
@@ -60,7 +60,7 @@
 <link rel="stylesheet" href="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/css/mp-devops-series.css">
 <link rel="stylesheet" href="https://pages.awscloud.com/js/forms2/css/forms2.css">
   </head>
-  <body class="" data-url="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_eks/64_codebuild_build_scan_push.html">
+  <body class="" data-url="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/2_lacework_aws_integration/23_kubernetes_integration.html">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -181,7 +181,7 @@
   
     
     <li data-nav-id="/2_lacework_aws_integration.html" title="How Lacework Integrates with AWS" class="dd-item 
-        
+        parent
         
         
         ">
@@ -251,7 +251,7 @@
  
   
     
-      <li data-nav-id="/2_lacework_aws_integration/23_kubernetes_integration.html" title="EKS (Kubernetes) Control Plane Integration" class="dd-item ">
+      <li data-nav-id="/2_lacework_aws_integration/23_kubernetes_integration.html" title="EKS (Kubernetes) Control Plane Integration" class="dd-item active">
         <a href="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/2_lacework_aws_integration/23_kubernetes_integration.html">
         <b>2.3 </b>EKS (Kubernetes) Control Plane Integration
         <i class="fas fa-check read-icon"></i>
@@ -745,7 +745,7 @@
   
     
     <li data-nav-id="/6_vuln_workload_protection_eks.html" title="Vulnerability &amp; Workload Protection (DevSecOps) with CodePipeline, CodeBuild, ECR &amp; EKS" class="dd-item 
-        parent
+        
         
         
         ">
@@ -836,7 +836,7 @@
  
   
     
-      <li data-nav-id="/6_vuln_workload_protection_eks/64_codebuild_build_scan_push.html" title="CodeBuild: Build, Scan &amp; Push" class="dd-item active">
+      <li data-nav-id="/6_vuln_workload_protection_eks/64_codebuild_build_scan_push.html" title="CodeBuild: Build, Scan &amp; Push" class="dd-item ">
         <a href="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_eks/64_codebuild_build_scan_push.html">
         <b>6.4 </b>CodeBuild: Build, Scan &amp; Push
         <i class="fas fa-check read-icon"></i>
@@ -1248,7 +1248,7 @@
             
           
           
-            <a href='https://lacework-alliances.github.io/aws-immersion-day-with-lacework/'>AWS Immersion Day with Lacework</a> > <a href='https://lacework-alliances.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_eks.html'>Vulnerability & Workload Protection (DevSecOps) with CodePipeline, CodeBuild, ECR & EKS</a> > CodeBuild: Build, Scan & Push
+            <a href='https://lacework-alliances.github.io/aws-immersion-day-with-lacework/'>AWS Immersion Day with Lacework</a> > <a href='https://lacework-alliances.github.io/aws-immersion-day-with-lacework/2_lacework_aws_integration.html'>How Lacework Integrates with AWS</a> > EKS (Kubernetes) Control Plane Integration
           
         
           
@@ -1277,24 +1277,29 @@
           
             <h1>
               
-              CodeBuild: Build, Scan &amp; Push
+              EKS (Kubernetes) Control Plane Integration
             </h1>
           
 
         
 
 
-<p>The Build phase includes the commands to build, scan and push our image. CodeBuild uses a build project which can be defined through a YAML file.</p>
+<p>All Kubernetes activities, whether manual activities with the kubectl tool, or automated, results in one or more API calls to the Kubernetes API server. Lacework can ingest these events to monitor activities, including kubectl exec, port-forwarding, deployment of new resources such as workloads, Kubernetes roles and role bindings, deletion of resources, authentication issues, forbidden API calls, and more. The Lacework Polygraph Data Platform surface the most important events such as the execution of rogue containers, the deployment of misconfigured workloads, the addition of dangerous roles, or manual login to containers.</p>
+
+<p><img src="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/images/lacework-integrates-eks-cp.png" alt="Lacework Integrates EKS Control Plane" /></p>
 
 <ol>
-<li>Review the <a href="https://github.com/jefferyfry/aws-immersion-day-with-lacework-code/blob/master/app/codebuild-scan-push.yaml" target="_blank">codebuild-scan-push.yaml</a> again. This file defines this Build phase.</li>
-<li>In your CodePipeline console, expand <strong>Build</strong> and click on <strong>Build projects</strong>.
-<img src="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/images/aws-codebuild-projects.png" alt="AWS Codebuild Projects" /></li>
-<li>Click on the <em>codebuild-build</em> Build project.
-<img src="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/images/aws-codebuild-build.png" alt="AWS Codebuild Build" /></li>
-<li>You can view the <strong>Build history</strong>, <strong>Build details</strong> and <strong>Metrics</strong>.
-<img src="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/images/aws-codebuild-metrics.png" alt="AWS Codebuild Build" /></li>
+<li>Navigate to <strong>Settings &gt; Integrations &gt; Cloud Accounts</strong> in your console.</li>
+<li>Click <strong>+ Add New</strong>.</li>
+<li>Select <strong>AWS</strong>.</li>
+<li>Select <strong>EKS Audit Log</strong> and click <strong>Next</strong>.</li>
+<li>Select <strong>CloudFormation</strong>.</li>
+<li>Click on the <strong>Run CloudFormation Template</strong> to be taken to the CloudFormation console.
+<img src="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/images/lacework-cloud-accounts-eks-cp.png" alt="Lacework Cloud Accounts CFN" /></li>
+<li>View the CloudFormation stack parameters, but don&rsquo;t execute in this session.</li>
 </ol>
+
+<p><img src="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/images/lacework-eks-cloudformation-console.png" alt="Lacework CloudFormation Console" /></p>
 
 
 <footer class="footline">
@@ -1428,21 +1433,6 @@
             
                 
                     
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
                     
                 
                 
@@ -1460,85 +1450,8 @@
             
                 
                     
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
                         
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
                         
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
                     
                 
                 
@@ -1582,22 +1495,6 @@
                     
                     
 
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
                     
                         
             
@@ -1759,6 +1656,38 @@
             
         
                     
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
             
         
                     
@@ -1828,6 +1757,37 @@
             
                 
                     
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
                     
                 
                 
@@ -1845,8 +1805,53 @@
             
                 
                     
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
                         
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
                         
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
                     
                 
                 
@@ -2079,10 +2084,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_eks/63_codepipeline.html" title="CodePipeline: A DevSecOps Pipeline"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/2_lacework_aws_integration/22_agent_integration.html" title="EC2, EKS, ECS, Fargate Agent Integration"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_eks/65_lacework_inline_repo_scan.html" title="Lacework Container Security: Image and Registry Scanning" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/2_lacework_aws_integration/24_registry_integration.html" title="ECR Container Registry Integration" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
