@@ -9,24 +9,24 @@
 
     <link rel="icon" href="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/images/favicon.png" type="image/png">
 
-    <title>Vulnerability &amp; Workload Protection (DevSecOps) with CodePipeline, CodeBuild, ECR &amp; ECS :: AWS Immersion Day with Lacework</title>
+    <title>The Lacework Anomaly Detection :: AWS Immersion Day with Lacework</title>
 
     
-    <link href="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/css/nucleus.css?1653450954" rel="stylesheet">
-    <link href="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/css/fontawesome-all.min.css?1653450954" rel="stylesheet">
-    <link href="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/css/hybrid.css?1653450954" rel="stylesheet">
-    <link href="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/css/featherlight.min.css?1653450954" rel="stylesheet">
-    <link href="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/css/perfect-scrollbar.min.css?1653450954" rel="stylesheet">
-    <link href="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/css/auto-complete.css?1653450954" rel="stylesheet">
-    <link href="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/css/atom-one-dark-reasonable.css?1653450954" rel="stylesheet">
-    <link href="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/css/theme.css?1653450954" rel="stylesheet">
-    <link href="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/css/hugo-theme.css?1653450954" rel="stylesheet">
+    <link href="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/css/nucleus.css?1653450953" rel="stylesheet">
+    <link href="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/css/fontawesome-all.min.css?1653450953" rel="stylesheet">
+    <link href="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/css/hybrid.css?1653450953" rel="stylesheet">
+    <link href="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/css/featherlight.min.css?1653450953" rel="stylesheet">
+    <link href="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/css/perfect-scrollbar.min.css?1653450953" rel="stylesheet">
+    <link href="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/css/auto-complete.css?1653450953" rel="stylesheet">
+    <link href="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/css/atom-one-dark-reasonable.css?1653450953" rel="stylesheet">
+    <link href="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/css/theme.css?1653450953" rel="stylesheet">
+    <link href="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/css/hugo-theme.css?1653450953" rel="stylesheet">
     
-    <link href="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/css/theme-mine.css?1653450954" rel="stylesheet">
+    <link href="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/css/theme-mine.css?1653450953" rel="stylesheet">
     
     
 
-    <script src="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/js/jquery-3.3.1.min.js?1653450954"></script>
+    <script src="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/js/jquery-3.3.1.min.js?1653450953"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -60,7 +60,7 @@
 <link rel="stylesheet" href="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/css/mp-devops-series.css">
 <link rel="stylesheet" href="https://pages.awscloud.com/js/forms2/css/forms2.css">
   </head>
-  <body class="" data-url="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/7_vuln_workload_protection_ecs.html">
+  <body class="" data-url="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/5_cspm_plus/54_anomaly.html">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -77,14 +77,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/js/lunr.min.js?1653450954"></script>
-<script type="text/javascript" src="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/js/auto-complete.js?1653450954"></script>
+<script type="text/javascript" src="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/js/lunr.min.js?1653450953"></script>
+<script type="text/javascript" src="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/js/auto-complete.js?1653450953"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/lacework-alliances.github.io\/aws-immersion-day-with-lacework\/";
     
 </script>
-<script type="text/javascript" src="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/js/search.js?1653450954"></script>
+<script type="text/javascript" src="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/js/search.js?1653450953"></script>
 
     
   </div>
@@ -625,7 +625,7 @@
   
     
     <li data-nav-id="/5_cspm_plus.html" title="Advanced Cloud Security Posture Management (CSPM&#43;)" class="dd-item 
-        
+        parent
         
         
         ">
@@ -695,7 +695,7 @@
  
   
     
-      <li data-nav-id="/5_cspm_plus/54_anomaly.html" title="The Lacework Anomaly Detection" class="dd-item ">
+      <li data-nav-id="/5_cspm_plus/54_anomaly.html" title="The Lacework Anomaly Detection" class="dd-item active">
         <a href="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/5_cspm_plus/54_anomaly.html">
         <b>5.3 </b>The Lacework Anomaly Detection
         <i class="fas fa-check read-icon"></i>
@@ -928,8 +928,8 @@
   
     
     <li data-nav-id="/7_vuln_workload_protection_ecs.html" title="Vulnerability &amp; Workload Protection (DevSecOps) with CodePipeline, CodeBuild, ECR &amp; ECS" class="dd-item 
-        parent
-        active
+        
+        
         
         ">
       <a href="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/7_vuln_workload_protection_ecs.html">
@@ -1223,7 +1223,13 @@
             
           
           
-            <a href='https://lacework-alliances.github.io/aws-immersion-day-with-lacework/'>AWS Immersion Day with Lacework</a> > Vulnerability & Workload Protection (DevSecOps) with CodePipeline, CodeBuild, ECR & ECS
+            
+            
+          
+          
+            <a href='https://lacework-alliances.github.io/aws-immersion-day-with-lacework/'>AWS Immersion Day with Lacework</a> > <a href='https://lacework-alliances.github.io/aws-immersion-day-with-lacework/5_cspm_plus.html'>Advanced Cloud Security Posture Management (CSPM+)</a> > The Lacework Anomaly Detection
+          
+        
           
         
           
@@ -1234,15 +1240,7 @@
                 
                     <div class="progress">
     <div class="wrapper">
-<nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#what-we-will-do">What We Will Do</a></li>
-<li><a href="#pipeline">Pipeline</a></li>
-</ul></li>
-</ul>
-</nav>
+
     </div>
 </div>
 
@@ -1258,37 +1256,43 @@
           
             <h1>
               
-              Vulnerability &amp; Workload Protection (DevSecOps) with CodePipeline, CodeBuild, ECR &amp; ECS
+              The Lacework Anomaly Detection
             </h1>
           
 
         
 
 
-
-	
-
-<p>In this section, we will set up a CI/CD pipeline with AWS CodePipeline and CodeBuild. Our pipeline will take our code from CodeCommit and build a docker image. It will the image to Amazon Elastic Container Registry (ECR). Then we will deploy it to a staging environment that runs on an Amazon Elastic Container Service (ECS) cluster using CodeBuild. At each stage, Lacework protects your application and cloud environment.</p>
-
-<h2 id="what-we-will-do">What We Will Do</h2>
+<p>In the previous sections, we looked at prevention - identifying issues that make you vulnerable to an attack. Now we will look at Lacework&rsquo;s anomaly detection events with Polygraph. The Lacework Polygraph analyzes an array of cloud factors to detect breaches. There are currently six Lacework polygraph analysis groups:</p>
 
 <ul>
-<li>Review the CI/CD architecture.</li>
-<li>Review the CloudFormation template that was used to set up the lab.</li>
-<li>Inspect the configuration of CodePipeline, CodeBuild, CodeDeploy, ECR, ECS and Lacework components.</li>
-<li>Execute the pipeline manually.</li>
-<li>Understand how Lacework protects your DevOps pipeline and multiple stages.</li>
+<li>Application/process communications</li>
+<li>Application launches</li>
+<li>Machine communications</li>
+<li>Machine servers</li>
+<li>Privilege changes</li>
+<li>Insider behaviors</li>
 </ul>
 
-<h2 id="pipeline">Pipeline</h2>
+<ol>
+<li>Go to <strong>Events</strong> in your Lacework Console.</li>
+<li>In the <strong>Timeline</strong>, filter on the <strong>Last 7 days</strong> and <strong>Anomalies</strong>. This filters on anomaly events.
+<img src="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/images/lacework-events-anomalies.png" alt="Lacework Events Anomalies" />
 
-<p><img src="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/images/pipeline-ecs.png" alt="Pipeline" /></p>
+<div class="notices info" ><p>Anomaly events are detected through Lacework&rsquo;s Polygraph machine learning technology. Polygraph tracks the user and API activities and detects anomalous and potentially malicious behavior.</p>
+</div>
+</li>
+<li>Find the event <strong>New AWS User</strong> with name <em>badguy</em>. This is event ID 184. You can also use the <strong>Search</strong> field.</li>
+<li>Click on this event to see the event summary. This shows you when the event occurred and for which AWS account.
+<img src="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/images/anom-lacework-event-summary.png" alt="Lacework event summary" /></li>
+<li>Click on the <strong>Details</strong> icon on the event. This will take you to the Event Dossier and provide more detail.
+<img src="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/images/anom-lacework-event-dossier.png" alt="Lacework event dossier" /></li>
+<li>Expand the <strong>MORE DETAIL</strong> link.</li>
+<li>API Calls to s3:ListBuckets along with a kms:GenerateDataKey shows the user searching S3 buckets and then initiating a large KMS encryption task.</li>
+</ol>
 
 
-
-
-
-<footer class=" footline" >
+<footer class="footline">
 	
 </footer>
 
@@ -1723,6 +1727,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -1742,18 +1747,8 @@
             
                 
                     
-                
-                
-
-                    
-                    
-                    
-
-                    
                         
-            
-            
-                
+                        
                     
                 
                 
@@ -1762,9 +1757,6 @@
                     
                     
 
-                    
-            
-        
                     
                         
             
@@ -1878,6 +1870,22 @@
             
         
                     
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
             
         
                     
@@ -1886,7 +1894,6 @@
             
                 
                     
-                    
                 
                 
 
@@ -1899,9 +1906,6 @@
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -2054,10 +2058,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_eks/68_view_security_results.html" title="View Security Results in Lacework"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/5_cspm_plus/52_compliance.html" title="Cloud Security Compliance"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/7_vuln_workload_protection_ecs/71_arch.html" title="Architecture" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/6_vuln_workload_protection_eks.html" title="Vulnerability &amp; Workload Protection (DevSecOps) with CodePipeline, CodeBuild, ECR &amp; EKS" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -2067,19 +2071,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/js/clipboard.min.js?1653450954"></script>
-    <script src="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/js/perfect-scrollbar.min.js?1653450954"></script>
-    <script src="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/js/perfect-scrollbar.jquery.min.js?1653450954"></script>
-    <script src="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/js/jquery.sticky.js?1653450954"></script>
-    <script src="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/js/featherlight.min.js?1653450954"></script>
-    <script src="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/js/highlight.pack.js?1653450954"></script>
+    <script src="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/js/clipboard.min.js?1653450953"></script>
+    <script src="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/js/perfect-scrollbar.min.js?1653450953"></script>
+    <script src="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/js/perfect-scrollbar.jquery.min.js?1653450953"></script>
+    <script src="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/js/jquery.sticky.js?1653450953"></script>
+    <script src="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/js/featherlight.min.js?1653450953"></script>
+    <script src="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/js/highlight.pack.js?1653450953"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/js/modernizr.custom-3.6.0.js?1653450954"></script>
-    <script src="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/js/learn.js?1653450954"></script>
-    <script src="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/js/hugo-learn.js?1653450954"></script>
+    <script src="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/js/modernizr.custom-3.6.0.js?1653450953"></script>
+    <script src="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/js/learn.js?1653450953"></script>
+    <script src="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/js/hugo-learn.js?1653450953"></script>
     
         
-            <script src="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/mermaid/mermaid.js?1653450954"></script>
+            <script src="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/mermaid/mermaid.js?1653450953"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });
@@ -2089,3 +2093,4 @@
 
   </body>
 </html>
+
