@@ -1,5 +1,5 @@
 #baseURL = "/"
-baseURL = "https://lacework-alliances.github.io/aws-immersion-day-with-lacework/"
+baseURL = "https://lacework-alliances.github.io/aws-immersion-day/"
 languageCode = "en-US"
 defaultContentLanguage = "oyo"
 

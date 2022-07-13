@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Seamless Multi-Account Security: Lacework with AWS Control Tower on AWS Immersion Day with Lacework</title>
-    <link>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/3_aws_control_tower.html</link>
+    <link>https://lacework-alliances.github.io/aws-immersion-day/3_aws_control_tower.html</link>
     <description>Recent content in Seamless Multi-Account Security: Lacework with AWS Control Tower on AWS Immersion Day with Lacework</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language><atom:link href="https://lacework-alliances.github.io/aws-immersion-day-with-lacework/3_aws_control_tower/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-US</language><atom:link href="https://lacework-alliances.github.io/aws-immersion-day/3_aws_control_tower/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How It Works</title>
-      <link>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/3_aws_control_tower/31_lct_how_it_works.html</link>
+      <link>https://lacework-alliances.github.io/aws-immersion-day/3_aws_control_tower/31_lct_how_it_works.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/3_aws_control_tower/31_lct_how_it_works.html</guid>
+      <guid>https://lacework-alliances.github.io/aws-immersion-day/3_aws_control_tower/31_lct_how_it_works.html</guid>
       <description>The Lacework AWS Control Tower integration audits and monitors AWS accounts in your AWS Control Tower Landing Zone. Your Landing Zone is your multi-account environment for which you can apply your governance, auditing and monitoring. On initial setup, the Lacework AWS Control Tower integration creates a new cross-account role in the Log Archive account and a new SQS queue is set up in the Audit account. The SQS queue allows Lacework to receive notifications of new audit logs in S3 from the centralized CloudTrail that collects activity from all accounts.</description>
     </item>
     
     <item>
       <title>Lacework Control Tower Integration Setup</title>
-      <link>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/3_aws_control_tower/32_lct_integration_setup.html</link>
+      <link>https://lacework-alliances.github.io/aws-immersion-day/3_aws_control_tower/32_lct_integration_setup.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/3_aws_control_tower/32_lct_integration_setup.html</guid>
+      <guid>https://lacework-alliances.github.io/aws-immersion-day/3_aws_control_tower/32_lct_integration_setup.html</guid>
       <description>In this section, we will walk through the installation of the Lacework AWS Control Tower integration with CloudFormation. The installation requires using your Lacework console to create API credentials and your AWS CloudFormation console to deploy an integration stack.
 Prerequisites You need the following prerequisites to implement the Lacework AWS Control Tower integration.
  AWS Control Tower with a Landing Zone. For information about setting up an AWS Control Tower landing zone, see Getting Started with AWS Control Tower in the AWS Control Tower User Guide.</description>
@@ -28,30 +28,30 @@ Prerequisites You need the following prerequisites to implement the Lacework AWS
     
     <item>
       <title>Generate a Lacework API Access Key</title>
-      <link>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/3_aws_control_tower/33_lct_api_access_key.html</link>
+      <link>https://lacework-alliances.github.io/aws-immersion-day/3_aws_control_tower/33_lct_api_access_key.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/3_aws_control_tower/33_lct_api_access_key.html</guid>
+      <guid>https://lacework-alliances.github.io/aws-immersion-day/3_aws_control_tower/33_lct_api_access_key.html</guid>
       <description>A Lacework API access key is used by the Lacework AWS Control Tower integration to make API calls and configure Lacework accounts. Follow the next steps to create the key.
  In your Lacework Console, go to Settings &amp;gt; API Keys.  Click on the + Add New button in the upper right to create a new API key. Provide a name and description and click Save. Click the download button to download the API keys file.</description>
     </item>
     
     <item>
       <title>Launch the AWS CloudFormation Template</title>
-      <link>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/3_aws_control_tower/34_lct_launch_cloudformation.html</link>
+      <link>https://lacework-alliances.github.io/aws-immersion-day/3_aws_control_tower/34_lct_launch_cloudformation.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/3_aws_control_tower/34_lct_launch_cloudformation.html</guid>
+      <guid>https://lacework-alliances.github.io/aws-immersion-day/3_aws_control_tower/34_lct_launch_cloudformation.html</guid>
       <description>The Lacework AWS Control Tower integration uses CloudFormation to install StackSets, IAM roles, Lambda functions and SQS queues that support the integration. Follow the next steps to install the integration through your AWS CloudFormation console.
  Login in to AWS master account with Administrator permissions. Select the AWS region where your AWS Control Tower is deployed. Click on the following Launch Stack button to go to your CloudFormation console and launch the AWS Control Integration template.</description>
     </item>
     
     <item>
       <title>Validate the Setup</title>
-      <link>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/3_aws_control_tower/35_lct_validate_integration.html</link>
+      <link>https://lacework-alliances.github.io/aws-immersion-day/3_aws_control_tower/35_lct_validate_integration.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lacework-alliances.github.io/aws-immersion-day-with-lacework/3_aws_control_tower/35_lct_validate_integration.html</guid>
+      <guid>https://lacework-alliances.github.io/aws-immersion-day/3_aws_control_tower/35_lct_validate_integration.html</guid>
       <description>You can validate the integration by checking the cloud accounts in your Lacework console. If you chose to monitor existing accounts, any ACTIVE AWS accounts will be added along with the master account for the centralized CloudTrail logging. Follow the next steps to verify the accounts.
  Login to your Lacework Cloud Security Platform console. Go to Settings &amp;gt; Cloud Accounts. You should see a list of AWS accounts that are now being monitored by Lacework.</description>
     </item>
