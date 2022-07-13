@@ -56,7 +56,7 @@ weight = 10
 [[menu.shortcuts]]
 name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
 identifier = "repo"
-url = "https://github.com/jefferyfry/aws-immersion-day-with-lacework-code"
+url = "https://github.com/jefferyfry/aws-immersion-day-code"
 weight = 20
 
 [[menu.shortcuts]]
