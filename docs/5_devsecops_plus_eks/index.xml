@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DevSecOps&#43;: Secured Software Delivery Pipeline with EKS on AWS Immersion Day with Lacework</title>
+    <link>https://lacework-alliances.github.io/aws-immersion-day/5_devsecops_plus_eks.html</link>
+    <description>Recent content in DevSecOps&#43;: Secured Software Delivery Pipeline with EKS on AWS Immersion Day with Lacework</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="https://lacework-alliances.github.io/aws-immersion-day/5_devsecops_plus_eks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Architecture</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day/5_devsecops_plus_eks/51_arch.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacework-alliances.github.io/aws-immersion-day/5_devsecops_plus_eks/51_arch.html</guid>
+      <description>The architecture for this section is depicted below.</description>
+    </item>
+    
+    <item>
+      <title>Lacework, CodePipeline, CodeBuild, CodeGuru, ECR &amp; EKS in CloudFormation</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day/5_devsecops_plus_eks/52_cloudformation.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacework-alliances.github.io/aws-immersion-day/5_devsecops_plus_eks/52_cloudformation.html</guid>
+      <description>Lacework, CodePipeline, CodeBuild, ECR &amp;amp; EKS for our CI/CD pipeline is provisioned using CloudFormation. We will review these CloudFormation templates.
+ Go to https://github.com/lacework-alliances/aws-immersion-day-with-lacework-code in your browser.  Go to the templates directory and view the setup-pipelines.template.yml. This CloudFormation template provisions CodePipeline, CodeBuild &amp;amp; ECR resources. CodeBuild requires buildspec files. Go to the app directory and view the codebuild-scan-push.yaml and codebuild-deploy-eks.yaml files. codebuild-scan-push.yaml has the commands to perform a docker build, Lacework image vulnerability scan and docker push to ECR.</description>
+    </item>
+    
+    <item>
+      <title>CodePipeline: A DevSecOps Pipeline</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day/5_devsecops_plus_eks/53_codepipeline.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacework-alliances.github.io/aws-immersion-day/5_devsecops_plus_eks/53_codepipeline.html</guid>
+      <description>AWS CodePipeline orchestrates our CI/CD process. It pulls our code from a S3 bucket and then uses AWS CodeBuild to build, scan and push our application container image.
+ Go to AWS CodePipeline in your AWS console.  Click on the AWSSecuredPipeline pipeline. This pipeline has 11 phases:
+ Source: pulls the application source code from Amazon S3. ScanCode performs a Java code analysis and identifies security issues. ScanIaC scans the CloudFormation and Kubernetes manifest to identify security misconfigurations.</description>
+    </item>
+    
+    <item>
+      <title>Source Phase</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day/5_devsecops_plus_eks/54_source_phase.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacework-alliances.github.io/aws-immersion-day/5_devsecops_plus_eks/54_source_phase.html</guid>
+      <description>The Build phase includes the commands to build, scan and push our image. CodeBuild uses a build project which can be defined through a YAML file.
+ Review the codebuild-scan-push.yaml again. This file defines this Build phase. In your CodePipeline console, expand Build and click on Build projects.  Click on the codebuild-build Build project.  You can view the Build history, Build details and Metrics.   </description>
+    </item>
+    
+    <item>
+      <title>ScanCode Phase</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day/5_devsecops_plus_eks/55_scancode_phase.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacework-alliances.github.io/aws-immersion-day/5_devsecops_plus_eks/55_scancode_phase.html</guid>
+      <description>The Build phase includes the commands to build, scan and push our image. CodeBuild uses a build project which can be defined through a YAML file.
+ Review the codebuild-scan-push.yaml again. This file defines this Build phase. In your CodePipeline console, expand Build and click on Build projects.  Click on the codebuild-build Build project.  You can view the Build history, Build details and Metrics.   </description>
+    </item>
+    
+    <item>
+      <title>ScanIaC Phase</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day/5_devsecops_plus_eks/56_scaniac_phase.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacework-alliances.github.io/aws-immersion-day/5_devsecops_plus_eks/56_scaniac_phase.html</guid>
+      <description>The Build phase includes the commands to build, scan and push our image. CodeBuild uses a build project which can be defined through a YAML file.
+ Review the codebuild-scan-push.yaml again. This file defines this Build phase. In your CodePipeline console, expand Build and click on Build projects.  Click on the codebuild-build Build project.  You can view the Build history, Build details and Metrics.   </description>
+    </item>
+    
+    <item>
+      <title>BuildScanPush Phase</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day/5_devsecops_plus_eks/57_buildscanpush_phase.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacework-alliances.github.io/aws-immersion-day/5_devsecops_plus_eks/57_buildscanpush_phase.html</guid>
+      <description>The Build phase includes the commands to build, scan and push our image. CodeBuild uses a build project which can be defined through a YAML file.
+ Review the codebuild-scan-push.yaml again. This file defines this Build phase. In your CodePipeline console, expand Build and click on Build projects.  Click on the codebuild-build Build project.  You can view the Build history, Build details and Metrics.   </description>
+    </item>
+    
+    <item>
+      <title>ScanStagingImage Phase</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day/5_devsecops_plus_eks/58_scanstagingimage_phase.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacework-alliances.github.io/aws-immersion-day/5_devsecops_plus_eks/58_scanstagingimage_phase.html</guid>
+      <description>The Build phase includes the commands to build, scan and push our image. CodeBuild uses a build project which can be defined through a YAML file.
+ Review the codebuild-scan-push.yaml again. This file defines this Build phase. In your CodePipeline console, expand Build and click on Build projects.  Click on the codebuild-build Build project.  You can view the Build history, Build details and Metrics.   </description>
+    </item>
+    
+    <item>
+      <title>DeployToStaging Phase</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day/5_devsecops_plus_eks/59_deploytostaging_phase.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacework-alliances.github.io/aws-immersion-day/5_devsecops_plus_eks/59_deploytostaging_phase.html</guid>
+      <description>The Build phase includes the commands to build, scan and push our image. CodeBuild uses a build project which can be defined through a YAML file.
+ Review the codebuild-scan-push.yaml again. This file defines this Build phase. In your CodePipeline console, expand Build and click on Build projects.  Click on the codebuild-build Build project.  You can view the Build history, Build details and Metrics.   </description>
+    </item>
+    
+    <item>
+      <title>ScanStagingConfig Phase</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day/5_devsecops_plus_eks/510_scanstagingconfig_phase.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacework-alliances.github.io/aws-immersion-day/5_devsecops_plus_eks/510_scanstagingconfig_phase.html</guid>
+      <description>The Build phase includes the commands to build, scan and push our image. CodeBuild uses a build project which can be defined through a YAML file.
+ Review the codebuild-scan-push.yaml again. This file defines this Build phase. In your CodePipeline console, expand Build and click on Build projects.  Click on the codebuild-build Build project.  You can view the Build history, Build details and Metrics.   </description>
+    </item>
+    
+    <item>
+      <title>Approval Phase</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day/5_devsecops_plus_eks/511_approvalstage_phase.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacework-alliances.github.io/aws-immersion-day/5_devsecops_plus_eks/511_approvalstage_phase.html</guid>
+      <description>The Build phase includes the commands to build, scan and push our image. CodeBuild uses a build project which can be defined through a YAML file.
+ Review the codebuild-scan-push.yaml again. This file defines this Build phase. In your CodePipeline console, expand Build and click on Build projects.  Click on the codebuild-build Build project.  You can view the Build history, Build details and Metrics.   </description>
+    </item>
+    
+    <item>
+      <title>PromoteToProdRepo Phase</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day/5_devsecops_plus_eks/512_promotetoprodrepo_phase.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacework-alliances.github.io/aws-immersion-day/5_devsecops_plus_eks/512_promotetoprodrepo_phase.html</guid>
+      <description>The Build phase includes the commands to build, scan and push our image. CodeBuild uses a build project which can be defined through a YAML file.
+ Review the codebuild-scan-push.yaml again. This file defines this Build phase. In your CodePipeline console, expand Build and click on Build projects.  Click on the codebuild-build Build project.  You can view the Build history, Build details and Metrics.   </description>
+    </item>
+    
+    <item>
+      <title>ScanProdImage Phase</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day/5_devsecops_plus_eks/513_scanprodimage_phase.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacework-alliances.github.io/aws-immersion-day/5_devsecops_plus_eks/513_scanprodimage_phase.html</guid>
+      <description>The Build phase includes the commands to build, scan and push our image. CodeBuild uses a build project which can be defined through a YAML file.
+ Review the codebuild-scan-push.yaml again. This file defines this Build phase. In your CodePipeline console, expand Build and click on Build projects.  Click on the codebuild-build Build project.  You can view the Build history, Build details and Metrics.   </description>
+    </item>
+    
+    <item>
+      <title>DeployToProduction Phase</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day/5_devsecops_plus_eks/514_deploytoprod_phase.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacework-alliances.github.io/aws-immersion-day/5_devsecops_plus_eks/514_deploytoprod_phase.html</guid>
+      <description>The Build phase includes the commands to build, scan and push our image. CodeBuild uses a build project which can be defined through a YAML file.
+ Review the codebuild-scan-push.yaml again. This file defines this Build phase. In your CodePipeline console, expand Build and click on Build projects.  Click on the codebuild-build Build project.  You can view the Build history, Build details and Metrics.   </description>
+    </item>
+    
+  </channel>
+</rss>
