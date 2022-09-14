@@ -190,7 +190,7 @@ In this section, we will explore container vulnerabilities.</description>
       
       <guid>https://lacework-alliances.github.io/aws-immersion-day/5_devsecops_plus_eks/52_cloudformation.html</guid>
       <description>Lacework, CodePipeline, CodeBuild, ECR &amp;amp; EKS for our CI/CD pipeline is provisioned using CloudFormation. We will review these CloudFormation templates.
- Go to https://github.com/lacework-alliances/aws-immersion-day-with-lacework-code in your browser.  Go to the templates directory and view the setup-pipelines.template.yml. This CloudFormation template provisions CodePipeline, CodeBuild &amp;amp; ECR resources. CodeBuild requires buildspec files. Go to the app directory and view the codebuild-scan-push.yaml and codebuild-deploy-eks.yaml files. codebuild-scan-push.yaml has the commands to perform a docker build, Lacework image vulnerability scan and docker push to ECR.</description>
+ Go to https://github.com/lacework-alliances/aws-immersion-day-code in your browser.  Go to the templates directory and view the setup-pipelines.template.yml. This CloudFormation template provisions CodePipeline, CodeBuild &amp;amp; ECR resources. CodeBuild requires buildspec files. Go to the app directory and view the codebuild-scan-push.yaml and codebuild-deploy-eks.yaml files. codebuild-scan-push.yaml has the commands to perform a docker build, Lacework image vulnerability scan and docker push to ECR.</description>
     </item>
     
     <item>

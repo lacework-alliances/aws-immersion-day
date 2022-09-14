@@ -12,21 +12,21 @@
     <title>Lacework, CodePipeline, CodeBuild, CodeGuru, ECR &amp; EKS in CloudFormation :: AWS Immersion Day with Lacework</title>
 
     
-    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/nucleus.css?1663113157" rel="stylesheet">
-    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/fontawesome-all.min.css?1663113157" rel="stylesheet">
-    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/hybrid.css?1663113157" rel="stylesheet">
-    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/featherlight.min.css?1663113157" rel="stylesheet">
-    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/perfect-scrollbar.min.css?1663113157" rel="stylesheet">
-    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/auto-complete.css?1663113157" rel="stylesheet">
-    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/atom-one-dark-reasonable.css?1663113157" rel="stylesheet">
-    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/theme.css?1663113157" rel="stylesheet">
-    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/hugo-theme.css?1663113157" rel="stylesheet">
+    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/nucleus.css?1663170724" rel="stylesheet">
+    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/fontawesome-all.min.css?1663170724" rel="stylesheet">
+    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/hybrid.css?1663170724" rel="stylesheet">
+    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/featherlight.min.css?1663170724" rel="stylesheet">
+    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/perfect-scrollbar.min.css?1663170724" rel="stylesheet">
+    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/auto-complete.css?1663170724" rel="stylesheet">
+    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/atom-one-dark-reasonable.css?1663170724" rel="stylesheet">
+    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/theme.css?1663170724" rel="stylesheet">
+    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/hugo-theme.css?1663170724" rel="stylesheet">
     
-    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/theme-mine.css?1663113157" rel="stylesheet">
+    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/theme-mine.css?1663170724" rel="stylesheet">
     
     
 
-    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/jquery-3.3.1.min.js?1663113157"></script>
+    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/jquery-3.3.1.min.js?1663170724"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -77,14 +77,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="https://lacework-alliances.github.io/aws-immersion-day/js/lunr.min.js?1663113157"></script>
-<script type="text/javascript" src="https://lacework-alliances.github.io/aws-immersion-day/js/auto-complete.js?1663113157"></script>
+<script type="text/javascript" src="https://lacework-alliances.github.io/aws-immersion-day/js/lunr.min.js?1663170724"></script>
+<script type="text/javascript" src="https://lacework-alliances.github.io/aws-immersion-day/js/auto-complete.js?1663170724"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/lacework-alliances.github.io\/aws-immersion-day\/";
     
 </script>
-<script type="text/javascript" src="https://lacework-alliances.github.io/aws-immersion-day/js/search.js?1663113157"></script>
+<script type="text/javascript" src="https://lacework-alliances.github.io/aws-immersion-day/js/search.js?1663170724"></script>
 
     
   </div>
@@ -1068,7 +1068,7 @@
 <p>Lacework, CodePipeline, CodeBuild, ECR &amp; EKS for our CI/CD pipeline is provisioned using CloudFormation. We will review these CloudFormation templates.</p>
 
 <ol>
-<li>Go to <a href="https://github.com/lacework-alliances/aws-immersion-day-with-lacework-code" target="_blank">https://github.com/lacework-alliances/aws-immersion-day-with-lacework-code</a> in your browser.
+<li>Go to <a href="https://github.com/lacework-alliances/aws-immersion-day-code" target="_blank">https://github.com/lacework-alliances/aws-immersion-day-code</a> in your browser.
 <img src="https://lacework-alliances.github.io/aws-immersion-day/images/lacework-code-github.png" alt="Lacework Code Github" /></li>
 <li>Go to the <em>templates</em> directory and view the <em>setup-pipelines.template.yml</em>. This CloudFormation template provisions CodePipeline, CodeBuild &amp; ECR resources.</li>
 <li>CodeBuild requires <em>buildspec</em> files. Go to the <em>app</em> directory and view the codebuild-scan-push.yaml and codebuild-deploy-eks.yaml files. codebuild-scan-push.yaml has the commands to perform a docker build, Lacework image vulnerability scan and docker push to ECR. codebuild-deploy-eks.yaml deploys the container to the EKS cluster.</li>
@@ -1729,19 +1729,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/clipboard.min.js?1663113157"></script>
-    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/perfect-scrollbar.min.js?1663113157"></script>
-    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/perfect-scrollbar.jquery.min.js?1663113157"></script>
-    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/jquery.sticky.js?1663113157"></script>
-    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/featherlight.min.js?1663113157"></script>
-    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/highlight.pack.js?1663113157"></script>
+    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/clipboard.min.js?1663170724"></script>
+    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/perfect-scrollbar.min.js?1663170724"></script>
+    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/perfect-scrollbar.jquery.min.js?1663170724"></script>
+    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/jquery.sticky.js?1663170724"></script>
+    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/featherlight.min.js?1663170724"></script>
+    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/highlight.pack.js?1663170724"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/modernizr.custom-3.6.0.js?1663113157"></script>
-    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/learn.js?1663113157"></script>
-    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/hugo-learn.js?1663113157"></script>
+    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/modernizr.custom-3.6.0.js?1663170724"></script>
+    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/learn.js?1663170724"></script>
+    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/hugo-learn.js?1663170724"></script>
     
         
-            <script src="https://lacework-alliances.github.io/aws-immersion-day/mermaid/mermaid.js?1663113157"></script>
+            <script src="https://lacework-alliances.github.io/aws-immersion-day/mermaid/mermaid.js?1663170724"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });
