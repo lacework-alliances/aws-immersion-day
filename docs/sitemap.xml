@@ -10,9 +10,9 @@
   </url><url>
     <loc>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview.html</loc>
   </url><url>
-    <loc>https://lacework-alliances.github.io/aws-immersion-day/4_cspm_plus.html</loc>
+    <loc>https://lacework-alliances.github.io/aws-immersion-day/4_devsecops_plus_eks.html</loc>
   </url><url>
-    <loc>https://lacework-alliances.github.io/aws-immersion-day/5_devsecops_plus_eks.html</loc>
+    <loc>https://lacework-alliances.github.io/aws-immersion-day/5_cspm_plus.html</loc>
   </url><url>
     <loc>https://lacework-alliances.github.io/aws-immersion-day/1_event_engine_setup/11_aws_event_account.html</loc>
   </url><url>
@@ -42,41 +42,41 @@
   </url><url>
     <loc>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/36_alert_channels_rules.html</loc>
   </url><url>
-    <loc>https://lacework-alliances.github.io/aws-immersion-day/4_cspm_plus/41_anatomy_attack.html</loc>
+    <loc>https://lacework-alliances.github.io/aws-immersion-day/4_devsecops_plus_eks/41_arch.html</loc>
   </url><url>
-    <loc>https://lacework-alliances.github.io/aws-immersion-day/4_cspm_plus/42_compliance.html</loc>
+    <loc>https://lacework-alliances.github.io/aws-immersion-day/4_devsecops_plus_eks/42_cloudformation.html</loc>
   </url><url>
-    <loc>https://lacework-alliances.github.io/aws-immersion-day/4_cspm_plus/43_anomaly.html</loc>
+    <loc>https://lacework-alliances.github.io/aws-immersion-day/4_devsecops_plus_eks/43_codepipeline.html</loc>
   </url><url>
-    <loc>https://lacework-alliances.github.io/aws-immersion-day/5_devsecops_plus_eks/51_arch.html</loc>
+    <loc>https://lacework-alliances.github.io/aws-immersion-day/4_devsecops_plus_eks/44_source_phase.html</loc>
   </url><url>
-    <loc>https://lacework-alliances.github.io/aws-immersion-day/5_devsecops_plus_eks/52_cloudformation.html</loc>
+    <loc>https://lacework-alliances.github.io/aws-immersion-day/4_devsecops_plus_eks/45_scancode_phase.html</loc>
   </url><url>
-    <loc>https://lacework-alliances.github.io/aws-immersion-day/5_devsecops_plus_eks/53_codepipeline.html</loc>
+    <loc>https://lacework-alliances.github.io/aws-immersion-day/4_devsecops_plus_eks/46_scaniac_phase.html</loc>
   </url><url>
-    <loc>https://lacework-alliances.github.io/aws-immersion-day/5_devsecops_plus_eks/54_source_phase.html</loc>
+    <loc>https://lacework-alliances.github.io/aws-immersion-day/4_devsecops_plus_eks/47_buildscanpush_phase.html</loc>
   </url><url>
-    <loc>https://lacework-alliances.github.io/aws-immersion-day/5_devsecops_plus_eks/55_scancode_phase.html</loc>
+    <loc>https://lacework-alliances.github.io/aws-immersion-day/4_devsecops_plus_eks/48_scanstagingimage_phase.html</loc>
   </url><url>
-    <loc>https://lacework-alliances.github.io/aws-immersion-day/5_devsecops_plus_eks/56_scaniac_phase.html</loc>
+    <loc>https://lacework-alliances.github.io/aws-immersion-day/4_devsecops_plus_eks/49_deploytostaging_phase.html</loc>
   </url><url>
-    <loc>https://lacework-alliances.github.io/aws-immersion-day/5_devsecops_plus_eks/57_buildscanpush_phase.html</loc>
+    <loc>https://lacework-alliances.github.io/aws-immersion-day/5_cspm_plus/51_anatomy_attack.html</loc>
   </url><url>
-    <loc>https://lacework-alliances.github.io/aws-immersion-day/5_devsecops_plus_eks/58_scanstagingimage_phase.html</loc>
+    <loc>https://lacework-alliances.github.io/aws-immersion-day/5_cspm_plus/52_compliance.html</loc>
   </url><url>
-    <loc>https://lacework-alliances.github.io/aws-immersion-day/5_devsecops_plus_eks/59_deploytostaging_phase.html</loc>
+    <loc>https://lacework-alliances.github.io/aws-immersion-day/5_cspm_plus/53_anomaly.html</loc>
   </url><url>
     <loc>https://lacework-alliances.github.io/aws-immersion-day/099_survey/_index.ee.html</loc>
   </url><url>
-    <loc>https://lacework-alliances.github.io/aws-immersion-day/5_devsecops_plus_eks/510_scanstagingconfig_phase.html</loc>
+    <loc>https://lacework-alliances.github.io/aws-immersion-day/4_devsecops_plus_eks/410_scanstagingconfig_phase.html</loc>
   </url><url>
-    <loc>https://lacework-alliances.github.io/aws-immersion-day/5_devsecops_plus_eks/511_approvalstage_phase.html</loc>
+    <loc>https://lacework-alliances.github.io/aws-immersion-day/4_devsecops_plus_eks/411_approvalstage_phase.html</loc>
   </url><url>
-    <loc>https://lacework-alliances.github.io/aws-immersion-day/5_devsecops_plus_eks/512_promotetoprodrepo_phase.html</loc>
+    <loc>https://lacework-alliances.github.io/aws-immersion-day/4_devsecops_plus_eks/412_promotetoprodrepo_phase.html</loc>
   </url><url>
-    <loc>https://lacework-alliances.github.io/aws-immersion-day/5_devsecops_plus_eks/513_scanprodimage_phase.html</loc>
+    <loc>https://lacework-alliances.github.io/aws-immersion-day/4_devsecops_plus_eks/413_scanprodimage_phase.html</loc>
   </url><url>
-    <loc>https://lacework-alliances.github.io/aws-immersion-day/5_devsecops_plus_eks/514_deploytoprod_phase.html</loc>
+    <loc>https://lacework-alliances.github.io/aws-immersion-day/4_devsecops_plus_eks/414_deploytoprod_phase.html</loc>
   </url><url>
     <loc>https://lacework-alliances.github.io/aws-immersion-day/categories.html</loc>
   </url><url>

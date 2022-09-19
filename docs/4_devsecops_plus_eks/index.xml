@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DevSecOps&#43;: Secured Software Delivery Pipeline with EKS on AWS Immersion Day with Lacework</title>
+    <link>https://lacework-alliances.github.io/aws-immersion-day/4_devsecops_plus_eks.html</link>
+    <description>Recent content in DevSecOps&#43;: Secured Software Delivery Pipeline with EKS on AWS Immersion Day with Lacework</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="https://lacework-alliances.github.io/aws-immersion-day/4_devsecops_plus_eks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Architecture</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day/4_devsecops_plus_eks/41_arch.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacework-alliances.github.io/aws-immersion-day/4_devsecops_plus_eks/41_arch.html</guid>
+      <description>The architecture for this section is depicted below.</description>
+    </item>
+    
+    <item>
+      <title>Lacework, CodePipeline, CodeBuild, CodeGuru, ECR &amp; EKS in CloudFormation</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day/4_devsecops_plus_eks/42_cloudformation.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacework-alliances.github.io/aws-immersion-day/4_devsecops_plus_eks/42_cloudformation.html</guid>
+      <description>Lacework, CodePipeline, CodeBuild, ECR &amp;amp; EKS for our CI/CD pipeline is provisioned using CloudFormation. We will review these CloudFormation templates.
+ Go to https://github.com/lacework-alliances/aws-immersion-day-code in your browser.  Go to the templates directory and view the setup-pipelines.template.yml. This CloudFormation template provisions CodePipeline, CodeBuild &amp;amp; ECR resources. CodeBuild requires buildspec files. Go to the app directory and view the codebuild-scan-push.yaml and codebuild-deploy-eks.yaml files. codebuild-scan-push.yaml has the commands to perform a docker build, Lacework image vulnerability scan and docker push to ECR.</description>
+    </item>
+    
+    <item>
+      <title>CodePipeline: A DevSecOps Pipeline</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day/4_devsecops_plus_eks/43_codepipeline.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacework-alliances.github.io/aws-immersion-day/4_devsecops_plus_eks/43_codepipeline.html</guid>
+      <description>AWS CodePipeline orchestrates our CI/CD process. It pulls our code from a S3 bucket and then uses AWS CodeBuild to build, scan and push our application container image.
+ Go to AWS CodePipeline in your AWS console.  Click on the AWSSecuredPipeline pipeline. This pipeline has 11 phases:
+ Source: pulls the application source code from Amazon S3. ScanCode performs a Java code analysis and identifies security issues. ScanIaC scans the CloudFormation and Kubernetes manifest to identify security misconfigurations.</description>
+    </item>
+    
+    <item>
+      <title>Source Phase</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day/4_devsecops_plus_eks/44_source_phase.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacework-alliances.github.io/aws-immersion-day/4_devsecops_plus_eks/44_source_phase.html</guid>
+      <description>The Source phase use a Codepipeline source action to pull our code from a zipped archive in an S3 bucket. This zipped archive contains our source code, K8s manifests and CodeBuild buildspec files. Other source options are also available such as Github and Bitbucket are available through Codestar Connections.
+The Cloudformation specification of source from a S3 zipped archive for our workshop:
+Stages: - Name: Source Actions: - Name: App ActionTypeId: Category: Source Owner: AWS Version: 1 Provider: S3 Configuration: S3Bucket: !</description>
+    </item>
+    
+    <item>
+      <title>ScanCode Phase</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day/4_devsecops_plus_eks/45_scancode_phase.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacework-alliances.github.io/aws-immersion-day/4_devsecops_plus_eks/45_scancode_phase.html</guid>
+      <description>In the ScanCode phase, we check our source code for security issues using AWS CodeGuru. AWS CodeGuru can also recommend code quality improvements.
+The Cloudformation specification of the ScanCode phase is as follows:
+- Name: ScanCode Actions: - Name: ScanCode ActionTypeId: Category: Test Owner: AWS Version: 1 Provider: CodeBuild Configuration: ProjectName: !Ref CodeBuildScanCodeProject InputArtifacts: - Name: App OutputArtifacts: - Name: CodeScanOutput RunOrder: 2 This phase is backed by an AWS CodeBuild project CodeBuildScanCodeProject:</description>
+    </item>
+    
+    <item>
+      <title>ScanIaC Phase</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day/4_devsecops_plus_eks/46_scaniac_phase.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacework-alliances.github.io/aws-immersion-day/4_devsecops_plus_eks/46_scaniac_phase.html</guid>
+      <description>In the ScanIaC phase, we check our infrastructure as code (IaC) files for security misconfigurations that could make us vulnerable due to items like mis-configured security groups, IAM policies and more. We use the Lacework CLI to check for IaC misconfigurations. Lacework IaC security can check Terraform, CloudFormation, Helm, Kustomize and Kubernetes manifest files for security issues. Our workshop codebase uses CloudFormation and Kubernetes manifests and these will be scanned.</description>
+    </item>
+    
+    <item>
+      <title>BuildScanPush Phase</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day/4_devsecops_plus_eks/47_buildscanpush_phase.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacework-alliances.github.io/aws-immersion-day/4_devsecops_plus_eks/47_buildscanpush_phase.html</guid>
+      <description>In the BuildScanPush phase, we build our Docker image, scan it for software package and OS library security vulnerabilities and if it passes, we push it to ECR. The scanning for software and OS vulnerabilities is also performed by the Lacework CLI (inline scanner).
+The Cloudformation specification of the BuildScanPush phase is as follows:
+- Name: BuildScanPush Actions: - Name: BuildScanPush ActionTypeId: Category: Build Owner: AWS Version: 1 Provider: CodeBuild Configuration: ProjectName: !</description>
+    </item>
+    
+    <item>
+      <title>ScanStagingImage Phase</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day/4_devsecops_plus_eks/48_scanstagingimage_phase.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacework-alliances.github.io/aws-immersion-day/4_devsecops_plus_eks/48_scanstagingimage_phase.html</guid>
+      <description>In the ScanStagingImage phase, we scan our staging repository for software and OS vulnerabilities. Why do we do this? In our example application, we have just one image. But in a real world application you will likely have dozens of images - some authored by your teams while other are 3rd party and open-source. These all need to be checked. Again, we will use the Lacework CLI (registry scanning) to check for vulnerabilities in the staging repository.</description>
+    </item>
+    
+    <item>
+      <title>DeployToStaging Phase</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day/4_devsecops_plus_eks/49_deploytostaging_phase.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacework-alliances.github.io/aws-immersion-day/4_devsecops_plus_eks/49_deploytostaging_phase.html</guid>
+      <description>In the DeployToStaging phase, we deploy our application to our staging environment - an Amazon Elastic Kubernetes Service (EKS) cluster. This is done by applying a Kubernetes deployment manifest (the one that was previously scanned as part of IaC security) that pulls our staging image.
+The Cloudformation specification of the DeployToStaging phase is as follows:
+- Name: DeployToStaging Actions: - Name: DeployToStaging ActionTypeId: Category: Build Owner: AWS Version: 1 Provider: CodeBuild Configuration: ProjectName: !</description>
+    </item>
+    
+    <item>
+      <title>ScanStagingConfig Phase</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day/4_devsecops_plus_eks/410_scanstagingconfig_phase.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacework-alliances.github.io/aws-immersion-day/4_devsecops_plus_eks/410_scanstagingconfig_phase.html</guid>
+      <description>In the ScanStagingConfig phase, we scan our staging environment and check all the active resource configurations to ensure that we don&amp;rsquo;t have misconfigurations that could make us vulnerable. To do this, we use the Lacework CLI (compliance) to run an assessment and determine if we have any issues.
+The Cloudformation specification of the ScanStagingConfig phase is as follows:
+- Name: ScanStagingConfig Actions: - Name: ScanStagingConfig ActionTypeId: Category: Test Owner: AWS Version: 1 Provider: CodeBuild Configuration: ProjectName: !</description>
+    </item>
+    
+    <item>
+      <title>Approval Phase</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day/4_devsecops_plus_eks/411_approvalstage_phase.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacework-alliances.github.io/aws-immersion-day/4_devsecops_plus_eks/411_approvalstage_phase.html</guid>
+      <description>In the ApprovalStage phase, we included a manual approval step before releasing the application to production. Some organizations may have an automated method of approving production deployments, use canary deployments or other methods.</description>
+    </item>
+    
+    <item>
+      <title>PromoteToProdRepo Phase</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day/4_devsecops_plus_eks/412_promotetoprodrepo_phase.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacework-alliances.github.io/aws-immersion-day/4_devsecops_plus_eks/412_promotetoprodrepo_phase.html</guid>
+      <description>In the PromoteToProdRepo phase, we promote our image from a staging to production. Some applications will have multiple images that must be promoted. Depending on the type of Docker registry, promotion may involve special tagging or copying images between repositories. For ECR, we push the image to a production repository.
+The Cloudformation specification of the ScanStagingConfig phase is as follows:
+- Name: PromoteToProductionRepo Actions: - Name: PromoteToProductionRepo ActionTypeId: Category: Build Owner: AWS Version: 1 Provider: CodeBuild Configuration: ProjectName: !</description>
+    </item>
+    
+    <item>
+      <title>ScanProdImage Phase</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day/4_devsecops_plus_eks/413_scanprodimage_phase.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacework-alliances.github.io/aws-immersion-day/4_devsecops_plus_eks/413_scanprodimage_phase.html</guid>
+      <description>In the ScanProdImage phase, we scan our production repository for software and OS vulnerabilities like we did with the staging repository. Why do we do this? It&amp;rsquo;s important to scan your production repositories. In rare cases, application images may mistakenly bypass the software delivery pipeline process and end up in production. This scan is extra assurance that everything is checked. Again, we will use the Lacework CLI (registry scanning) to check for vulnerabilities in the repository.</description>
+    </item>
+    
+    <item>
+      <title>DeployToProduction Phase</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day/4_devsecops_plus_eks/414_deploytoprod_phase.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacework-alliances.github.io/aws-immersion-day/4_devsecops_plus_eks/414_deploytoprod_phase.html</guid>
+      <description>In the final phase, DeployToProduction, we deploy our application to our production environment. This is done by applying a Kubernetes deployment manifest (the one that was previously scanned as part of IaC security) that pulls our production image.
+The Cloudformation specification of the DeployToProduction phase is as follows:
+- Name: DeployToProduction Actions: - Name: DeployToProduction ActionTypeId: Category: Build Owner: AWS Version: 1 Provider: CodeBuild Configuration: ProjectName: !Ref CodeBuildDeployProductionProject InputArtifacts: - Name: App OutputArtifacts: - Name: DeployProductionOutput RunOrder: 11 This phase is backed by an AWS CodeBuild project CodeBuildDeployProductionProject:</description>
+    </item>
+    
+  </channel>
+</rss>

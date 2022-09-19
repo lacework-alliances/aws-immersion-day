@@ -28,10 +28,10 @@
     
     <item>
       <title>The Lacework Anomaly Detection</title>
-      <link>https://lacework-alliances.github.io/aws-immersion-day/5_cspm_plus/54_anomaly.html</link>
+      <link>https://lacework-alliances.github.io/aws-immersion-day/5_cspm_plus/53_anomaly.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lacework-alliances.github.io/aws-immersion-day/5_cspm_plus/54_anomaly.html</guid>
+      <guid>https://lacework-alliances.github.io/aws-immersion-day/5_cspm_plus/53_anomaly.html</guid>
       <description>In the previous sections, we looked at prevention - identifying issues that make you vulnerable to an attack. Now we will look at Lacework&amp;rsquo;s anomaly detection events with Polygraph. The Lacework Polygraph analyzes an array of cloud factors to detect breaches. There are currently six Lacework polygraph analysis groups:
  Application/process communications Application launches Machine communications Machine servers Privilege changes Insider behaviors   Go to Events in your Lacework Console.</description>
     </item>
