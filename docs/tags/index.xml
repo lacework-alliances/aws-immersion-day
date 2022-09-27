@@ -5,6 +5,10 @@
     <link>https://lacework-alliances.github.io/aws-immersion-day/tags.html</link>
     <description>Recent content in Tags on AWS Immersion Day with Lacework</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language><atom:link href="https://lacework-alliances.github.io/aws-immersion-day/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-US</language>
+    
+	<atom:link href="https://lacework-alliances.github.io/aws-immersion-day/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
   </channel>
 </rss>

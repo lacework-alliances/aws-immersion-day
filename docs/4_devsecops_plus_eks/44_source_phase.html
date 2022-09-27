@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Hugo 0.88.1" />
+    <meta name="generator" content="Hugo 0.71.0" />
     <meta name="description" content="AWS Immersion Day with Lacework">
 <meta name="author" content="Lacework">
 
@@ -12,21 +12,21 @@
     <title>Source Phase :: AWS Immersion Day with Lacework</title>
 
     
-    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/nucleus.css?1663562908" rel="stylesheet">
-    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/fontawesome-all.min.css?1663562908" rel="stylesheet">
-    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/hybrid.css?1663562908" rel="stylesheet">
-    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/featherlight.min.css?1663562908" rel="stylesheet">
-    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/perfect-scrollbar.min.css?1663562908" rel="stylesheet">
-    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/auto-complete.css?1663562908" rel="stylesheet">
-    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/atom-one-dark-reasonable.css?1663562908" rel="stylesheet">
-    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/theme.css?1663562908" rel="stylesheet">
-    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/hugo-theme.css?1663562908" rel="stylesheet">
+    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/nucleus.css?1664295884" rel="stylesheet">
+    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/fontawesome-all.min.css?1664295884" rel="stylesheet">
+    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/hybrid.css?1664295884" rel="stylesheet">
+    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/featherlight.min.css?1664295884" rel="stylesheet">
+    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/perfect-scrollbar.min.css?1664295884" rel="stylesheet">
+    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/auto-complete.css?1664295884" rel="stylesheet">
+    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/atom-one-dark-reasonable.css?1664295884" rel="stylesheet">
+    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/theme.css?1664295884" rel="stylesheet">
+    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/hugo-theme.css?1664295884" rel="stylesheet">
     
-    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/theme-mine.css?1663562908" rel="stylesheet">
+    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/theme-mine.css?1664295884" rel="stylesheet">
     
     
 
-    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/jquery-3.3.1.min.js?1663562908"></script>
+    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/jquery-3.3.1.min.js?1664295884"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -60,7 +60,7 @@
 <link rel="stylesheet" href="https://lacework-alliances.github.io/aws-immersion-day/css/mp-devops-series.css">
 <link rel="stylesheet" href="https://pages.awscloud.com/js/forms2/css/forms2.css">
   </head>
-  <body class="" data-url="https://lacework-alliances.github.io/aws-immersion-day/4_devsecops_plus_eks/44_source_phase.html">
+  <body class="" data-url="/4_devsecops_plus_eks/44_source_phase.html">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -77,14 +77,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="https://lacework-alliances.github.io/aws-immersion-day/js/lunr.min.js?1663562908"></script>
-<script type="text/javascript" src="https://lacework-alliances.github.io/aws-immersion-day/js/auto-complete.js?1663562908"></script>
+<script type="text/javascript" src="https://lacework-alliances.github.io/aws-immersion-day/js/lunr.min.js?1664295884"></script>
+<script type="text/javascript" src="https://lacework-alliances.github.io/aws-immersion-day/js/auto-complete.js?1664295884"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/lacework-alliances.github.io\/aws-immersion-day\/";
     
 </script>
-<script type="text/javascript" src="https://lacework-alliances.github.io/aws-immersion-day/js/search.js?1663562908"></script>
+<script type="text/javascript" src="https://lacework-alliances.github.io/aws-immersion-day/js/search.js?1664295884"></script>
 
     
   </div>
@@ -1077,39 +1077,39 @@ Github and Bitbucket are available through <a href="https://docs.aws.amazon.com/
 <p><img src="https://lacework-alliances.github.io/aws-immersion-day/images/aws-s3-source.png" alt="S3 source" /></p>
 
 <p>The Cloudformation specification of source from a S3 zipped archive for our workshop:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">      <span style="color:#f92672">Stages</span>:
-        - <span style="color:#f92672">Name</span>: <span style="color:#ae81ff">Source</span>
-          <span style="color:#f92672">Actions</span>:
-            - <span style="color:#f92672">Name</span>: <span style="color:#ae81ff">App</span>
-              <span style="color:#f92672">ActionTypeId</span>:
-                <span style="color:#f92672">Category</span>: <span style="color:#ae81ff">Source</span>
-                <span style="color:#f92672">Owner</span>: <span style="color:#ae81ff">AWS</span>
-                <span style="color:#f92672">Version</span>: <span style="color:#ae81ff">1</span>
-                <span style="color:#f92672">Provider</span>: <span style="color:#ae81ff">S3</span>
-              <span style="color:#f92672">Configuration</span>:
-                <span style="color:#f92672">S3Bucket</span>: !<span style="color:#ae81ff">Sub &#34;${AWS::AccountId}-app-bucket-${LaceworkAccountName}&#34;</span>
-                <span style="color:#f92672">S3ObjectKey</span>: !<span style="color:#ae81ff">Sub &#34;${S3KeyPrefix}/app/app.zip&#34;</span>
-                <span style="color:#f92672">PollForSourceChanges</span>: <span style="color:#66d9ef">false</span>
-              <span style="color:#f92672">OutputArtifacts</span>:
-                - <span style="color:#f92672">Name</span>: <span style="color:#ae81ff">App</span>
-              <span style="color:#f92672">RunOrder</span>: <span style="color:#ae81ff">1</span></code></pre></div>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">      <span style="color:#66d9ef">Stages</span>:
+        - <span style="color:#66d9ef">Name</span>: Source
+          <span style="color:#66d9ef">Actions</span>:
+            - <span style="color:#66d9ef">Name</span>: App
+              <span style="color:#66d9ef">ActionTypeId</span>:
+                <span style="color:#66d9ef">Category</span>: Source
+                <span style="color:#66d9ef">Owner</span>: AWS
+                <span style="color:#66d9ef">Version</span>: <span style="color:#ae81ff">1</span>
+                <span style="color:#66d9ef">Provider</span>: S3
+              <span style="color:#66d9ef">Configuration</span>:
+                <span style="color:#66d9ef">S3Bucket</span>: !Sub <span style="color:#e6db74">&#34;${AWS::AccountId}-app-bucket-${LaceworkAccountName}&#34;</span>
+                <span style="color:#66d9ef">S3ObjectKey</span>: !Sub <span style="color:#e6db74">&#34;${S3KeyPrefix}/app/app.zip&#34;</span>
+                <span style="color:#66d9ef">PollForSourceChanges</span>: <span style="color:#66d9ef">false</span>
+              <span style="color:#66d9ef">OutputArtifacts</span>:
+                - <span style="color:#66d9ef">Name</span>: App
+              <span style="color:#66d9ef">RunOrder</span>: <span style="color:#ae81ff">1</span></code></pre></div>
 <p>A Github source using AWS Codestar connections:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">      <span style="color:#f92672">Stages</span>:
-        - <span style="color:#f92672">Name</span>: <span style="color:#ae81ff">Source</span>
-          <span style="color:#f92672">Actions</span>:
-            - <span style="color:#f92672">Name</span>: <span style="color:#ae81ff">GitHubRepo</span>
-              <span style="color:#f92672">ActionTypeId</span>:
-                <span style="color:#f92672">Category</span>: <span style="color:#ae81ff">Source</span>
-                <span style="color:#f92672">Owner</span>: <span style="color:#ae81ff">AWS</span>
-                <span style="color:#f92672">Provider</span>: <span style="color:#ae81ff">CodeStarSourceConnection</span>
-                <span style="color:#f92672">Version</span>: <span style="color:#ae81ff">1</span>
-              <span style="color:#f92672">Configuration</span>:
-                <span style="color:#f92672">ConnectionArn</span>: <span style="color:#ae81ff">arn:aws:codestar-connections:us-west-2:911290716430:connection/baf6fdba-995f-4e59-8497-49c224c3479b</span>
-                <span style="color:#f92672">FullRepositoryId</span>: <span style="color:#ae81ff">lacework-alliances/aws-secured-pipeline</span>
-                <span style="color:#f92672">BranchName</span>: <span style="color:#ae81ff">master</span>
-              <span style="color:#f92672">OutputArtifacts</span>:
-                - <span style="color:#f92672">Name</span>: <span style="color:#ae81ff">App</span>
-              <span style="color:#f92672">RunOrder</span>: <span style="color:#ae81ff">1</span></code></pre></div>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">      <span style="color:#66d9ef">Stages</span>:
+        - <span style="color:#66d9ef">Name</span>: Source
+          <span style="color:#66d9ef">Actions</span>:
+            - <span style="color:#66d9ef">Name</span>: GitHubRepo
+              <span style="color:#66d9ef">ActionTypeId</span>:
+                <span style="color:#66d9ef">Category</span>: Source
+                <span style="color:#66d9ef">Owner</span>: AWS
+                <span style="color:#66d9ef">Provider</span>: CodeStarSourceConnection
+                <span style="color:#66d9ef">Version</span>: <span style="color:#ae81ff">1</span>
+              <span style="color:#66d9ef">Configuration</span>:
+                <span style="color:#66d9ef">ConnectionArn</span>: arn:aws:codestar-connections:us-west<span style="color:#ae81ff">-2</span>:<span style="color:#ae81ff">911290716430</span>:connection/baf6fdba-995f<span style="color:#ae81ff">-4e59-8497</span>-49c224c3479b
+                <span style="color:#66d9ef">FullRepositoryId</span>: lacework-alliances/aws-secured-pipeline
+                <span style="color:#66d9ef">BranchName</span>: master
+              <span style="color:#66d9ef">OutputArtifacts</span>:
+                - <span style="color:#66d9ef">Name</span>: App
+              <span style="color:#66d9ef">RunOrder</span>: <span style="color:#ae81ff">1</span></code></pre></div>
 <p>Codestar connections for other source code repositories can be created from <strong>Settings &gt; Connections</strong>.</p>
 
 <p><img src="https://lacework-alliances.github.io/aws-immersion-day/images/codestar-connections.png" alt="Codestar connections" /></p>
@@ -1788,19 +1788,19 @@ Github and Bitbucket are available through <a href="https://docs.aws.amazon.com/
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/clipboard.min.js?1663562908"></script>
-    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/perfect-scrollbar.min.js?1663562908"></script>
-    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/perfect-scrollbar.jquery.min.js?1663562908"></script>
-    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/jquery.sticky.js?1663562908"></script>
-    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/featherlight.min.js?1663562908"></script>
-    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/highlight.pack.js?1663562908"></script>
+    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/clipboard.min.js?1664295884"></script>
+    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/perfect-scrollbar.min.js?1664295884"></script>
+    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/perfect-scrollbar.jquery.min.js?1664295884"></script>
+    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/jquery.sticky.js?1664295884"></script>
+    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/featherlight.min.js?1664295884"></script>
+    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/highlight.pack.js?1664295884"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/modernizr.custom-3.6.0.js?1663562908"></script>
-    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/learn.js?1663562908"></script>
-    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/hugo-learn.js?1663562908"></script>
+    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/modernizr.custom-3.6.0.js?1664295884"></script>
+    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/learn.js?1664295884"></script>
+    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/hugo-learn.js?1664295884"></script>
     
         
-            <script src="https://lacework-alliances.github.io/aws-immersion-day/mermaid/mermaid.js?1663562908"></script>
+            <script src="https://lacework-alliances.github.io/aws-immersion-day/mermaid/mermaid.js?1664295884"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });

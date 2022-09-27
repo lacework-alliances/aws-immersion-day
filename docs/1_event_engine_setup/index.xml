@@ -5,7 +5,11 @@
     <link>https://lacework-alliances.github.io/aws-immersion-day/1_event_engine_setup.html</link>
     <description>Recent content in AWS Hosted Event Setup on AWS Immersion Day with Lacework</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language><atom:link href="https://lacework-alliances.github.io/aws-immersion-day/1_event_engine_setup/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-US</language>
+    
+	<atom:link href="https://lacework-alliances.github.io/aws-immersion-day/1_event_engine_setup/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Access Your Temporary AWS Account</title>
       <link>https://lacework-alliances.github.io/aws-immersion-day/1_event_engine_setup/11_aws_event_account.html</link>

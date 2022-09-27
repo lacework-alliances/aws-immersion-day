@@ -5,7 +5,11 @@
     <link>https://lacework-alliances.github.io/aws-immersion-day/2_lacework_aws_integration.html</link>
     <description>Recent content in How Lacework Integrates with AWS on AWS Immersion Day with Lacework</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language><atom:link href="https://lacework-alliances.github.io/aws-immersion-day/2_lacework_aws_integration/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-US</language>
+    
+	<atom:link href="https://lacework-alliances.github.io/aws-immersion-day/2_lacework_aws_integration/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>CloudTrail and AWS Configuration Integration via Console and CloudFormation</title>
       <link>https://lacework-alliances.github.io/aws-immersion-day/2_lacework_aws_integration/21_cloudformation_setup.html</link>

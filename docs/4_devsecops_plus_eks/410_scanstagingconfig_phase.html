@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Hugo 0.88.1" />
+    <meta name="generator" content="Hugo 0.71.0" />
     <meta name="description" content="AWS Immersion Day with Lacework">
 <meta name="author" content="Lacework">
 
@@ -12,21 +12,21 @@
     <title>ScanStagingConfig Phase :: AWS Immersion Day with Lacework</title>
 
     
-    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/nucleus.css?1663562908" rel="stylesheet">
-    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/fontawesome-all.min.css?1663562908" rel="stylesheet">
-    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/hybrid.css?1663562908" rel="stylesheet">
-    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/featherlight.min.css?1663562908" rel="stylesheet">
-    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/perfect-scrollbar.min.css?1663562908" rel="stylesheet">
-    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/auto-complete.css?1663562908" rel="stylesheet">
-    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/atom-one-dark-reasonable.css?1663562908" rel="stylesheet">
-    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/theme.css?1663562908" rel="stylesheet">
-    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/hugo-theme.css?1663562908" rel="stylesheet">
+    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/nucleus.css?1664295884" rel="stylesheet">
+    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/fontawesome-all.min.css?1664295884" rel="stylesheet">
+    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/hybrid.css?1664295884" rel="stylesheet">
+    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/featherlight.min.css?1664295884" rel="stylesheet">
+    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/perfect-scrollbar.min.css?1664295884" rel="stylesheet">
+    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/auto-complete.css?1664295884" rel="stylesheet">
+    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/atom-one-dark-reasonable.css?1664295884" rel="stylesheet">
+    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/theme.css?1664295884" rel="stylesheet">
+    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/hugo-theme.css?1664295884" rel="stylesheet">
     
-    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/theme-mine.css?1663562908" rel="stylesheet">
+    <link href="https://lacework-alliances.github.io/aws-immersion-day/css/theme-mine.css?1664295884" rel="stylesheet">
     
     
 
-    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/jquery-3.3.1.min.js?1663562908"></script>
+    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/jquery-3.3.1.min.js?1664295884"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -60,7 +60,7 @@
 <link rel="stylesheet" href="https://lacework-alliances.github.io/aws-immersion-day/css/mp-devops-series.css">
 <link rel="stylesheet" href="https://pages.awscloud.com/js/forms2/css/forms2.css">
   </head>
-  <body class="" data-url="https://lacework-alliances.github.io/aws-immersion-day/4_devsecops_plus_eks/410_scanstagingconfig_phase.html">
+  <body class="" data-url="/4_devsecops_plus_eks/410_scanstagingconfig_phase.html">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -77,14 +77,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="https://lacework-alliances.github.io/aws-immersion-day/js/lunr.min.js?1663562908"></script>
-<script type="text/javascript" src="https://lacework-alliances.github.io/aws-immersion-day/js/auto-complete.js?1663562908"></script>
+<script type="text/javascript" src="https://lacework-alliances.github.io/aws-immersion-day/js/lunr.min.js?1664295884"></script>
+<script type="text/javascript" src="https://lacework-alliances.github.io/aws-immersion-day/js/auto-complete.js?1664295884"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/lacework-alliances.github.io\/aws-immersion-day\/";
     
 </script>
-<script type="text/javascript" src="https://lacework-alliances.github.io/aws-immersion-day/js/search.js?1663562908"></script>
+<script type="text/javascript" src="https://lacework-alliances.github.io/aws-immersion-day/js/search.js?1664295884"></script>
 
     
   </div>
@@ -1079,58 +1079,58 @@ and determine if we have any issues.</p>
 <p><img src="https://lacework-alliances.github.io/aws-immersion-day/images/scan-staging-config.png" alt="scan-staging-config" /></p>
 
 <p>The Cloudformation specification of the ScanStagingConfig phase is as follows:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">        - <span style="color:#f92672">Name</span>: <span style="color:#ae81ff">ScanStagingConfig</span>
-          <span style="color:#f92672">Actions</span>:
-            - <span style="color:#f92672">Name</span>: <span style="color:#ae81ff">ScanStagingConfig</span>
-              <span style="color:#f92672">ActionTypeId</span>:
-                <span style="color:#f92672">Category</span>: <span style="color:#ae81ff">Test</span>
-                <span style="color:#f92672">Owner</span>: <span style="color:#ae81ff">AWS</span>
-                <span style="color:#f92672">Version</span>: <span style="color:#ae81ff">1</span>
-                <span style="color:#f92672">Provider</span>: <span style="color:#ae81ff">CodeBuild</span>
-              <span style="color:#f92672">Configuration</span>:
-                <span style="color:#f92672">ProjectName</span>: !<span style="color:#ae81ff">Ref CodeBuildScanStagingConfigProject</span>
-              <span style="color:#f92672">InputArtifacts</span>:
-                - <span style="color:#f92672">Name</span>: <span style="color:#ae81ff">App</span>
-              <span style="color:#f92672">RunOrder</span>: <span style="color:#ae81ff">7</span></code></pre></div>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">        - <span style="color:#66d9ef">Name</span>: ScanStagingConfig
+          <span style="color:#66d9ef">Actions</span>:
+            - <span style="color:#66d9ef">Name</span>: ScanStagingConfig
+              <span style="color:#66d9ef">ActionTypeId</span>:
+                <span style="color:#66d9ef">Category</span>: Test
+                <span style="color:#66d9ef">Owner</span>: AWS
+                <span style="color:#66d9ef">Version</span>: <span style="color:#ae81ff">1</span>
+                <span style="color:#66d9ef">Provider</span>: CodeBuild
+              <span style="color:#66d9ef">Configuration</span>:
+                <span style="color:#66d9ef">ProjectName</span>: !Ref CodeBuildScanStagingConfigProject
+              <span style="color:#66d9ef">InputArtifacts</span>:
+                - <span style="color:#66d9ef">Name</span>: App
+              <span style="color:#66d9ef">RunOrder</span>: <span style="color:#ae81ff">7</span></code></pre></div>
 <p>This phase is backed by an AWS CodeBuild project CodeBuildScanStagingConfigProject:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">  <span style="color:#f92672">CodeBuildScanStagingConfigProject</span>:
-    <span style="color:#f92672">Type</span>: <span style="color:#ae81ff">AWS::CodeBuild::Project</span>
-    <span style="color:#f92672">Properties</span>:
-      <span style="color:#f92672">Name</span>: <span style="color:#ae81ff">ScanStagingConfig</span>
-      <span style="color:#f92672">Description</span>: <span style="color:#e6db74">&#34;Scan Staging Config&#34;</span>
-      <span style="color:#f92672">Artifacts</span>:
-        <span style="color:#f92672">Type</span>: <span style="color:#ae81ff">CODEPIPELINE</span>
-      <span style="color:#f92672">Source</span>:
-        <span style="color:#f92672">Type</span>: <span style="color:#ae81ff">CODEPIPELINE</span>
-        <span style="color:#f92672">BuildSpec</span>: <span style="color:#e6db74">&#34;codebuild-scan-staging-config.yaml&#34;</span>
-      <span style="color:#f92672">Environment</span>:
-        <span style="color:#f92672">ComputeType</span>: <span style="color:#e6db74">&#34;BUILD_GENERAL1_SMALL&#34;</span>
-        <span style="color:#f92672">Image</span>: <span style="color:#e6db74">&#34;aws/codebuild/standard:5.0&#34;</span>
-        <span style="color:#f92672">Type</span>: <span style="color:#e6db74">&#34;LINUX_CONTAINER&#34;</span>
-        <span style="color:#f92672">EnvironmentVariables</span>:
-          - <span style="color:#f92672">Name</span>: <span style="color:#ae81ff">AWS_ACCOUNT_ID</span>
-            <span style="color:#f92672">Value</span>: !<span style="color:#ae81ff">Ref AWS::AccountId</span>
-      <span style="color:#f92672">ServiceRole</span>: !<span style="color:#ae81ff">Ref CodeBuildServiceRole</span></code></pre></div>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">  <span style="color:#66d9ef">CodeBuildScanStagingConfigProject</span>:
+    <span style="color:#66d9ef">Type</span>: AWS::CodeBuild::Project
+    <span style="color:#66d9ef">Properties</span>:
+      <span style="color:#66d9ef">Name</span>: ScanStagingConfig
+      <span style="color:#66d9ef">Description</span>: <span style="color:#e6db74">&#34;Scan Staging Config&#34;</span>
+      <span style="color:#66d9ef">Artifacts</span>:
+        <span style="color:#66d9ef">Type</span>: CODEPIPELINE
+      <span style="color:#66d9ef">Source</span>:
+        <span style="color:#66d9ef">Type</span>: CODEPIPELINE
+        <span style="color:#66d9ef">BuildSpec</span>: <span style="color:#e6db74">&#34;codebuild-scan-staging-config.yaml&#34;</span>
+      <span style="color:#66d9ef">Environment</span>:
+        <span style="color:#66d9ef">ComputeType</span>: <span style="color:#e6db74">&#34;BUILD_GENERAL1_SMALL&#34;</span>
+        <span style="color:#66d9ef">Image</span>: <span style="color:#e6db74">&#34;aws/codebuild/standard:5.0&#34;</span>
+        <span style="color:#66d9ef">Type</span>: <span style="color:#e6db74">&#34;LINUX_CONTAINER&#34;</span>
+        <span style="color:#66d9ef">EnvironmentVariables</span>:
+          - <span style="color:#66d9ef">Name</span>: AWS_ACCOUNT_ID
+            <span style="color:#66d9ef">Value</span>: !Ref AWS::AccountId
+      <span style="color:#66d9ef">ServiceRole</span>: !Ref CodeBuildServiceRole</code></pre></div>
 <p>This is backed by the AWS CodeBuild buildspec file <a href="https://github.com/lacework-alliances/aws-immersion-day-code/blob/master/app/codebuild-scan-staging-config.yaml" target="_blank">codebuild-scan-staging-config.yaml</a> that has the actual commands:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">version</span>: <span style="color:#ae81ff">0.2</span>
-<span style="color:#f92672">env</span>:
-  <span style="color:#f92672">parameter-store</span>:
-    <span style="color:#f92672">LW_ACCOUNT</span>: <span style="color:#e6db74">&#34;LW_ACCOUNT&#34;</span>
-    <span style="color:#f92672">LW_API_KEY</span>: <span style="color:#e6db74">&#34;LW_API_KEY&#34;</span>
-    <span style="color:#f92672">LW_API_SECRET</span>: <span style="color:#e6db74">&#34;LW_API_SECRET&#34;</span>
-<span style="color:#f92672">phases</span>:
-  <span style="color:#f92672">install</span>:
-    <span style="color:#f92672">commands</span>:
-      - <span style="color:#ae81ff">curl https://raw.githubusercontent.com/lacework/go-sdk/master/cli/install.sh | bash</span>
-  <span style="color:#f92672">build</span>:
-    <span style="color:#f92672">commands</span>:
-      - <span style="color:#ae81ff">export LW_ACCOUNT=$LW_ACCOUNT</span>
-      - <span style="color:#ae81ff">export LW_API_KEY=$LW_API_KEY</span>
-      - <span style="color:#ae81ff">export LW_API_SECRET=$LW_API_SECRET</span>
-      - <span style="color:#ae81ff">lacework compliance aws run-assessment $AWS_ACCOUNT_ID --noninteractive || true</span>
-      - <span style="color:#ae81ff">lacework compliance aws get-report $AWS_ACCOUNT_ID --json --noninteractive &gt; aws-assessment.json</span>
-      - <span style="color:#ae81ff">cat aws-assessment.json</span>
-      - <span style="color:#ae81ff">cat aws-assessment.json | jq &#39;.summary[0].num_severity_1_non_compliance&#39;</span></code></pre></div>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#66d9ef">version</span>: <span style="color:#ae81ff">0.2</span>
+<span style="color:#66d9ef">env</span>:
+  <span style="color:#66d9ef">parameter-store</span>:
+    <span style="color:#66d9ef">LW_ACCOUNT</span>: <span style="color:#e6db74">&#34;LW_ACCOUNT&#34;</span>
+    <span style="color:#66d9ef">LW_API_KEY</span>: <span style="color:#e6db74">&#34;LW_API_KEY&#34;</span>
+    <span style="color:#66d9ef">LW_API_SECRET</span>: <span style="color:#e6db74">&#34;LW_API_SECRET&#34;</span>
+<span style="color:#66d9ef">phases</span>:
+  <span style="color:#66d9ef">install</span>:
+    <span style="color:#66d9ef">commands</span>:
+      - curl https://raw.githubusercontent.com/lacework/go-sdk/master/cli/install.sh | bash
+  <span style="color:#66d9ef">build</span>:
+    <span style="color:#66d9ef">commands</span>:
+      - export LW_ACCOUNT=$LW_ACCOUNT
+      - export LW_API_KEY=$LW_API_KEY
+      - export LW_API_SECRET=$LW_API_SECRET
+      - lacework compliance aws run-assessment $AWS_ACCOUNT_ID --noninteractive || <span style="color:#66d9ef">true</span>
+      - lacework compliance aws get-report $AWS_ACCOUNT_ID --json --noninteractive &gt; aws-assessment.json
+      - cat aws-assessment.json
+      - cat aws-assessment.json | jq <span style="color:#e6db74">&#39;.summary[0].num_severity_1_non_compliance&#39;</span></code></pre></div>
 <p>In this buildspec file, we use the Lacework CLI first run an AWS compliance assessment, we get the report and then parse the report for any non-compliance.</p>
 
 <p>Now let&rsquo;s view the results of this phase by clicking on the <strong>Details</strong> link in CodePipeline. This will take us to the AWS CodeBuild build logs.</p>
@@ -1815,19 +1815,19 @@ and determine if we have any issues.</p>
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/clipboard.min.js?1663562908"></script>
-    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/perfect-scrollbar.min.js?1663562908"></script>
-    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/perfect-scrollbar.jquery.min.js?1663562908"></script>
-    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/jquery.sticky.js?1663562908"></script>
-    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/featherlight.min.js?1663562908"></script>
-    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/highlight.pack.js?1663562908"></script>
+    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/clipboard.min.js?1664295884"></script>
+    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/perfect-scrollbar.min.js?1664295884"></script>
+    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/perfect-scrollbar.jquery.min.js?1664295884"></script>
+    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/jquery.sticky.js?1664295884"></script>
+    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/featherlight.min.js?1664295884"></script>
+    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/highlight.pack.js?1664295884"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/modernizr.custom-3.6.0.js?1663562908"></script>
-    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/learn.js?1663562908"></script>
-    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/hugo-learn.js?1663562908"></script>
+    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/modernizr.custom-3.6.0.js?1664295884"></script>
+    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/learn.js?1664295884"></script>
+    <script src="https://lacework-alliances.github.io/aws-immersion-day/js/hugo-learn.js?1664295884"></script>
     
         
-            <script src="https://lacework-alliances.github.io/aws-immersion-day/mermaid/mermaid.js?1663562908"></script>
+            <script src="https://lacework-alliances.github.io/aws-immersion-day/mermaid/mermaid.js?1664295884"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });
