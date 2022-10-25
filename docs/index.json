@@ -109,7 +109,7 @@
 	"title": "Alerts",
 	"tags": [],
 	"description": "",
-	"content": "\nBy default, the Alerts page displays all alerts. You can use the following methods to refine the list of displayed alerts:\nUse filters to display a subset of specific alerts. Click the filter groups along the top of the page to display the list of filters associated with the selected filter group, then select the filters that you want to apply. Click Show more to display all the filter groups.\nUse the search function to display a subset of specific alerts. Click the search icon to see a list of field names that you can use to build your search.\nUse the time filter to display a subset of specific alerts based on when they occured.\n"
+	"content": "\nBy default, the Alerts page displays all alerts. You can use the following methods to refine the list of displayed alerts:\nUse filters to display a subset of specific alerts. Click the filter groups along the top of the page to display the list of filters associated with the selected filter group, then select the filters that you want to apply. Click Show more to display all the filter groups.\nUse the search function to display a subset of specific alerts. Click the search icon to see a list of field names that you can use to build your search.\nUse the time filter to display a subset of specific alerts based on when they occurred.\nUse the Filters to select an Alert Category of Policy and Subcategory of Compliance. Filter on Alert ID 5028 and click on it. The alert detail of 5028 shows you the Why, When and What of the alert so that you can quickly triage the issue. "
 },
 {
 	"uri": "https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/33_compliance_cloud.html",
