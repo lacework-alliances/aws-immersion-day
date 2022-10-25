@@ -21,7 +21,7 @@ In the previous sections, we looked at prevention - identifying issues that make
 2. Scroll down to the Polygraph to see a visual representation of the API interactions.
    ![Badguy Polygraph](/images/badguy-polygraph.png)
 5. Scroll down to the Cloudtrail logs. Look at the API Calls to s3:ListBuckets along with a kms:GenerateDataKey shows the user searching S3 buckets and then initiating a large KMS encryption task.
-   ![Badguy Polygraph](/images/cloudtrail-logs.png)
+   ![Badguy Polygraph](/images/cloudtrail-events.png)
 6. Scroll back to the top and click on the **View in alerts** link. This will take you to the alerts coming from this anomaly detection.
 7. Click on any alert to view the details.
    ![Badguy Polygraph](/images/alert-detail.png)
