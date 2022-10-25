@@ -5,11 +5,7 @@
     <link>https://lacework-alliances.github.io/aws-immersion-day/2_lacework_aws_integration.html</link>
     <description>Recent content in How Lacework Integrates with AWS on AWS Immersion Day with Lacework</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    
-	<atom:link href="https://lacework-alliances.github.io/aws-immersion-day/2_lacework_aws_integration/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-US</language><atom:link href="https://lacework-alliances.github.io/aws-immersion-day/2_lacework_aws_integration/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CloudTrail and AWS Configuration Integration via Console and CloudFormation</title>
       <link>https://lacework-alliances.github.io/aws-immersion-day/2_lacework_aws_integration/21_cloudformation_setup.html</link>
@@ -17,7 +13,7 @@
       
       <guid>https://lacework-alliances.github.io/aws-immersion-day/2_lacework_aws_integration/21_cloudformation_setup.html</guid>
       <description>The Lacework platform platform at a minimum requires integration with the AWS configuration for an account in order to check security posture of resources. CloudTrail is recommended in order to monitor user, API and resource activity for suspicious behavior. AI/ML are applied to this activity in order to detect anomalous behavior.
- Navigate to Settings &amp;gt; Integrations &amp;gt; Cloud Accounts in your console. Click + Add New. Select AWS. Select CloudTrail+Config or Config and click Next.</description>
+Navigate to Settings &amp;gt; Integrations &amp;gt; Cloud Accounts in your console. Click + Add New. Select AWS. Select CloudTrail+Config or Config and click Next.</description>
     </item>
     
     <item>
