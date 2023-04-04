@@ -26,8 +26,8 @@ Select AWS Console.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lacework-alliances.github.io/aws-immersion-day/1_event_engine_setup/12_lacework_account.html</guid>
-      <description>There were two ways to access the Lacework console: (1) via the invitation email or (2) via login.
-Invitation Email If you have not used your invitation email, look for it in your inbox. Click on the Join Now link in the email. Accept the terms. Welcome to Lacework! Login If you have already used the invitation email, and you are ready to login, go to the Lacework console URL. Enter your email into the login form.</description>
+      <description>Use the following instructions to access your Lacework account for this event
+Click on the Lacework Event Engine link that is provided for this event. Enter your email address, name and company. Then click Submit. Look for an invitation email in your inbox. Click on the Join Now link in the email. Accept the terms. Welcome to Lacework! </description>
     </item>
     
     <item>
@@ -110,22 +110,32 @@ Use filters to display a subset of specific alerts. Click the filter groups alon
     </item>
     
     <item>
-      <title>Compliance Cloud</title>
-      <link>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/33_compliance_cloud.html</link>
+      <title>Attack Path</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/33_attack_path.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/33_compliance_cloud.html</guid>
+      <guid>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/33_attack_path.html</guid>
+      <description>By combining exposure path visualizations with data about what’s actively happening in production, the Lacework Polygraph® Data Platform empowers you to easily prioritize the most impactful attack vectors in your cloud environment. You can easily and accurately pinpoint risks, collaborating across teams to investigate and remediate from a single source of truth. Attack path analysis is essential to uncovering and preventing malicious behavior.
+Click on one of the attack paths to see the details of the attack path.</description>
+    </item>
+    
+    <item>
+      <title>Compliance</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/34_compliance.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/34_compliance.html</guid>
       <description>Lacework’s AWS security platform automatically validates all configurations against the controls established as best practices for securing your cloud environment. Our interactive reports deliver insights into “passed or failed” controls with recommendations on how to fix out-of-compliance configuration components.
 This dashboard provides a consolidated view of your compliance across all cloud providers that are integrated with Lacework.
 Use the Group by &amp;hellip; pulldown in the upper right to group your compliance by Assessment, Policy, Account or Service.</description>
     </item>
     
     <item>
-      <title>Container and Host Vulnerabilities</title>
-      <link>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/34_container_vulnerabilities.html</link>
+      <title>Vulnerabilities</title>
+      <link>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/35_vulnerabilities.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/34_container_vulnerabilities.html</guid>
+      <guid>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/35_vulnerabilities.html</guid>
       <description>Lacework provides the ability to assess, identify, and report vulnerabilities found on hosts, containers, registries and pods within your environment. This means you can identify and take action on software vulnerabilities in your environment and manage that risk proactively.
 Lacework continuously assesses vulnerability risks, identifies OS packages, and correlates them with publicly known vulnerabilities with risk ratings by severity and CVSS scores.
 In this section, we will explore container vulnerabilities. Lacework several types of container/image scanning as well as providing runtime protection.</description>
@@ -133,28 +143,28 @@ In this section, we will explore container vulnerabilities. Lacework several typ
     
     <item>
       <title>Resources</title>
-      <link>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/35_resources.html</link>
+      <link>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/36_resources.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/35_resources.html</guid>
+      <guid>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/36_resources.html</guid>
       <description>The Lacework Console provides visibility into AWS resources that are integrated with Lacework. A resource can be any entity within the cloud deployment, such as an S3 bucket, security group, or EC2 instance. The Resource Inventory page allows you to view and monitor in-use AWS resources’ risk, compliance, and configuration changes and provides visibility for team members with limited or no access to the AWS Management Console. Because Lacework takes regular snapshots of your resources, you can track their changes (diffs) through the Lacework Console.</description>
     </item>
     
     <item>
       <title>Policies</title>
-      <link>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/36_policies.html</link>
+      <link>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/37_policies.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/36_policies.html</guid>
+      <guid>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/37_policies.html</guid>
       <description>Lacework policies provide a framework for validating configuration and behavior in your cloud environment. Lacework provides a set of predefined default policies that are visible from the Lacework Console. You can use the default policies to suppress the generation of unwanted alerts in your environment. Default policy IDs start with the LW_ prefix. You may want to create custom policies that check for unwanted behavior in your environment such as Telnet being used in your environment.</description>
     </item>
     
     <item>
       <title>Alert Channels and Rules</title>
-      <link>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/37_alert_channels_rules.html</link>
+      <link>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/38_alert_channels_rules.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/37_alert_channels_rules.html</guid>
+      <guid>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/38_alert_channels_rules.html</guid>
       <description>Lacework combines alert channels and alert rules to provide a flexible method for routing alerts. For alert channels (outgoing integrations), you define information about where to send alerts, such as to Jira or Slack. For alert rules, you define information about which alert types to send, such as critical and high severity compliance alerts. This two-part method provides the flexibility to define multiple channels and multiple rules and then have each rule use the channels you specify.</description>
     </item>
     
@@ -186,7 +196,7 @@ Go to Compliance &amp;gt; Cloud in the Lacework Console to display the Complianc
       
       <guid>https://lacework-alliances.github.io/aws-immersion-day/4_cspm_plus/43_anomaly.html</guid>
       <description>In the previous sections, we looked at prevention - identifying issues that make you vulnerable to an attack. Now we will look at Lacework&amp;rsquo;s anomaly detection events with Polygraph. The Lacework Polygraph analyzes an array of cloud factors to detect breaches. There are currently six Lacework polygraph analysis groups:
-Application/process communications Application launches Machine communications Machine servers Privilege changes Insider behaviors Click on this CloudTrail Dossier that represents malicious activity from an AWS user badguy.</description>
+Application/process communications Application launches Machine communications Machine servers Privilege changes Insider behaviors Click on this CloudTrail Dossier that represents malicious activity from an AWS user ec2-user.</description>
     </item>
     
     <item>

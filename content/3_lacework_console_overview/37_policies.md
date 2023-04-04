@@ -2,8 +2,8 @@
 title: "Policies"
 chapter: false
 draft: false
-weight: 36
-pre: "<b>3.6 </b>"
+weight: 37
+pre: "<b>3.7 </b>"
 ---
 
 Lacework policies provide a framework for validating configuration and behavior in your cloud environment. Lacework provides a set of predefined default policies that are visible from the Lacework Console. You can use the default policies to suppress the generation of unwanted alerts in your environment. Default policy IDs start with the LW_ prefix. You may want to create custom policies that check for unwanted behavior in your environment such as Telnet being used in your environment. You can also customize the triggers and severities for custom policies. Custom policy IDs start with the CUSTOM_ prefix.

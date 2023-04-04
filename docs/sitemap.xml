@@ -34,15 +34,17 @@
   </url><url>
     <loc>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/32_alerts.html</loc>
   </url><url>
-    <loc>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/33_compliance_cloud.html</loc>
+    <loc>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/33_attack_path.html</loc>
   </url><url>
-    <loc>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/34_container_vulnerabilities.html</loc>
+    <loc>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/34_compliance.html</loc>
   </url><url>
-    <loc>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/35_resources.html</loc>
+    <loc>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/35_vulnerabilities.html</loc>
   </url><url>
-    <loc>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/36_policies.html</loc>
+    <loc>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/36_resources.html</loc>
   </url><url>
-    <loc>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/37_alert_channels_rules.html</loc>
+    <loc>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/37_policies.html</loc>
+  </url><url>
+    <loc>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/38_alert_channels_rules.html</loc>
   </url><url>
     <loc>https://lacework-alliances.github.io/aws-immersion-day/4_cspm_plus/41_anatomy_attack.html</loc>
   </url><url>

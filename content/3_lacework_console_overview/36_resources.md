@@ -2,8 +2,8 @@
 title: "Resources"
 chapter: false
 draft: false
-weight: 35
-pre: "<b>3.5 </b>"
+weight: 36
+pre: "<b>3.6 </b>"
 ---
 
 The Lacework Console provides visibility into AWS resources that are integrated with Lacework. A resource can be any entity within the cloud deployment, such as an S3 bucket, security group, or EC2 instance. The Resource Inventory page allows you to view and monitor in-use AWS resources’ risk, compliance, and configuration changes and provides visibility for team members with limited or no access to the AWS Management Console. Because Lacework takes regular snapshots of your resources, you can track their changes (diffs) through the Lacework Console.

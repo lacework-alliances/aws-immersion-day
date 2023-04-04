@@ -26,8 +26,8 @@ Select AWS Console.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lacework-alliances.github.io/aws-immersion-day/1_event_engine_setup/12_lacework_account.html</guid>
-      <description>There were two ways to access the Lacework console: (1) via the invitation email or (2) via login.
-Invitation Email If you have not used your invitation email, look for it in your inbox. Click on the Join Now link in the email. Accept the terms. Welcome to Lacework! Login If you have already used the invitation email, and you are ready to login, go to the Lacework console URL. Enter your email into the login form.</description>
+      <description>Use the following instructions to access your Lacework account for this event
+Click on the Lacework Event Engine link that is provided for this event. Enter your email address, name and company. Then click Submit. Look for an invitation email in your inbox. Click on the Join Now link in the email. Accept the terms. Welcome to Lacework! </description>
     </item>
     
   </channel>
