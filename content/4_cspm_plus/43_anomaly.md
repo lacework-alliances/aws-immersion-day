@@ -15,7 +15,7 @@ In the previous sections, we looked at prevention - identifying issues that make
 * Privilege changes
 * Insider behaviors
 
-1. Click on this [CloudTrail Dossier](https://laceworkshop.lacework.net/ui/investigation/recents/SingleUserDossier-lomfvv887gkje) 
+1. Click on this [CloudTrail Dossier](https://laceworkshop.lacework.net/ui/investigation/monitor/AlertInbox/51583/details?filter=severity%3ACritical+severity%3AHigh+severity%3AMedium+status%3AOpen+status%3AInProgress+category%3AAnomaly&sort=START_TIME%3Adescending&timeRange=start%3A2023-11-05T15%3A24%3A00.000Z+end%3A2023-11-06T15%3A24%3A00.000Z&accountName=laceworkshop) 
       that represents malicious activity from an AWS user _ec2-user_.
       Anomaly events are detected through Lacework's Polygraph machine learning technology. Polygraph tracks the user and API activities and detects anomalous and potentially malicious behavior.
 2. Scroll down to the Polygraph to see a visual representation of the API interactions.
