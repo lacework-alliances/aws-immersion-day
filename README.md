@@ -1,5 +1,7 @@
 ## AWS Immersion Day with Lacework
 
+[![HIPAA](https://app.soluble.cloud/api/v1/public/badges/79820cc2-eb4d-424e-a0ba-f388293aa3b6.svg)](https://app.soluble.cloud/repos/details/github.com/jefferyfry/aws-immersion-day-with-lacework)  [![CIS](https://app.soluble.cloud/api/v1/public/badges/1ca2d21e-4d9b-41ae-be91-54f119a7bc33.svg)](https://app.soluble.cloud/repos/details/github.com/jefferyfry/aws-immersion-day-with-lacework)  [![IaC](https://app.soluble.cloud/api/v1/public/badges/a25f7189-f387-4978-8de6-95737cc21058.svg)](https://app.soluble.cloud/repos/details/github.com/jefferyfry/aws-immersion-day-with-lacework)  
+
 The goal of DevOps is to allow your development teams to deliver quality software faster to your customers through continuous process improvement, leveraging the best of breed development tools and infrastructure, and utilizing software development and IT operations best practices. Your team must deliver software faster than your competitors in order to get features and fixes to your customers sooner.
 
 > Looking forward, as release cycles get shorter and microservices get smaller, we can imagine a world in which at any one time, our systems’ software is being updated. Effectively, software will become liquid in that products and services will be connected to “software pipes” that constantly stream updates into our systems and devices; liquid software continuously and automatically updating our systems with no human intervention.
