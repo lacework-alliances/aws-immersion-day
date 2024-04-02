@@ -2,8 +2,8 @@
 title: "ECR Container Registry Integration"
 chapter: false
 draft: false
-weight: 25
-pre: "<b>2.5 </b>"
+weight: 26
+pre: "<b>2.6 </b>"
 ---
 
 If your development teams are doing microservices development and delivering container images, Lacework can be enabled to scan your

@@ -2,8 +2,8 @@
 title: "CodePipeline, CodeBuild CI/CD Integration"
 chapter: false
 draft: false
-weight: 26
-pre: "<b>2.6 </b>"
+weight: 27
+pre: "<b>2.7 </b>"
 ---
 
 With Lacework, you can also discover software vulnerabilities during your software build process. This is done through use 

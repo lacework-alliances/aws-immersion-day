@@ -2,8 +2,8 @@
 title: "Alerts"
 chapter: false
 draft: false
-weight: 32
-pre: "<b>3.2 </b>"
+weight: 34
+pre: "<b>3.4 </b>"
 ---
 
 ![Lacework Dashboard Alerts](/images/alerts.png)
@@ -22,3 +22,5 @@ By default, the Alerts page displays all alerts. You can use the following metho
    ![Lacework Dashboard Alerts](/images/alert-5028.png)
 3. The alert detail of 5028 shows you the Why, When and What of the alert so that you can quickly triage the issue.
    ![Lacework Dashboard Alerts](/images/alert-5028-detail.png)
+4. The Lacework AI Assist can provide you with additional information on the alert and how to remediate the issue. Ask the AI Assist _how to fix the issue_.
+   ![Alert AI Assist](/images/alert-ai-assist.png)

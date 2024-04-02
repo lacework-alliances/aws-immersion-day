@@ -10,25 +10,16 @@ Only complete this section if you are running the workshop through an AWS hosted
 {{% /notice %}}
 
 
-For an AWS hosted event, you are provided with an AWS account through the AWS Event Engine service using a 12-digit hash by event staff. This is your unique access code.
+For an AWS hosted event, you are provided with a temporary AWS account through the AWS Workshop Studio Service. Event staff will provide you a link to your temporary AWS account and workshop content.
 
-1 . Go to [https://dashboard.eventengine.run/](https://dashboard.eventengine.run/).
+1. Accept the terms and conditions and click on the **Join event** button.
 
-![Event Engine](/images/event-engine-initial-screen.png)
+![Workshop Studio Link](/images/workshopstudiolink.png)
 
-2. Enter the provided hash code in the text box. 
+2. Access the workshop content on the left pane.
+3. Click on the **Open AWS Console** button to access the AWS console.
 
-3. Click on the **Accept Terms & Login** button.
-
-4. Select **AWS Console**.
-
-5. Then select **Open AWS Console**.
-
-![Event Engine Dashboard](/images/event-engine-dashboard.png)
-
-6. This workshop supports the region **us-west-2 US West (Oregon)**. Please select **US West (Oregon)** in the top right corner.
-
-![Event Engine Region](/images/event-engine-region.png)
+![Workshop Studio Console](/images/workshopstudioconsole.png)
 
 You can leave the AWS console open.
 

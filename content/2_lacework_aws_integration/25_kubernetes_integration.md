@@ -2,8 +2,8 @@
 title: "EKS (Kubernetes) Control Plane Integration"
 chapter: false
 draft: false
-weight: 24
-pre: "<b>2.4 </b>"
+weight: 25
+pre: "<b>2.5 </b>"
 ---
 
 All Kubernetes activities, whether manual activities with the kubectl tool, or automated, results in one or more API calls to the Kubernetes API server. Lacework can ingest these events to monitor activities, including kubectl exec, port-forwarding, deployment of new resources such as workloads, Kubernetes roles and role bindings, deletion of resources, authentication issues, forbidden API calls, and more. The Lacework Polygraph Data Platform surface the most important events such as the execution of rogue containers, the deployment of misconfigured workloads, the addition of dangerous roles, or manual login to containers.

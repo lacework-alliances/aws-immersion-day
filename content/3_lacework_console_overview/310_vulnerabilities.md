@@ -2,8 +2,8 @@
 title: "Vulnerabilities"
 chapter: false
 draft: false
-weight: 35
-pre: "<b>3.5 </b>"
+weight: 310
+pre: "<b>3.10 </b>"
 ---
 
 Lacework provides the ability to assess, identify, and report vulnerabilities found on hosts, containers, registries and pods within your environment. This means you can identify and take action on software vulnerabilities in your environment and manage that risk proactively. 

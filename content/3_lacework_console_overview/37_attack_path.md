@@ -2,8 +2,8 @@
 title: "Attack Path"
 chapter: false
 draft: false
-weight: 33
-pre: "<b>3.3 </b>"
+weight: 37
+pre: "<b>3.7 </b>"
 ---
 
 ![Lacework Dashboard Attack Path](/images/attack-path.png)

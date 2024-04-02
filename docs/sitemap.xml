@@ -24,27 +24,31 @@
   </url><url>
     <loc>https://lacework-alliances.github.io/aws-immersion-day/2_lacework_aws_integration/23_agent_integration.html</loc>
   </url><url>
-    <loc>https://lacework-alliances.github.io/aws-immersion-day/2_lacework_aws_integration/24_kubernetes_integration.html</loc>
+    <loc>https://lacework-alliances.github.io/aws-immersion-day/2_lacework_aws_integration/24_agentless_workload_scanning.html</loc>
   </url><url>
-    <loc>https://lacework-alliances.github.io/aws-immersion-day/2_lacework_aws_integration/25_registry_integration.html</loc>
+    <loc>https://lacework-alliances.github.io/aws-immersion-day/2_lacework_aws_integration/25_kubernetes_integration.html</loc>
   </url><url>
-    <loc>https://lacework-alliances.github.io/aws-immersion-day/2_lacework_aws_integration/26_cicd_integration.html</loc>
+    <loc>https://lacework-alliances.github.io/aws-immersion-day/2_lacework_aws_integration/26_registry_integration.html</loc>
+  </url><url>
+    <loc>https://lacework-alliances.github.io/aws-immersion-day/2_lacework_aws_integration/27_cicd_integration.html</loc>
   </url><url>
     <loc>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/31_global_dashboard.html</loc>
   </url><url>
-    <loc>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/32_alerts.html</loc>
+    <loc>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/32_resource_explorer.html</loc>
   </url><url>
-    <loc>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/33_attack_path.html</loc>
+    <loc>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/33_search.html</loc>
   </url><url>
-    <loc>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/34_compliance.html</loc>
+    <loc>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/34_alerts.html</loc>
   </url><url>
-    <loc>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/35_vulnerabilities.html</loc>
+    <loc>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/35_cloud_logs.html</loc>
   </url><url>
-    <loc>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/36_resources.html</loc>
+    <loc>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/36_workloads.html</loc>
   </url><url>
-    <loc>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/37_policies.html</loc>
+    <loc>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/37_attack_path.html</loc>
   </url><url>
-    <loc>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/38_alert_channels_rules.html</loc>
+    <loc>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/38_compliance.html</loc>
+  </url><url>
+    <loc>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/39_identities.html</loc>
   </url><url>
     <loc>https://lacework-alliances.github.io/aws-immersion-day/4_cspm_plus/41_anatomy_attack.html</loc>
   </url><url>
@@ -71,6 +75,24 @@
     <loc>https://lacework-alliances.github.io/aws-immersion-day/5_devsecops_plus_eks/59_deploytostaging_phase.html</loc>
   </url><url>
     <loc>https://lacework-alliances.github.io/aws-immersion-day/099_survey.html</loc>
+  </url><url>
+    <loc>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/310_vulnerabilities.html</loc>
+  </url><url>
+    <loc>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/311_policies.html</loc>
+  </url><url>
+    <loc>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/312_frameworks.html</loc>
+  </url><url>
+    <loc>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/313_reports.html</loc>
+  </url><url>
+    <loc>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/314_agents.html</loc>
+  </url><url>
+    <loc>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/315_help.html</loc>
+  </url><url>
+    <loc>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/316_settings.html</loc>
+  </url><url>
+    <loc>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/317_alert_channels_rules.html</loc>
+  </url><url>
+    <loc>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/318_organization_feature.html</loc>
   </url><url>
     <loc>https://lacework-alliances.github.io/aws-immersion-day/5_devsecops_plus_eks/510_scanstagingconfig_phase.html</loc>
   </url><url>
