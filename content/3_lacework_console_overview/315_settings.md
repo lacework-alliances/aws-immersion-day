@@ -2,8 +2,8 @@
 title: "Settings"
 chapter: false
 draft: false
-weight: 316
-pre: "<b>3.16 </b>"
+weight: 315
+pre: "<b>3.15 </b>"
 ---
 
 ![Lacework Dashboard](/images/lacework-settings.png)

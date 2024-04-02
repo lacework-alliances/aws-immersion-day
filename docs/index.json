@@ -165,7 +165,7 @@
 	"title": "Identities",
 	"tags": [],
 	"description": "",
-	"content": "\nThe\n"
+	"content": "\nIdentities play an increasingly important role in securing cloud resources and data. Traditional wisdom calls for a least privileged approach to granting access, which means only giving users the permissions they need to perform their jobs. However, approaching this end state is far more complex for cloud-native applications.\nCloud users and entities are typically over-permissioned, with the intention of right-sizing access at a future date. However, this rarely happens. Excess entitlements, dormant identities, and toxic combinations leave organizations highly exposed to cloud breach, account takeover, and data exfiltration.\nLacework’s Identities feature provides a comprehensive view of all identities across your cloud environment. It identifies over-permissioned users, dormant identities, and toxic combinations, and provides actionable insights to remediate these risks.\nLacework provides security teams with the visibility and context to understand their cloud identity architectures and right-size cloud permissions to achieve least privilege goals. Comprehensive Lacework-provided visibility lets you:\nShow all identities - Lacework continuously discovers cloud identities and their associated entitlements dynamically to provide a full and always up-to-date inventory of cloud users, resources, groups, and roles. Know precisely who can perform which actions to identify overly permissive identities - Lacework continuously ingests event data from cloud services to determine all of the actions an identity has taken over a given time period. Prioritize the greatest risks - Lacework calculates a risk score for each identity based on multiple factors. Scope down permissions accordingly to reduce risk - Lacework automatically generates suggested changes for right-sizing permission artifacts. Click on the Top identity risks tab to view the top identity risks. View one of the top identity risks to see the details. Click the Investigate button to investigate the identity risk. "
 },
 {
 	"uri": "https://lacework-alliances.github.io/aws-immersion-day/4_cspm_plus/41_anatomy_attack.html",
@@ -294,28 +294,21 @@
 	"content": "\nThe Agents menu item allows you to view the agents that are installed on your hosts. This enables you to see the details of the agents including status.\nAn agent provides threat detection, file integrity monitoring, vulnerability detection, and host-based intrusion detection for your Cloud or on-premises Windows, Linux and Kubernetes based workloads.\nAfter you install the agent, the agent and the Lacework server (API endpoint) communicate with each other. The agent scans your hosts and securely forwards select metadata to the Lacework server to build a baseline of normal behavior. From this, Lacework provides alerts for anomalous behavior.\n"
 },
 {
-	"uri": "https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/315_help.html",
-	"title": "Help",
-	"tags": [],
-	"description": "",
-	"content": "\nThe\n"
-},
-{
-	"uri": "https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/316_settings.html",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/315_settings.html",
 	"title": "Settings",
 	"tags": [],
 	"description": "",
 	"content": "\nThe Settings menu item allows you to configure various settings in the Lacework Console. You can configure settings for the following:\nNotifications - Manage outbound alert notifications. Integrations - Manage configuration of your Cloud Provider integrations for security monitoring. Configuration - Manage various configurations for Lacework. Usage - Configure and view usage data. Access Control (RBAC) - Manage Role-Based Access Control (RBAC) settings for your team. My Settings (Personal Settings) "
 },
 {
-	"uri": "https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/317_alert_channels_rules.html",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/316_alert_channels_rules.html",
 	"title": "Alert Channels and Rules",
 	"tags": [],
 	"description": "",
 	"content": "Lacework combines alert channels and alert rules to provide a flexible method for routing alerts. For alert channels (outgoing integrations), you define information about where to send alerts, such as to Jira or Slack. For alert rules, you define information about which alert types to send, such as critical and high severity compliance alerts. This two-part method provides the flexibility to define multiple channels and multiple rules and then have each rule use the channels you specify.\nLacework provides alert channels for the following:\nAmazon CloudWatch Amazon S3 Data Export Cisco WebEx DataDog GCP Pub/Sub IBM QRadar Jira Cloud Jira Server Microsoft Teams New Relic PagerDuty ServiceNow Slack Splunk VictorOps Webhook Navigate to Settings \u0026gt; Notifications \u0026gt; Alert Channels. Click + Add New. Select a channel and click Next. Complete the fields to configure the channel. See each channel\u0026rsquo;s separate help for detailed field information. Click Save. The new channel appears in the table. Now the alert channel can be used by an alert rule. An alert rule allows you to choose which resource groups and event categories you want to receive alerts for. Navigate to Settings \u0026gt; Notifications \u0026gt; Alert Rules. Click + Add New. Select an alert channel for the rule to use. The list displays only enabled configured channels. Add additional channels if appropriate. Name the rule and optionally provide a description. Select the severities that you want the rule to apply to. Select the resource groups that you want the rule to apply to. Select the event categories that you want the rule to apply to. If you do not select any categories, the rule applies to all event categories. Click Save. The new rule appears in the table. Alert channel and rules provide a way to send Lacework security events to other tools. Lacework can integrate into your organization\u0026rsquo;s security operations workflow and tools.\n"
 },
 {
-	"uri": "https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/318_organization_feature.html",
+	"uri": "https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/317_organization_feature.html",
 	"title": "Organization Feature",
 	"tags": [],
 	"description": "",

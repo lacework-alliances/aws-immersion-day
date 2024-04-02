@@ -2,7 +2,7 @@
 title: "Organization Feature"
 chapter: false
 draft: false
-weight: 318
+weight: 317
 pre: "<b>3.17 </b>"
 ---
 

@@ -100,7 +100,8 @@ Use the Group by &amp;hellip; pulldown in the upper right to group your complian
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/39_identities.html</guid>
-      <description>The</description>
+      <description>Identities play an increasingly important role in securing cloud resources and data. Traditional wisdom calls for a least privileged approach to granting access, which means only giving users the permissions they need to perform their jobs. However, approaching this end state is far more complex for cloud-native applications.
+Cloud users and entities are typically over-permissioned, with the intention of right-sizing access at a future date. However, this rarely happens. Excess entitlements, dormant identities, and toxic combinations leave organizations highly exposed to cloud breach, account takeover, and data exfiltration.</description>
     </item>
     
     <item>
@@ -155,20 +156,11 @@ After you install the agent, the agent and the Lacework server (API endpoint) co
     </item>
     
     <item>
-      <title>Help</title>
-      <link>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/315_help.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/315_help.html</guid>
-      <description>The</description>
-    </item>
-    
-    <item>
       <title>Settings</title>
-      <link>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/316_settings.html</link>
+      <link>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/315_settings.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/316_settings.html</guid>
+      <guid>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/315_settings.html</guid>
       <description>
 The Settings menu item allows you to configure various settings in the Lacework Console. You can configure settings for the following:
 Notifications - Manage outbound alert notifications. Integrations - Manage configuration of your Cloud Provider integrations for security monitoring. Configuration - Manage various configurations for Lacework. Usage - Configure and view usage data. Access Control (RBAC) - Manage Role-Based Access Control (RBAC) settings for your team. My Settings (Personal Settings) </description>
@@ -176,19 +168,19 @@ Notifications - Manage outbound alert notifications. Integrations - Manage confi
     
     <item>
       <title>Alert Channels and Rules</title>
-      <link>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/317_alert_channels_rules.html</link>
+      <link>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/316_alert_channels_rules.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/317_alert_channels_rules.html</guid>
+      <guid>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/316_alert_channels_rules.html</guid>
       <description>Lacework combines alert channels and alert rules to provide a flexible method for routing alerts. For alert channels (outgoing integrations), you define information about where to send alerts, such as to Jira or Slack. For alert rules, you define information about which alert types to send, such as critical and high severity compliance alerts. This two-part method provides the flexibility to define multiple channels and multiple rules and then have each rule use the channels you specify.</description>
     </item>
     
     <item>
       <title>Organization Feature</title>
-      <link>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/318_organization_feature.html</link>
+      <link>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/317_organization_feature.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/318_organization_feature.html</guid>
+      <guid>https://lacework-alliances.github.io/aws-immersion-day/3_lacework_console_overview/317_organization_feature.html</guid>
       <description>Lacework&amp;rsquo;s Organization feature allows you to manage multiple teams and accounts in a single Lacework Console. This feature is useful for organizations that have multiple accounts across different teams and control access and visibility. You can manage all your teams and accounts from a single Lacework Console. On AWS, it is common to map to AWS Organizations and accounts.</description>
     </item>
     
